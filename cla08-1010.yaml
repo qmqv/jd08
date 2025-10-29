@@ -1,6 +1,4 @@
-# ;苹果分流：不支持
-# ;增强中国IP段：不支持
-# ;增强国外GFW：不支持
+# ;2025-10-29
 # ;ruleset=🎯 全球直连,[]GEOIP,LAN
 
 mixed-port: 7890
@@ -53,174 +51,6 @@ tun:
 
 
 proxies:
-  - type: trojan
-    name: 香港4|@ripaojiedian
-    server: 36.156.102.72
-    port: 194
-    password: BxceQaOe
-    network: tcp
-    tls: true
-  - type: ss
-    name: 🇸🇬 新加坡4|@ripaojiedian
-    server: 113.99.143.139
-    port: 26470
-    cipher: aes-128-gcm
-    password: b637f2e47b7827b308ebf399008075d2
-  - type: trojan
-    name: 香港5|@ripaojiedian
-    server: 58.152.53.3
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    tls: true
-  - type: trojan
-    name: 日本|@ripaojiedian
-    server: 36.150.215.236
-    port: 401
-    password: BxceQaOe
-    network: tcp
-    tls: true
-  - type: vless
-    name: 🇺🇸 美国 177
-    server: wangcai26.cloudflare.182682.xyz
-    port: 2096
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    network: ws
-    servername: gaosir.unfeeling.sbs
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-      headers:
-        Host: gaosir.unfeeling.sbs
-    client-fingerprint: chrome
-  - type: hysteria2
-    name: 🇺🇸 美国 104
-    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-    port: 54265
-    password: d5b5b4e1-08f5-4b7b-93b3-4a5c988f23e7
-    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  - type: hysteria2
-    name: 🇺🇸 美国 084
-    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-    port: 54265
-    password: c689428b-ee4f-4cd7-a8d1-13adc99e0163
-    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  - type: hysteria2
-    name: 🇺🇸 美国 054
-    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-    port: 54265
-    password: cfcf03a2-054e-4a91-9858-4dc457931e88
-    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  - type: hysteria2
-    name: 🇺🇸 美国 052
-    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-    port: 54265
-    password: aaf48778-bd61-4f71-a867-398171377d5b
-    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  - type: hysteria2
-    name: 🇺🇸 美国 058
-    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-    port: 54265
-    password: 3a68480d-d6c9-466b-84e7-1cb3f4024b7c
-    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  - type: hysteria2
-    name: 🇺🇸 美国 077
-    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-    port: 54265
-    password: 4ccf4e58-267e-4a8d-a295-5feb5fd74a3a
-    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  - type: hysteria2
-    name: 🇺🇸 美国 067
-    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-    port: 54265
-    password: f4326e2b-703b-4066-811c-bd57c8353414
-    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  - type: hysteria2
-    name: 🇺🇸 美国 100
-    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-    port: 54265
-    password: e6c931d0-1b38-4316-855e-2bfe752208bc
-    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  - type: hysteria2
-    name: 🇺🇸 美国 074
-    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-    port: 54265
-    password: 68591e3f-d28e-4f28-928a-092ba4343285
-    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  - type: vless
-    name: 🇰🇷 韩国 06
-    server: 115.40.244.240
-    port: 18888
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    network: ws
-    servername: gaosir.unfeeling.sbs
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-      headers:
-        Host: gaosir.unfeeling.sbs
-    client-fingerprint: chrome
-  - type: hysteria2
-    name: 🇺🇸 美国 061
-    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-    port: 54265
-    password: d14c6979-ca3b-4c0c-ada1-e45ec6f814bf
-    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  - type: hysteria2
-    name: 🇺🇸 美国 106
-    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-    port: 54265
-    password: 8727de34-435d-4d00-8e88-ca2a6232ea93
-    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  - type: hysteria2
-    name: 🇺🇸 美国 165
-    server: dcc40639-t3cxs0-tcj7b6-d70y.la.shifen.uk
-    port: 1743
-    password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-  - type: hysteria2
-    name: 🇺🇸 美国 166
-    server: eb8d3417-t4teo0-tdtx5w-au6.la.shifen.uk
-    port: 1743
-    password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  - type: hysteria2
-    name: 🇺🇸 美国 025
-    server: 3d2c11f1-t52o00-tdw2ye-2gok.la.shifen.uk
-    port: 1743
-    password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-  - type: hysteria2
-    name: 🇺🇸 美国 167
-    server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
-    port: 1743
-    password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-  - type: hysteria2
-    name: 🇺🇸 美国 038
-    server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
-    port: 1743
-    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-  - type: hysteria2
-    name: 🇺🇸 美国 168
-    server: c37b0be5-t3kyo0-t3lvgh-2gok.la.shifen.uk
-    port: 1743
-    password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-  - type: hysteria2
-    name: 🇺🇸 美国 039
-    server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
-    port: 1743
-    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  - type: ss
-    name: 🇸🇬 新加坡 93
-    server: 113.99.143.139
-    port: 26470
-    cipher: aes-128-gcm
-    password: b637f2e47b7827b308ebf399008075d2
-  - type: ss
-    name: 03(TG:@tccjd)
-    server: 113.99.143.139
-    port: 26470
-    cipher: aes-128-gcm
-    password: b637f2e47b7827b308ebf399008075d2
   - type: vless
     name: "02(TG:@tccjd) "
     server: zrf.cf.090227.xyz
@@ -232,45 +62,119 @@ proxies:
     encryption: none
     ws-opts:
       path: /
-  - type: vless
-    name: 日本
-    server: 121.85.55.59
-    port: 19842
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    network: ws
-    servername: gaosir.unfeeling.sbs
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /X @节点狂魔 /
-      headers:
-        Host: gaosir.unfeeling.sbs
   - type: trojan
-    name: "01(TG:@tccjd) "
+    name: 美国
     server: 58.152.46.98
     port: 443
     password: BxceQaOe
     network: tcp
     sni: 58.152.46.98
-    fingerprint: chrome
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: us
+    server: 58.152.46.98
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    skip-cert-verify: true
     tls: true
   - type: vless
-    name: 韩国
-    server: 222.113.18.214
-    port: 12533
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    name: 01(TG:@tccjd)
+    server: acxxrp.460110.xyz
+    port: 443
+    uuid: 670d1cd0-7097-416c-a5da-7936af95cfac
     network: ws
-    servername: gaosir.unfeeling.sbs
+    servername: vless.ghp.cloudns.biz
     tls: true
     encryption: none
     ws-opts:
-      path: /Telegram🇨🇳 @节点狂魔 /?ed=2560
+      path: /
+  - type: trojan
+    name: 香港4|@ripaojiedian
+    server: 36.156.102.72
+    port: 194
+    password: BxceQaOe
+    network: tcp
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 香港
+    server: 58.152.46.98
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: 58.152.46.98
+    skip-cert-verify: true
+    tls: true
+  - type: hysteria2
+    name: 🇺🇸 美国 165
+    server: dcc40639-t3cxs0-tcj7b6-d70y.la.shifen.uk
+    port: 1743
+    password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+  - type: hysteria2
+    name: 美国_1
+    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+    port: 54265
+    password: c41738ca-ec22-4c39-bb72-2385cbe1b40c
+    skip-cert-verify: true
+    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  - type: hysteria2
+    name: 🇺🇸 美国 084
+    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+    port: 54265
+    password: c689428b-ee4f-4cd7-a8d1-13adc99e0163
+    skip-cert-verify: true
+    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  - type: vless
+    name: 日本
+    server: 140.83.57.183
+    port: 22735
+    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+    network: ws
+    servername: vless.pengjiajin.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /Telegram🇨🇳@WangCai2/
       headers:
-        Host: gaosir.unfeeling.sbs
+        Host: vless.pengjiajin.sbs
+  - type: hysteria2
+    name: 🇺🇸 美国 100
+    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+    port: 54265
+    password: e6c931d0-1b38-4316-855e-2bfe752208bc
+    skip-cert-verify: true
+    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  - type: hysteria2
+    name: 🇺🇸 美国 166
+    server: eb8d3417-t4teo0-tdtx5w-au6.la.shifen.uk
+    port: 1743
+    password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  - type: hysteria2
+    name: 🇺🇸 美国 167
+    server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
+    port: 1743
+    password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
+  - type: trojan
+    name: 香港_1
+    server: 58.152.46.98
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    skip-cert-verify: true
+    tls: true
+  - type: hysteria2
+    name: 🇺🇸 美国 077
+    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+    port: 54265
+    password: 4ccf4e58-267e-4a8d-a295-5feb5fd74a3a
+    skip-cert-verify: true
+    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
   - type: vless
     name: 日本_1
-    server: 172.105.208.156
-    port: 443
+    server: 217.142.250.195
+    port: 587
     uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
     network: ws
     servername: vless.pengjiajin.sbs
@@ -280,34 +184,41 @@ proxies:
       path: /Telegram🇨🇳 @WangCai2 /
       headers:
         Host: vless.pengjiajin.sbs
-  - type: vless
-    name: 美国
-    server: 104.19.50.238
-    port: 2096
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    network: ws
-    servername: gaosir.unfeeling.sbs
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /X@节点狂魔/?ed=2560
-      headers:
-        Host: gaosir.unfeeling.sbs
-  - type: vless
-    name: 美国_1
-    server: 104.19.50.238
-    port: 2096
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    network: ws
-    servername: gaosir.unfeeling.sbs
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /telegram🇨🇳@节点狂魔/
+  - type: hysteria2
+    name: 🇺🇸 美国 038
+    server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
+    port: 1743
+    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+  - type: hysteria2
+    name: 🇺🇸 美国 106
+    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+    port: 54265
+    password: 8727de34-435d-4d00-8e88-ca2a6232ea93
+    skip-cert-verify: true
+    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  - type: hysteria2
+    name: 🇺🇸 美国 052
+    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+    port: 54265
+    password: aaf48778-bd61-4f71-a867-398171377d5b
+    skip-cert-verify: true
+    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  - type: hysteria2
+    name: 🇺🇸 美国 039
+    server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
+    port: 1743
+    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  - type: hysteria2
+    name: 🇺🇸 美国 054
+    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+    port: 54265
+    password: cfcf03a2-054e-4a91-9858-4dc457931e88
+    skip-cert-verify: true
+    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
   - type: vless
     name: 日本_2
-    server: 141.147.147.180
-    port: 443
+    server: 138.2.32.76
+    port: 15821
     uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
     network: ws
     servername: vless.pengjiajin.sbs
@@ -319,7 +230,7 @@ proxies:
         Host: vless.pengjiajin.sbs
   - type: vless
     name: 日本_3
-    server: 139.162.108.5
+    server: 217.142.236.93
     port: 443
     uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
     network: ws
@@ -327,9 +238,35 @@ proxies:
     tls: true
     encryption: none
     ws-opts:
-      path: /Telegram🇨🇳@WangCai2/
+      path: /Telegram🇨🇳 @WangCai2 /
       headers:
         Host: vless.pengjiajin.sbs
+  - type: hysteria2
+    name: 🇺🇸 美国 058
+    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+    port: 54265
+    password: 3a68480d-d6c9-466b-84e7-1cb3f4024b7c
+    skip-cert-verify: true
+    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  - type: vless
+    name: 俄罗斯
+    server: 81.19.140.131
+    port: 443
+    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+    network: tcp
+    servername: vk.cc
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: 18otPJIOnisNtfhP_PxpdJgPYqFbkYQAM-pecy90xwk
+      short-id: 5ec229f9
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: hysteria2
+    name: 🇺🇸 美国 025
+    server: 3d2c11f1-t52o00-tdw2ye-2gok.la.shifen.uk
+    port: 1743
+    password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
   - type: vless
     name: 日本_4
     server: 217.142.250.195
@@ -344,9 +281,268 @@ proxies:
       headers:
         Host: vless.pengjiajin.sbs
   - type: vless
-    name: 日本_5
-    server: 217.142.236.93
+    name: 韩国
+    server: 193.123.230.250
     port: 443
+    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+    network: ws
+    servername: vless.pengjiajin.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /Telegram🇨🇳 @WangCai2 /
+      headers:
+        Host: vless.pengjiajin.sbs
+  - type: vless
+    name: 日本_5
+    server: 141.147.147.180
+    port: 443
+    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+    network: ws
+    servername: vless.pengjiajin.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /Telegram🇨🇳 @WangCai2 /
+      headers:
+        Host: vless.pengjiajin.sbs
+  - type: vless
+    name: 希腊
+    server: 185.39.207.121
+    port: 443
+    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+    network: tcp
+    servername: vk.cc
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: Mjz6Gz75xTMe9ZU08h0y-A_VgRQ6tnt3qoOzdEn1k1M
+      short-id: 0fa84b90
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 美国_2
+    server: ytr.fasssst.ru
+    port: 8443
+    uuid: 762ddd62-0ea8-4a98-bc21-b25fb1c10c3f
+    network: tcp
+    servername: ytr.fasssst.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: YRyYaNF4UTgI16yX01Tn-2STbq0yzz7vZ8AMpn7g8zU
+      short-id: 3c92d2fdc884ecaf
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 俄罗斯_1
+    server: ytr.fasssst.ru
+    port: 8443
+    uuid: 762ddd62-0ea8-4a98-bc21-b25fb1c10c3f
+    network: tcp
+    servername: ytr.fasssst.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: YRyYaNF4UTgI16yX01Tn-2STbq0yzz7vZ8AMpn7g8zU
+      short-id: 3c92d2fdc884ecaf
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: trojan
+    name: 香港5|@ripaojiedian
+    server: 58.152.53.3
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: "01(TG:@tccjd) "
+    server: 58.152.46.98
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: 58.152.46.98
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: vless
+    name: 02(TG:@tccjd)
+    server: 638969264971590621.abadan-blkaft-aaaw.info
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    encryption: none
+  - type: trojan
+    name: 美国_3
+    server: bestcdn1.868863.xyz
+    port: 443
+    password: 7b2b6681-1a30-48b2-83fb-4efa639c8986
+    network: ws
+    sni: 17616305213635.92510233.xyz
+    tls: true
+    ws-opts:
+      path: /agrbniuh
+      headers:
+        Host: 17616305211510.92510233.xyz
+  - type: vless
+    name: 俄罗斯_2
+    server: 212.18.104.19
+    port: 443
+    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+    network: tcp
+    servername: nspk.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: 9tpeVTkuJ5il6GaLG9YqMn99OK8AFlzgEFtoD1_MkyI
+      short-id: f8c64c7a
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 美国_4
+    server: 638969264971590621.abadan-blkaft-aaaw.info
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    encryption: none
+  - type: hysteria2
+    name: 🇺🇸 美国 168
+    server: c37b0be5-t3kyo0-t3lvgh-2gok.la.shifen.uk
+    port: 1743
+    password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
+  - type: vless
+    name: US
+    server: 638966574572431911.rome-blkaft-aaau.info
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    encryption: none
+  - type: vless
+    name: 美国_5
+    server: 638966574572431911.rome-blkaft-aaau.info
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    encryption: none
+  - type: vless
+    name: 美国_6
+    server: 95.164.6.65
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    encryption: none
+  - type: vless
+    name: 新加坡
+    server: 5.34.176.119
+    port: 81
+    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+    network: ws
+    servername: vless.pengjiajin.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /Telegram🇨🇳 @WangCai2 /
+      headers:
+        Host: vless.pengjiajin.sbs
+  - type: vless
+    name: 意大利
+    server: 638966574572431911.rome-blkaft-aaau.info
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    encryption: none
+  - type: vless
+    name: 香港_2
+    server: 58.151.107.230
+    port: 24442
+    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+    network: ws
+    servername: vless.pengjiajin.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /Telegram🇨🇳 @节点狂魔 /
+      headers:
+        Host: vless.pengjiajin.sbs
+  - type: trojan
+    name: 日本|@ripaojiedian
+    server: 36.150.215.236
+    port: 401
+    password: BxceQaOe
+    network: tcp
+    skip-cert-verify: true
+    tls: true
+  - type: hysteria2
+    name: 🇺🇸 美国 104
+    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+    port: 54265
+    password: d5b5b4e1-08f5-4b7b-93b3-4a5c988f23e7
+    skip-cert-verify: true
+    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  - type: trojan
+    name: 美国_7
+    server: bestcdn1.868863.xyz
+    port: 443
+    password: 7b2b6681-1a30-48b2-83fb-4efa639c8986
+    network: ws
+    sni: 17616305214330.92510233.xyz
+    tls: true
+    ws-opts:
+      path: /agrbniuh
+      headers:
+        Host: 17616305217696.92510233.xyz
+  - type: vless
+    name: 01(TG:@tccjd)_1
+    server: 638966574572431911.rome-blkaft-aaau.info
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    encryption: none
+  - type: hysteria2
+    name: 🇺🇸 美国 061
+    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+    port: 54265
+    password: d14c6979-ca3b-4c0c-ada1-e45ec6f814bf
+    skip-cert-verify: true
+    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  - type: trojan
+    name: 美国_8
+    server: bestcdn1.868863.xyz
+    port: 443
+    password: 7b2b6681-1a30-48b2-83fb-4efa639c8986
+    network: ws
+    sni: 17616305219658.92510233.xyz
+    tls: true
+    ws-opts:
+      path: /agraeabtegrrh
+      headers:
+        Host: 17616305217232.92510233.xyz
+  - type: vless
+    name: 俄罗斯_3
+    server: 95.164.6.65
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    encryption: none
+  - type: vless
+    name: 俄罗斯_4
+    server: 212.18.104.19
+    port: 443
+    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+    network: tcp
+    servername: vk.cc
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: 9tpeVTkuJ5il6GaLG9YqMn99OK8AFlzgEFtoD1_MkyI
+      short-id: f8c64c7a
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 新加坡_1
+    server: 152.42.241.71
+    port: 8443
     uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
     network: ws
     servername: vless.pengjiajin.sbs
@@ -366,13 +562,114 @@ proxies:
     tls: true
     encryption: none
     ws-opts:
-      path: /Telegram🇨🇳@WangCai2/
+      path: /Telegram🇨🇳 @WangCai2 /
       headers:
         Host: vless.pengjiajin.sbs
+  - type: trojan
+    name: 美国_9
+    server: bestcdn1.868863.xyz
+    port: 443
+    password: 7b2b6681-1a30-48b2-83fb-4efa639c8986
+    network: ws
+    sni: 17616305214567.92510233.xyz
+    tls: true
+    ws-opts:
+      path: /videomuaawe
+      headers:
+        Host: 17616305219757.92510233.xyz
+  - type: vless
+    name: 俄罗斯_5
+    server: 109.172.54.49
+    port: 443
+    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+    network: tcp
+    servername: vk.cc
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: ZYRpBcSSAGtXIKqjHqZbdbp4WpxwVvuWLSXufsf0-3w
+      short-id: 1aa49d75
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 美国_10
+    server: 638970136771547794.athens-blkaft-aaay.info
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    network: grpc
+    encryption: none
+  - type: vless
+    name: 🇺🇸 美国 177
+    server: wangcai26.cloudflare.182682.xyz
+    port: 2096
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+    client-fingerprint: chrome
+  - type: hysteria2
+    name: 🇺🇸 美国 067
+    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+    port: 54265
+    password: f4326e2b-703b-4066-811c-bd57c8353414
+    skip-cert-verify: true
+    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  - type: hysteria2
+    name: 🇺🇸 美国 074
+    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+    port: 54265
+    password: 68591e3f-d28e-4f28-928a-092ba4343285
+    skip-cert-verify: true
+    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  - type: vless
+    name: 🇰🇷 韩国 06
+    server: 115.40.244.240
+    port: 18888
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+    client-fingerprint: chrome
   - type: vless
     name: 日本_7
-    server: 138.2.32.76
-    port: 15821
+    server: 121.85.55.59
+    port: 19842
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /X @节点狂魔 /
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 韩国_1
+    server: 222.113.18.214
+    port: 12533
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /Telegram🇨🇳 @节点狂魔 /?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 日本_8
+    server: 172.105.208.156
+    port: 443
     uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
     network: ws
     servername: vless.pengjiajin.sbs
@@ -380,6 +677,43 @@ proxies:
     encryption: none
     ws-opts:
       path: /Telegram🇨🇳 @WangCai2 /
+      headers:
+        Host: vless.pengjiajin.sbs
+  - type: vless
+    name: 美国_11
+    server: 104.19.50.238
+    port: 2096
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /X@节点狂魔/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_12
+    server: 104.19.50.238
+    port: 2096
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /telegram🇨🇳@节点狂魔/
+  - type: vless
+    name: 日本_9
+    server: 139.162.108.5
+    port: 443
+    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+    network: ws
+    servername: vless.pengjiajin.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /Telegram🇨🇳@WangCai2/
       headers:
         Host: vless.pengjiajin.sbs
   - type: vless
@@ -395,21 +729,8 @@ proxies:
       path: /Telegram@节点狂魔/?ed=2560
       headers:
         Host: gaosir.unfeeling.sbs
-  - type: trojan
-    name: 香港
-    server: 58.152.46.98
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    tls: true
-  - type: ss
-    name: 澳门
-    server: 154.83.89.88
-    port: 54275
-    cipher: 2022-blake3-aes-128-gcm
-    password: x5JIeeg3AKC8JhoW22DXmNqbqznm2CK2rhMtqLVbW86E
   - type: vless
-    name: 韩国_1
+    name: 韩国_2
     server: 49.174.170.115
     port: 22577
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
@@ -422,7 +743,7 @@ proxies:
       headers:
         Host: gaosir.unfeeling.sbs
   - type: vless
-    name: 韩国_2
+    name: 韩国_3
     server: 123.111.169.70
     port: 443
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
@@ -435,20 +756,7 @@ proxies:
       headers:
         Host: gaosir.unfeeling.sbs
   - type: vless
-    name: 香港_1
-    server: 58.151.107.230
-    port: 24442
-    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-    network: ws
-    servername: vless.pengjiajin.sbs
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳 @节点狂魔 /
-      headers:
-        Host: vless.pengjiajin.sbs
-  - type: vless
-    name: 韩国_3
+    name: 韩国_4
     server: 222.113.18.214
     port: 10049
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
@@ -461,7 +769,7 @@ proxies:
       headers:
         Host: gaosir.unfeeling.sbs
   - type: vless
-    name: 韩国_4
+    name: 韩国_5
     server: 222.113.18.214
     port: 10049
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
@@ -474,7 +782,7 @@ proxies:
       headers:
         Host: gaosir.unfeeling.sbs
   - type: vless
-    name: 日本_8
+    name: 日本_10
     server: 150.230.107.25
     port: 8443
     uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
@@ -487,7 +795,7 @@ proxies:
       headers:
         Host: vless.pengjiajin.sbs
   - type: vless
-    name: 韩国_5
+    name: 韩国_6
     server: 152.67.211.114
     port: 58337
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
@@ -500,7 +808,7 @@ proxies:
       headers:
         Host: gaosir.unfeeling.sbs
   - type: vless
-    name: 韩国_6
+    name: 韩国_7
     server: 115.40.244.240
     port: 12696
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
@@ -513,19 +821,6 @@ proxies:
       headers:
         Host: gaosir.unfeeling.sbs
   - type: vless
-    name: 韩国_7
-    server: 193.123.230.250
-    port: 443
-    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-    network: ws
-    servername: vless.pengjiajin.sbs
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳 @WangCai2 /
-      headers:
-        Host: vless.pengjiajin.sbs
-  - type: vless
     name: 韩国_8
     server: 49.174.170.115
     port: 22577
@@ -536,17 +831,6 @@ proxies:
     encryption: none
     ws-opts:
       path: /Telegram馃嚚馃嚦 @WangCai2 /
-  - type: vless
-    name: 01(TG:@tccjd)
-    server: acxxrp.460110.xyz
-    port: 443
-    uuid: 670d1cd0-7097-416c-a5da-7936af95cfac
-    network: ws
-    servername: vless.ghp.cloudns.biz
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /
   - type: vless
     name: 韩国_9
     server: 222.113.18.214
@@ -560,39 +844,6 @@ proxies:
       path: /X+@节点狂魔+/?ed=2560
       headers:
         Host: gaosir.unfeeling.sbs
-  - type: vless
-    name: 日本_9
-    server: 140.83.57.183
-    port: 22735
-    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-    network: ws
-    servername: vless.pengjiajin.sbs
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳 @WangCai2 /
-      headers:
-        Host: vless.pengjiajin.sbs
-  - type: vless
-    name: 02(TG:@tccjd)
-    server: 638969264971590621.abadan-blkaft-aaaw.info
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    encryption: none
-  - type: vless
-    name: 日本_10
-    server: 217.142.250.195
-    port: 587
-    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-    network: ws
-    servername: vless.pengjiajin.sbs
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳 @WangCai2 /
-      headers:
-        Host: vless.pengjiajin.sbs
   - type: vless
     name: 韩国_10
     server: 222.113.18.214
@@ -644,20 +895,6 @@ proxies:
     ws-opts:
       path: /Telegram馃嚚馃嚦 @WangCai2 /
   - type: vless
-    name: 01(TG:@tccjd)_1
-    server: 638966574572431911.rome-blkaft-aaau.info
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    encryption: none
-  - type: vless
-    name: 俄罗斯
-    server: 95.164.6.65
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    encryption: none
-  - type: vless
     name: 韩国_14
     server: 123.143.9.5
     port: 14041
@@ -670,34 +907,6 @@ proxies:
       path: x@节点狂魔/=ed=2560
       headers:
         Host: gaosir.unfeeling.sbs
-  - type: vless
-    name: 俄罗斯_1
-    server: 81.19.140.131
-    port: 443
-    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-    network: tcp
-    servername: vk.cc
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: 18otPJIOnisNtfhP_PxpdJgPYqFbkYQAM-pecy90xwk
-      short-id: 5ec229f9
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 希腊
-    server: 185.39.207.121
-    port: 443
-    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-    network: tcp
-    servername: vk.cc
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: Mjz6Gz75xTMe9ZU08h0y-A_VgRQ6tnt3qoOzdEn1k1M
-      short-id: 0fa84b90
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
   - type: vless
     name: 韩国_15
     server: 61.85.1.77
@@ -723,34 +932,7 @@ proxies:
       headers:
         Host: gaosir.unfeeling.sbs
   - type: vless
-    name: 俄罗斯_2
-    server: 109.172.54.49
-    port: 443
-    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-    network: tcp
-    servername: vk.cc
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: ZYRpBcSSAGtXIKqjHqZbdbp4WpxwVvuWLSXufsf0-3w
-      short-id: 1aa49d75
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 新加坡
-    server: 152.42.241.71
-    port: 8443
-    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-    network: ws
-    servername: vless.pengjiajin.sbs
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳 @WangCai2 /
-      headers:
-        Host: vless.pengjiajin.sbs
-  - type: vless
-    name: 美国_2
+    name: 美国_13
     server: 104.16.53.11
     port: 2053
     uuid: 97fc44dd-c88c-4470-8d66-1752089c0183
@@ -762,26 +944,6 @@ proxies:
       path: /
       headers:
         Host: frAgeU2.cpI2HIdd.eu.ORG
-  - type: vless
-    name: 新加坡_1
-    server: 5.34.176.119
-    port: 81
-    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-    network: ws
-    servername: vless.pengjiajin.sbs
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳 @WangCai2 /
-      headers:
-        Host: vless.pengjiajin.sbs
-  - type: trojan
-    name: 香港_2
-    server: 58.152.46.98
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    tls: true
   - type: trojan
     name: 台湾
     server: 125.227.86.48
@@ -791,31 +953,19 @@ proxies:
     sni: TG.节点狂魔
     alpn:
       - h2
+    skip-cert-verify: true
     tls: true
     grpc-opts:
       grpc-service-name: db
   - type: trojan
-    name: 美国_3
+    name: 美国_14
     server: 58.152.46.98
     port: 443
     password: BxceQaOe
     network: tcp
     sni: 58.152.46.98
+    skip-cert-verify: true
     fingerprint: chrome
-    tls: true
-  - type: ss
-    name: 美国_4
-    server: 113.46.227.69
-    port: 9999
-    cipher: chacha20-ietf-poly1305
-    password: 075bcce812668cf7
-  - type: trojan
-    name: 美国_5
-    server: 58.152.46.98
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: 58.152.46.98
     tls: true
   - type: trojan
     name: 台湾_1
@@ -826,16 +976,10 @@ proxies:
     sni: TG.节点狂魔
     alpn:
       - h2
+    skip-cert-verify: true
     tls: true
     grpc-opts:
       grpc-service-name: db
-  - type: trojan
-    name: 香港_3
-    server: 58.152.46.98
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    tls: true
   - type: trojan
     name: 台湾_2
     server: 125.227.86.48
@@ -845,25 +989,10 @@ proxies:
     sni: TG.节点狂魔
     alpn:
       - h2
+    skip-cert-verify: true
     tls: true
     grpc-opts:
       grpc-service-name: db
-  - type: trojan
-    name: 香港_4
-    server: 58.152.46.98
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    tls: true
-  - type: trojan
-    name: 美国_6
-    server: 58.152.46.98
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: 58.152.46.98
-    fingerprint: chrome
-    tls: true
   - type: trojan
     name: 台湾_3
     server: 125.227.86.46
@@ -873,6 +1002,7 @@ proxies:
     sni: TG.节点狂魔
     alpn:
       - h2
+    skip-cert-verify: true
     tls: true
     grpc-opts:
       grpc-service-name: db
@@ -880,55 +1010,17 @@ proxies:
     name: 台湾_4
     server: 125.227.86.44
     port: 443
-    password: 3f5bc61547b1f0d9
-    network: grpc
-    sni: TG.节点狂魔
-    alpn:
-      - h2
-    tls: true
-    grpc-opts:
-      grpc-service-name: db
-  - type: ss
-    name: 美国_7
-    server: 113.99.143.139
-    port: 26470
-    cipher: aes-128-gcm
-    password: b637f2e47b7827b308ebf399008075d2
-  - type: trojan
-    name: 台湾_5
-    server: 125.227.86.44
-    port: 443
     password: 0a9f1f5a397bd427
     network: grpc
     sni: TG.节点狂魔
     alpn:
       - h2
+    skip-cert-verify: true
     tls: true
     grpc-opts:
       grpc-service-name: db
   - type: trojan
-    name: 香港_5
-    server: 58.152.46.98
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    tls: true
-  - type: ss
-    name: 美国_8
-    server: 113.46.227.82
-    port: 9909
-    cipher: chacha20-ietf-poly1305
-    password: 075bcce812668cf7
-  - type: trojan
-    name: 美国_9
-    server: 58.152.46.98
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: 58.152.46.98
-    tls: true
-  - type: trojan
-    name: 台湾_6
+    name: 台湾_5
     server: 125.227.86.45
     port: 443
     password: 3f5bc61547b1f0d9
@@ -936,11 +1028,12 @@ proxies:
     sni: TG.WangCai2
     alpn:
       - h2
+    skip-cert-verify: true
     tls: true
     grpc-opts:
       grpc-service-name: db
   - type: trojan
-    name: 台湾_7
+    name: 台湾_6
     server: 125.227.86.47
     port: 443
     password: 3f5bc61547b1f0d9
@@ -948,64 +1041,10 @@ proxies:
     sni: TG.节点狂魔
     alpn:
       - h2
+    skip-cert-verify: true
     tls: true
     grpc-opts:
       grpc-service-name: db
-  - type: ss
-    name: 美国_10
-    server: 113.99.143.139
-    port: 26470
-    cipher: aes-128-gcm
-    password: b637f2e47b7827b308ebf399008075d2
-  - type: trojan
-    name: us
-    server: 58.152.46.98
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    tls: true
-  - type: ss
-    name: 🇸🇬 新加坡
-    server: 113.99.143.139
-    port: 26470
-    cipher: aes-128-gcm
-    password: b637f2e47b7827b308ebf399008075d2
-  - type: trojan
-    name: 台湾_8
-    server: 125.227.86.44
-    port: 443
-    password: 0a9f1f5a397bd427
-    network: grpc
-    sni: TG.节点狂魔
-    alpn:
-      - h2
-    tls: true
-    grpc-opts:
-      grpc-service-name: db
-  - type: trojan
-    name: 台湾_9
-    server: 125.227.86.48
-    port: 443
-    password: 3f5bc61547b1f0d9
-    network: grpc
-    sni: TG.节点狂魔
-    alpn:
-      - h2
-    tls: true
-    grpc-opts:
-      grpc-service-name: db
-  - type: trojan
-    name: US
-    server: nop-55q.pages.dev
-    port: 2053
-    password: T%40_WvT8Ho%40LW%25w_%2C
-    network: ws
-    sni: NOp-55q.pAgEs.dEv
-    tls: true
-    ws-opts:
-      path: /trGPZDfetEwuO25SAs
-      headers:
-        Host: NOp-55q.pAgEs.dEv
   - type: trojan
     name: US_1
     server: nop-55q.pages.dev
@@ -1019,70 +1058,7 @@ proxies:
       headers:
         Host: NOp-55q.pAgEs.dEv
   - type: trojan
-    name: US_2
-    server: nop-55q.pages.dev
-    port: 2053
-    password: T%40_WvT8Ho%40LW%25w_%2C
-    network: ws
-    sni: NOp-55q.pAgEs.dEv
-    tls: true
-    ws-opts:
-      path: /trGPZDfetEwuO25SAs
-      headers:
-        Host: NOp-55q.pAgEs.dEv
-  - type: trojan
-    name: US_3
-    server: nop-55q.pages.dev
-    port: 2053
-    password: T%40_WvT8Ho%40LW%25w_%2C
-    network: ws
-    sni: NOp-55q.pAgEs.dEv
-    tls: true
-    ws-opts:
-      path: /trGPZDfetEwuO25SAs
-      headers:
-        Host: NOp-55q.pAgEs.dEv
-  - type: ss
-    name: 美国_11
-    server: 113.46.227.82
-    port: 9915
-    cipher: chacha20-ietf-poly1305
-    password: 075bcce812668cf7
-  - type: ss
-    name: 美国_12
-    server: 113.46.227.82
-    port: 9910
-    cipher: chacha20-ietf-poly1305
-    password: 075bcce812668cf7
-  - type: vless
-    name: 美国_13
-    server: 638969264971590621.abadan-blkaft-aaaw.info
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    encryption: none
-  - type: ss
-    name: 美国_14
-    server: 113.46.227.82
-    port: 9999
-    cipher: chacha20-ietf-poly1305
-    password: 075bcce812668cf7
-  - type: vless
-    name: 美国_15
-    server: 638969264971590621.abadan-blkaft-aaaw.info
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    encryption: none
-  - type: vless
-    name: 美国_16
-    server: 638969264971590621.abadan-blkaft-aaaw.info
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    encryption: none
-  - type: trojan
-    name: 台湾_10
+    name: 台湾_7
     server: 125.227.86.45
     port: 443
     password: 3f5bc61547b1f0d9
@@ -1090,25 +1066,12 @@ proxies:
     sni: TG.节点狂魔
     alpn:
       - h2
+    skip-cert-verify: true
     tls: true
     grpc-opts:
       grpc-service-name: db
   - type: vless
-    name: 美国_17
-    server: 638969264971590621.abadan-blkaft-aaaw.info
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    encryption: none
-  - type: vless
-    name: 美国_18
-    server: 638969264971590621.abadan-blkaft-aaaw.info
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    encryption: none
-  - type: vless
-    name: 美国_19
+    name: 美国_15
     server: alhilal.com
     port: 443
     uuid: ddab5550-3938-4aba-943c-f23a08d07dc5
@@ -1121,7 +1084,7 @@ proxies:
       headers:
         Host: rAyAn-cOnFiG-pl-1.pArSa.dPdNs.oRg
   - type: trojan
-    name: 台湾_11
+    name: 台湾_8
     server: 125.227.86.47
     port: 443
     password: 0a9f1f5a397bd427
@@ -1129,67 +1092,12 @@ proxies:
     sni: TG.WangCai2
     alpn:
       - h2
+    skip-cert-verify: true
     tls: true
     grpc-opts:
       grpc-service-name: db
-  - type: vless
-    name: 希腊_1
-    server: 185.39.207.121
-    port: 443
-    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-    network: tcp
-    servername: vk.cc
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: Mjz6Gz75xTMe9ZU08h0y-A_VgRQ6tnt3qoOzdEn1k1M
-      short-id: 0fa84b90
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 希腊_2
-    server: 185.39.207.121
-    port: 443
-    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-    network: tcp
-    servername: vk.cc
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: Mjz6Gz75xTMe9ZU08h0y-A_VgRQ6tnt3qoOzdEn1k1M
-      short-id: 0fa84b90
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 美国_20
-    server: ytr.fasssst.ru
-    port: 8443
-    uuid: 762ddd62-0ea8-4a98-bc21-b25fb1c10c3f
-    network: tcp
-    servername: ytr.fasssst.ru
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: YRyYaNF4UTgI16yX01Tn-2STbq0yzz7vZ8AMpn7g8zU
-      short-id: 3c92d2fdc884ecaf
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 希腊_3
-    server: 185.39.207.121
-    port: 443
-    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-    network: tcp
-    servername: vk.cc
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: Mjz6Gz75xTMe9ZU08h0y-A_VgRQ6tnt3qoOzdEn1k1M
-      short-id: 0fa84b90
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
   - type: trojan
-    name: 台湾_12
+    name: 台湾_9
     server: 125.227.86.45
     port: 443
     password: 0a9f1f5a397bd427
@@ -1197,25 +1105,12 @@ proxies:
     sni: TG.WangCai2
     alpn:
       - h2
+    skip-cert-verify: true
     tls: true
     grpc-opts:
       grpc-service-name: db
   - type: vless
-    name: 俄罗斯_3
-    server: 212.18.104.19
-    port: 443
-    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-    network: tcp
-    servername: vk.cc
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: 9tpeVTkuJ5il6GaLG9YqMn99OK8AFlzgEFtoD1_MkyI
-      short-id: f8c64c7a
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 美国_21
+    name: 美国_16
     server: express-a.868863.xyz
     port: 9443
     uuid: 7b2b6681-1a30-48b2-83fb-4efa639c8986
@@ -1229,69 +1124,8 @@ proxies:
       spider-x: /
     client-fingerprint: qq
     flow: xtls-rprx-vision
-  - type: vless
-    name: 俄罗斯_4
-    server: ytr.fasssst.ru
-    port: 8443
-    uuid: 762ddd62-0ea8-4a98-bc21-b25fb1c10c3f
-    network: tcp
-    servername: ytr.fasssst.ru
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: YRyYaNF4UTgI16yX01Tn-2STbq0yzz7vZ8AMpn7g8zU
-      short-id: 3c92d2fdc884ecaf
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
   - type: trojan
-    name: 台湾_13
-    server: 125.227.86.47
-    port: 443
-    password: 3f5bc61547b1f0d9
-    network: grpc
-    sni: TG.节点狂魔
-    alpn:
-      - h2
-    tls: true
-    grpc-opts:
-      grpc-service-name: db
-  - type: vless
-    name: 美国_22
-    server: 638970136771547794.athens-blkaft-aaay.info
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    encryption: none
-  - type: vless
-    name: 美国_23
-    server: ytr.fasssst.ru
-    port: 8443
-    uuid: 762ddd62-0ea8-4a98-bc21-b25fb1c10c3f
-    network: tcp
-    servername: ytr.fasssst.ru
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: YRyYaNF4UTgI16yX01Tn-2STbq0yzz7vZ8AMpn7g8zU
-      short-id: 3c92d2fdc884ecaf
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 俄罗斯_5
-    server: 212.18.104.19
-    port: 443
-    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-    network: tcp
-    servername: nspk.ru
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: 9tpeVTkuJ5il6GaLG9YqMn99OK8AFlzgEFtoD1_MkyI
-      short-id: f8c64c7a
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: trojan
-    name: 美国_24
+    name: 美国_17
     server: bestcdn1.868863.xyz
     port: 443
     password: 7b2b6681-1a30-48b2-83fb-4efa639c8986
@@ -1303,7 +1137,7 @@ proxies:
       headers:
         Host: 17616305217848.92510233.xyz
   - type: trojan
-    name: 美国_25
+    name: 美国_18
     server: bestcdn1.868863.xyz
     port: 443
     password: 7b2b6681-1a30-48b2-83fb-4efa639c8986
@@ -1314,36 +1148,8 @@ proxies:
       path: /videomuaawe
       headers:
         Host: 17616305219203.92510233.xyz
-  - type: vless
-    name: 俄罗斯_6
-    server: 212.18.104.19
-    port: 443
-    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-    network: tcp
-    servername: nspk.ru
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: 9tpeVTkuJ5il6GaLG9YqMn99OK8AFlzgEFtoD1_MkyI
-      short-id: f8c64c7a
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 俄罗斯_7
-    server: 212.18.104.19
-    port: 443
-    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-    network: tcp
-    servername: nspk.ru
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: 9tpeVTkuJ5il6GaLG9YqMn99OK8AFlzgEFtoD1_MkyI
-      short-id: f8c64c7a
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
   - type: vmess
-    name: 美国_26
+    name: 美国_19
     server: bestcdn1.868863.xyz
     port: 80
     uuid: 7b2b6681-1a30-48b2-83fb-4efa639c8986
@@ -1355,15 +1161,8 @@ proxies:
       path: /htehehehn
       headers:
         Host: 17616305217104.no.92510234.xyz
-  - type: vless
-    name: 美国_27
-    server: 638970136771547794.athens-blkaft-aaay.info
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    encryption: none
   - type: trojan
-    name: 美国_28
+    name: 美国_20
     server: bestcdn1.868863.xyz
     port: 443
     password: 7b2b6681-1a30-48b2-83fb-4efa639c8986
@@ -1375,7 +1174,7 @@ proxies:
       headers:
         Host: 17616305217188.92510233.xyz
   - type: vmess
-    name: 美国_29
+    name: 美国_21
     server: bestcdn1.868863.xyz
     port: 80
     uuid: 7b2b6681-1a30-48b2-83fb-4efa639c8986
@@ -1388,45 +1187,7 @@ proxies:
       headers:
         Host: 17616305215096.no.92510234.xyz
   - type: trojan
-    name: 美国_30
-    server: bestcdn1.868863.xyz
-    port: 443
-    password: 7b2b6681-1a30-48b2-83fb-4efa639c8986
-    network: ws
-    sni: 17616305219658.92510233.xyz
-    tls: true
-    ws-opts:
-      path: /agraeabtegrrh
-      headers:
-        Host: 17616305217232.92510233.xyz
-  - type: trojan
-    name: 美国_31
-    server: bestcdn1.868863.xyz
-    port: 443
-    password: 7b2b6681-1a30-48b2-83fb-4efa639c8986
-    network: ws
-    sni: 17616305214567.92510233.xyz
-    tls: true
-    ws-opts:
-      path: /videomuaawe
-      headers:
-        Host: 17616305219757.92510233.xyz
-  - type: vless
-    name: 俄罗斯_8
-    server: 109.172.54.49
-    port: 443
-    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-    network: tcp
-    servername: vk.cc
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: ZYRpBcSSAGtXIKqjHqZbdbp4WpxwVvuWLSXufsf0-3w
-      short-id: 1aa49d75
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: trojan
-    name: 美国_32
+    name: 美国_22
     server: bestcdn1.868863.xyz
     port: 443
     password: 7b2b6681-1a30-48b2-83fb-4efa639c8986
@@ -1437,22 +1198,8 @@ proxies:
       path: /agraeabtegrrh
       headers:
         Host: 17616305219910.92510233.xyz
-  - type: vless
-    name: 俄罗斯_9
-    server: 109.172.54.49
-    port: 443
-    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-    network: tcp
-    servername: vk.cc
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: ZYRpBcSSAGtXIKqjHqZbdbp4WpxwVvuWLSXufsf0-3w
-      short-id: 1aa49d75
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
   - type: trojan
-    name: 美国_33
+    name: 美国_23
     server: bestcdn1.868863.xyz
     port: 443
     password: 7b2b6681-1a30-48b2-83fb-4efa639c8986
@@ -1464,7 +1211,7 @@ proxies:
       headers:
         Host: 17616305215346.92510233.xyz
   - type: vmess
-    name: 美国_34
+    name: 美国_24
     server: bestcdn1.868863.xyz
     port: 80
     uuid: 7b2b6681-1a30-48b2-83fb-4efa639c8986
@@ -1477,7 +1224,7 @@ proxies:
       headers:
         Host: 17616305212435.no.92510234.xyz
   - type: trojan
-    name: 美国_35
+    name: 美国_25
     server: bestcdn1.868863.xyz
     port: 443
     password: 7b2b6681-1a30-48b2-83fb-4efa639c8986
@@ -1489,7 +1236,7 @@ proxies:
       headers:
         Host: 17616305214424.92510233.xyz
   - type: trojan
-    name: 美国_36
+    name: 美国_26
     server: bestcdn1.868863.xyz
     port: 443
     password: 7b2b6681-1a30-48b2-83fb-4efa639c8986
@@ -1501,7 +1248,7 @@ proxies:
       headers:
         Host: 17616305216633.92510233.xyz
   - type: trojan
-    name: 美国_37
+    name: 美国_27
     server: bestcdn1.868863.xyz
     port: 443
     password: 7b2b6681-1a30-48b2-83fb-4efa639c8986
@@ -1513,7 +1260,7 @@ proxies:
       headers:
         Host: 17616305211590.92510233.xyz
   - type: trojan
-    name: 美国_38
+    name: 美国_28
     server: bestcdn1.868863.xyz
     port: 443
     password: 7b2b6681-1a30-48b2-83fb-4efa639c8986
@@ -1524,20 +1271,8 @@ proxies:
       path: /videomuaawe
       headers:
         Host: 17616305212537.92510233.xyz
-  - type: trojan
-    name: 美国_39
-    server: bestcdn1.868863.xyz
-    port: 443
-    password: 7b2b6681-1a30-48b2-83fb-4efa639c8986
-    network: ws
-    sni: 17616305213635.92510233.xyz
-    tls: true
-    ws-opts:
-      path: /agrbniuh
-      headers:
-        Host: 17616305211510.92510233.xyz
   - type: vmess
-    name: 美国_40
+    name: 美国_29
     server: bestcdn1.868863.xyz
     port: 80
     uuid: 7b2b6681-1a30-48b2-83fb-4efa639c8986
@@ -1550,7 +1285,7 @@ proxies:
       headers:
         Host: 17616305215095.no.92510234.xyz
   - type: trojan
-    name: 美国_41
+    name: 美国_30
     server: bestcdn1.868863.xyz
     port: 443
     password: 7b2b6681-1a30-48b2-83fb-4efa639c8986
@@ -1562,7 +1297,7 @@ proxies:
       headers:
         Host: 17616305219836.92510233.xyz
   - type: vmess
-    name: 美国_42
+    name: 美国_31
     server: bestcdn1.868863.xyz
     port: 80
     uuid: 7b2b6681-1a30-48b2-83fb-4efa639c8986
@@ -1575,35 +1310,7 @@ proxies:
       headers:
         Host: 17616305217082.no.92510234.xyz
   - type: trojan
-    name: 香港_6
-    server: 58.152.46.98
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: 58.152.46.98
-    tls: true
-  - type: vless
-    name: 俄罗斯_10
-    server: 109.172.54.49
-    port: 443
-    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-    network: tcp
-    servername: vk.cc
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: ZYRpBcSSAGtXIKqjHqZbdbp4WpxwVvuWLSXufsf0-3w
-      short-id: 1aa49d75
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: ss
-    name: 美国_43
-    server: 113.99.143.139
-    port: 26470
-    cipher: aes-128-gcm
-    password: b637f2e47b7827b308ebf399008075d2
-  - type: trojan
-    name: 美国_44
+    name: 美国_32
     server: bestcdn1.868863.xyz
     port: 443
     password: 7b2b6681-1a30-48b2-83fb-4efa639c8986
@@ -1614,20 +1321,8 @@ proxies:
       path: /agraeabtegrrh
       headers:
         Host: 17616305217014.92510233.xyz
-  - type: ss
-    name: 澳门_1
-    server: 154.83.89.88
-    port: 54275
-    cipher: 2022-blake3-aes-128-gcm
-    password: x5JIeeg3AKC8JhoW22DXmNqbqznm2CK2rhMtqLVbW86E
-  - type: hysteria2
-    name: 美国_45
-    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-    port: 54265
-    password: c41738ca-ec22-4c39-bb72-2385cbe1b40c
-    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
   - type: trojan
-    name: 美国_46
+    name: 美国_33
     server: bestcdn1.868863.xyz
     port: 443
     password: 7b2b6681-1a30-48b2-83fb-4efa639c8986
@@ -1639,25 +1334,7 @@ proxies:
       headers:
         Host: 17616305219780.92510233.xyz
   - type: trojan
-    name: 美国_47
-    server: bestcdn1.868863.xyz
-    port: 443
-    password: 7b2b6681-1a30-48b2-83fb-4efa639c8986
-    network: ws
-    sni: 17616305214330.92510233.xyz
-    tls: true
-    ws-opts:
-      path: /agrbniuh
-      headers:
-        Host: 17616305217696.92510233.xyz
-  - type: ss
-    name: 澳门_2
-    server: 154.83.89.88
-    port: 54275
-    cipher: 2022-blake3-aes-128-gcm
-    password: x5JIeeg3AKC8JhoW22DXmNqbqznm2CK2rhMtqLVbW86E
-  - type: trojan
-    name: 美国_48
+    name: 美国_34
     server: bestcdn1.868863.xyz
     port: 443
     password: 7b2b6681-1a30-48b2-83fb-4efa639c8986
@@ -1669,7 +1346,7 @@ proxies:
       headers:
         Host: 17616305217453.92510233.xyz
   - type: trojan
-    name: 台湾_14
+    name: 台湾_10
     server: 125.227.86.46
     port: 443
     password: 3f5bc61547b1f0d9
@@ -1677,435 +1354,257 @@ proxies:
     sni: TG.WangCai2
     alpn:
       - h2
+    skip-cert-verify: true
     tls: true
     grpc-opts:
       grpc-service-name: db
-  - type: vless
-    name: 美国_49
-    server: 638966574572431911.rome-blkaft-aaau.info
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    encryption: none
-  - type: ss
-    name: 美国_50
-    server: 113.46.227.82
-    port: 9908
-    cipher: chacha20-ietf-poly1305
-    password: 075bcce812668cf7
-  - type: vless
-    name: 意大利
-    server: 638966574572431911.rome-blkaft-aaau.info
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    encryption: none
-  - type: vless
-    name: 意大利_1
-    server: 638966574572431911.rome-blkaft-aaau.info
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    encryption: none
-  - type: vless
-    name: 美国_51
-    server: 95.164.6.65
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    encryption: none
-  - type: vless
-    name: 美国_52
-    server: 95.164.6.65
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    encryption: none
-  - type: vless
-    name: 意大利_2
-    server: 638966574572431911.rome-blkaft-aaau.info
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    encryption: none
-  - type: vless
-    name: 俄罗斯_11
-    server: 95.164.6.65
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    encryption: none
-  - type: trojan
-    name: 台湾_15
-    server: 125.227.86.45
-    port: 443
-    password: 3f5bc61547b1f0d9
-    network: grpc
-    sni: TG.节点狂魔
-    alpn:
-      - h2
-    tls: true
-    grpc-opts:
-      grpc-service-name: db
-  - type: vless
-    name: US_4
-    server: 638966574572431911.rome-blkaft-aaau.info
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    encryption: none
-  - type: vless
-    name: 美国_53
-    server: 638966574572431911.rome-blkaft-aaau.info
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    encryption: none
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 香港4|@ripaojiedian
-      - 🇸🇬 新加坡4|@ripaojiedian
-      - 香港5|@ripaojiedian
-      - 日本|@ripaojiedian
-      - 🇺🇸 美国 177
-      - 🇺🇸 美国 104
-      - 🇺🇸 美国 084
-      - 🇺🇸 美国 054
-      - 🇺🇸 美国 052
-      - 🇺🇸 美国 058
-      - 🇺🇸 美国 077
-      - 🇺🇸 美国 067
-      - 🇺🇸 美国 100
-      - 🇺🇸 美国 074
-      - 🇰🇷 韩国 06
-      - 🇺🇸 美国 061
-      - 🇺🇸 美国 106
-      - 🇺🇸 美国 165
-      - 🇺🇸 美国 166
-      - 🇺🇸 美国 025
-      - 🇺🇸 美国 167
-      - 🇺🇸 美国 038
-      - 🇺🇸 美国 168
-      - 🇺🇸 美国 039
-      - 🇸🇬 新加坡 93
-      - 03(TG:@tccjd)
       - "02(TG:@tccjd) "
-      - 日本
-      - "01(TG:@tccjd) "
-      - 韩国
-      - 日本_1
       - 美国
+      - us
+      - 01(TG:@tccjd)
+      - 香港4|@ripaojiedian
+      - 香港
+      - 🇺🇸 美国 165
       - 美国_1
+      - 🇺🇸 美国 084
+      - 日本
+      - 🇺🇸 美国 100
+      - 🇺🇸 美国 166
+      - 🇺🇸 美国 167
+      - 香港_1
+      - 🇺🇸 美国 077
+      - 日本_1
+      - 🇺🇸 美国 038
+      - 🇺🇸 美国 106
+      - 🇺🇸 美国 052
+      - 🇺🇸 美国 039
+      - 🇺🇸 美国 054
       - 日本_2
       - 日本_3
+      - 🇺🇸 美国 058
+      - 俄罗斯
+      - 🇺🇸 美国 025
       - 日本_4
+      - 韩国
       - 日本_5
+      - 希腊
+      - 美国_2
+      - 俄罗斯_1
+      - 香港5|@ripaojiedian
+      - "01(TG:@tccjd) "
+      - 02(TG:@tccjd)
+      - 美国_3
+      - 俄罗斯_2
+      - 美国_4
+      - 🇺🇸 美国 168
+      - US
+      - 美国_5
+      - 美国_6
+      - 新加坡
+      - 意大利
+      - 香港_2
+      - 日本|@ripaojiedian
+      - 🇺🇸 美国 104
+      - 美国_7
+      - 01(TG:@tccjd)_1
+      - 🇺🇸 美国 061
+      - 美国_8
+      - 俄罗斯_3
+      - 俄罗斯_4
+      - 新加坡_1
       - 日本_6
+      - 美国_9
+      - 俄罗斯_5
+      - 美国_10
+      - 🇺🇸 美国 177
+      - 🇺🇸 美国 067
+      - 🇺🇸 美国 074
+      - 🇰🇷 韩国 06
       - 日本_7
-      - 爱尔兰
-      - 香港
-      - 澳门
       - 韩国_1
+      - 日本_8
+      - 美国_11
+      - 美国_12
+      - 日本_9
+      - 爱尔兰
       - 韩国_2
-      - 香港_1
       - 韩国_3
       - 韩国_4
-      - 日本_8
       - 韩国_5
+      - 日本_10
       - 韩国_6
       - 韩国_7
       - 韩国_8
-      - 01(TG:@tccjd)
       - 韩国_9
-      - 日本_9
-      - 02(TG:@tccjd)
-      - 日本_10
       - 韩国_10
       - 韩国_11
       - 韩国_12
       - 韩国_13
-      - 01(TG:@tccjd)_1
-      - 俄罗斯
       - 韩国_14
-      - 俄罗斯_1
-      - 希腊
       - 韩国_15
       - 韩国_16
-      - 俄罗斯_2
-      - 新加坡
-      - 美国_2
-      - 新加坡_1
-      - 香港_2
+      - 美国_13
       - 台湾
-      - 美国_3
-      - 美国_4
-      - 美国_5
+      - 美国_14
       - 台湾_1
-      - 香港_3
       - 台湾_2
-      - 香港_4
-      - 美国_6
       - 台湾_3
       - 台湾_4
-      - 美国_7
       - 台湾_5
-      - 香港_5
-      - 美国_8
-      - 美国_9
       - 台湾_6
+      - US_1
       - 台湾_7
-      - 美国_10
-      - us
-      - 🇸🇬 新加坡
+      - 美国_15
       - 台湾_8
       - 台湾_9
-      - US
-      - US_1
-      - US_2
-      - US_3
-      - 美国_11
-      - 美国_12
-      - 美国_13
-      - 美国_14
-      - 美国_15
       - 美国_16
-      - 台湾_10
       - 美国_17
       - 美国_18
       - 美国_19
-      - 台湾_11
-      - 希腊_1
-      - 希腊_2
       - 美国_20
-      - 希腊_3
-      - 台湾_12
-      - 俄罗斯_3
       - 美国_21
-      - 俄罗斯_4
-      - 台湾_13
       - 美国_22
       - 美国_23
-      - 俄罗斯_5
       - 美国_24
       - 美国_25
-      - 俄罗斯_6
-      - 俄罗斯_7
       - 美国_26
       - 美国_27
       - 美国_28
       - 美国_29
       - 美国_30
       - 美国_31
-      - 俄罗斯_8
       - 美国_32
-      - 俄罗斯_9
       - 美国_33
       - 美国_34
-      - 美国_35
-      - 美国_36
-      - 美国_37
-      - 美国_38
-      - 美国_39
-      - 美国_40
-      - 美国_41
-      - 美国_42
-      - 香港_6
-      - 俄罗斯_10
-      - 美国_43
-      - 美国_44
-      - 澳门_1
-      - 美国_45
-      - 美国_46
-      - 美国_47
-      - 澳门_2
-      - 美国_48
-      - 台湾_14
-      - 美国_49
-      - 美国_50
-      - 意大利
-      - 意大利_1
-      - 美国_51
-      - 美国_52
-      - 意大利_2
-      - 俄罗斯_11
-      - 台湾_15
-      - US_4
-      - 美国_53
+      - 台湾_10
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - 香港4|@ripaojiedian
-      - 🇸🇬 新加坡4|@ripaojiedian
-      - 香港5|@ripaojiedian
-      - 日本|@ripaojiedian
-      - 🇺🇸 美国 177
-      - 🇺🇸 美国 104
-      - 🇺🇸 美国 084
-      - 🇺🇸 美国 054
-      - 🇺🇸 美国 052
-      - 🇺🇸 美国 058
-      - 🇺🇸 美国 077
-      - 🇺🇸 美国 067
-      - 🇺🇸 美国 100
-      - 🇺🇸 美国 074
-      - 🇰🇷 韩国 06
-      - 🇺🇸 美国 061
-      - 🇺🇸 美国 106
-      - 🇺🇸 美国 165
-      - 🇺🇸 美国 166
-      - 🇺🇸 美国 025
-      - 🇺🇸 美国 167
-      - 🇺🇸 美国 038
-      - 🇺🇸 美国 168
-      - 🇺🇸 美国 039
-      - 🇸🇬 新加坡 93
-      - 03(TG:@tccjd)
       - "02(TG:@tccjd) "
-      - 日本
-      - "01(TG:@tccjd) "
-      - 韩国
-      - 日本_1
       - 美国
+      - us
+      - 01(TG:@tccjd)
+      - 香港4|@ripaojiedian
+      - 香港
+      - 🇺🇸 美国 165
       - 美国_1
+      - 🇺🇸 美国 084
+      - 日本
+      - 🇺🇸 美国 100
+      - 🇺🇸 美国 166
+      - 🇺🇸 美国 167
+      - 香港_1
+      - 🇺🇸 美国 077
+      - 日本_1
+      - 🇺🇸 美国 038
+      - 🇺🇸 美国 106
+      - 🇺🇸 美国 052
+      - 🇺🇸 美国 039
+      - 🇺🇸 美国 054
       - 日本_2
       - 日本_3
+      - 🇺🇸 美国 058
+      - 俄罗斯
+      - 🇺🇸 美国 025
       - 日本_4
+      - 韩国
       - 日本_5
+      - 希腊
+      - 美国_2
+      - 俄罗斯_1
+      - 香港5|@ripaojiedian
+      - "01(TG:@tccjd) "
+      - 02(TG:@tccjd)
+      - 美国_3
+      - 俄罗斯_2
+      - 美国_4
+      - 🇺🇸 美国 168
+      - US
+      - 美国_5
+      - 美国_6
+      - 新加坡
+      - 意大利
+      - 香港_2
+      - 日本|@ripaojiedian
+      - 🇺🇸 美国 104
+      - 美国_7
+      - 01(TG:@tccjd)_1
+      - 🇺🇸 美国 061
+      - 美国_8
+      - 俄罗斯_3
+      - 俄罗斯_4
+      - 新加坡_1
       - 日本_6
+      - 美国_9
+      - 俄罗斯_5
+      - 美国_10
+      - 🇺🇸 美国 177
+      - 🇺🇸 美国 067
+      - 🇺🇸 美国 074
+      - 🇰🇷 韩国 06
       - 日本_7
-      - 爱尔兰
-      - 香港
-      - 澳门
       - 韩国_1
+      - 日本_8
+      - 美国_11
+      - 美国_12
+      - 日本_9
+      - 爱尔兰
       - 韩国_2
-      - 香港_1
       - 韩国_3
       - 韩国_4
-      - 日本_8
       - 韩国_5
+      - 日本_10
       - 韩国_6
       - 韩国_7
       - 韩国_8
-      - 01(TG:@tccjd)
       - 韩国_9
-      - 日本_9
-      - 02(TG:@tccjd)
-      - 日本_10
       - 韩国_10
       - 韩国_11
       - 韩国_12
       - 韩国_13
-      - 01(TG:@tccjd)_1
-      - 俄罗斯
       - 韩国_14
-      - 俄罗斯_1
-      - 希腊
       - 韩国_15
       - 韩国_16
-      - 俄罗斯_2
-      - 新加坡
-      - 美国_2
-      - 新加坡_1
-      - 香港_2
+      - 美国_13
       - 台湾
-      - 美国_3
-      - 美国_4
-      - 美国_5
+      - 美国_14
       - 台湾_1
-      - 香港_3
       - 台湾_2
-      - 香港_4
-      - 美国_6
       - 台湾_3
       - 台湾_4
-      - 美国_7
       - 台湾_5
-      - 香港_5
-      - 美国_8
-      - 美国_9
       - 台湾_6
+      - US_1
       - 台湾_7
-      - 美国_10
-      - us
-      - 🇸🇬 新加坡
+      - 美国_15
       - 台湾_8
       - 台湾_9
-      - US
-      - US_1
-      - US_2
-      - US_3
-      - 美国_11
-      - 美国_12
-      - 美国_13
-      - 美国_14
-      - 美国_15
       - 美国_16
-      - 台湾_10
       - 美国_17
       - 美国_18
       - 美国_19
-      - 台湾_11
-      - 希腊_1
-      - 希腊_2
       - 美国_20
-      - 希腊_3
-      - 台湾_12
-      - 俄罗斯_3
       - 美国_21
-      - 俄罗斯_4
-      - 台湾_13
       - 美国_22
       - 美国_23
-      - 俄罗斯_5
       - 美国_24
       - 美国_25
-      - 俄罗斯_6
-      - 俄罗斯_7
       - 美国_26
       - 美国_27
       - 美国_28
       - 美国_29
       - 美国_30
       - 美国_31
-      - 俄罗斯_8
       - 美国_32
-      - 俄罗斯_9
       - 美国_33
       - 美国_34
-      - 美国_35
-      - 美国_36
-      - 美国_37
-      - 美国_38
-      - 美国_39
-      - 美国_40
-      - 美国_41
-      - 美国_42
-      - 香港_6
-      - 俄罗斯_10
-      - 美国_43
-      - 美国_44
-      - 澳门_1
-      - 美国_45
-      - 美国_46
-      - 美国_47
-      - 澳门_2
-      - 美国_48
-      - 台湾_14
-      - 美国_49
-      - 美国_50
-      - 意大利
-      - 意大利_1
-      - 美国_51
-      - 美国_52
-      - 意大利_2
-      - 俄罗斯_11
-      - 台湾_15
-      - US_4
-      - 美国_53
+      - 台湾_10
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: 🎯 全球直连
@@ -2125,174 +1624,125 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港4|@ripaojiedian
-      - 🇸🇬 新加坡4|@ripaojiedian
-      - 香港5|@ripaojiedian
-      - 日本|@ripaojiedian
-      - 🇺🇸 美国 177
-      - 🇺🇸 美国 104
-      - 🇺🇸 美国 084
-      - 🇺🇸 美国 054
-      - 🇺🇸 美国 052
-      - 🇺🇸 美国 058
-      - 🇺🇸 美国 077
-      - 🇺🇸 美国 067
-      - 🇺🇸 美国 100
-      - 🇺🇸 美国 074
-      - 🇰🇷 韩国 06
-      - 🇺🇸 美国 061
-      - 🇺🇸 美国 106
-      - 🇺🇸 美国 165
-      - 🇺🇸 美国 166
-      - 🇺🇸 美国 025
-      - 🇺🇸 美国 167
-      - 🇺🇸 美国 038
-      - 🇺🇸 美国 168
-      - 🇺🇸 美国 039
-      - 🇸🇬 新加坡 93
-      - 03(TG:@tccjd)
       - "02(TG:@tccjd) "
-      - 日本
-      - "01(TG:@tccjd) "
-      - 韩国
-      - 日本_1
       - 美国
+      - us
+      - 01(TG:@tccjd)
+      - 香港4|@ripaojiedian
+      - 香港
+      - 🇺🇸 美国 165
       - 美国_1
+      - 🇺🇸 美国 084
+      - 日本
+      - 🇺🇸 美国 100
+      - 🇺🇸 美国 166
+      - 🇺🇸 美国 167
+      - 香港_1
+      - 🇺🇸 美国 077
+      - 日本_1
+      - 🇺🇸 美国 038
+      - 🇺🇸 美国 106
+      - 🇺🇸 美国 052
+      - 🇺🇸 美国 039
+      - 🇺🇸 美国 054
       - 日本_2
       - 日本_3
+      - 🇺🇸 美国 058
+      - 俄罗斯
+      - 🇺🇸 美国 025
       - 日本_4
+      - 韩国
       - 日本_5
+      - 希腊
+      - 美国_2
+      - 俄罗斯_1
+      - 香港5|@ripaojiedian
+      - "01(TG:@tccjd) "
+      - 02(TG:@tccjd)
+      - 美国_3
+      - 俄罗斯_2
+      - 美国_4
+      - 🇺🇸 美国 168
+      - US
+      - 美国_5
+      - 美国_6
+      - 新加坡
+      - 意大利
+      - 香港_2
+      - 日本|@ripaojiedian
+      - 🇺🇸 美国 104
+      - 美国_7
+      - 01(TG:@tccjd)_1
+      - 🇺🇸 美国 061
+      - 美国_8
+      - 俄罗斯_3
+      - 俄罗斯_4
+      - 新加坡_1
       - 日本_6
+      - 美国_9
+      - 俄罗斯_5
+      - 美国_10
+      - 🇺🇸 美国 177
+      - 🇺🇸 美国 067
+      - 🇺🇸 美国 074
+      - 🇰🇷 韩国 06
       - 日本_7
-      - 爱尔兰
-      - 香港
-      - 澳门
       - 韩国_1
+      - 日本_8
+      - 美国_11
+      - 美国_12
+      - 日本_9
+      - 爱尔兰
       - 韩国_2
-      - 香港_1
       - 韩国_3
       - 韩国_4
-      - 日本_8
       - 韩国_5
+      - 日本_10
       - 韩国_6
       - 韩国_7
       - 韩国_8
-      - 01(TG:@tccjd)
       - 韩国_9
-      - 日本_9
-      - 02(TG:@tccjd)
-      - 日本_10
       - 韩国_10
       - 韩国_11
       - 韩国_12
       - 韩国_13
-      - 01(TG:@tccjd)_1
-      - 俄罗斯
       - 韩国_14
-      - 俄罗斯_1
-      - 希腊
       - 韩国_15
       - 韩国_16
-      - 俄罗斯_2
-      - 新加坡
-      - 美国_2
-      - 新加坡_1
-      - 香港_2
+      - 美国_13
       - 台湾
-      - 美国_3
-      - 美国_4
-      - 美国_5
+      - 美国_14
       - 台湾_1
-      - 香港_3
       - 台湾_2
-      - 香港_4
-      - 美国_6
       - 台湾_3
       - 台湾_4
-      - 美国_7
       - 台湾_5
-      - 香港_5
-      - 美国_8
-      - 美国_9
       - 台湾_6
+      - US_1
       - 台湾_7
-      - 美国_10
-      - us
-      - 🇸🇬 新加坡
+      - 美国_15
       - 台湾_8
       - 台湾_9
-      - US
-      - US_1
-      - US_2
-      - US_3
-      - 美国_11
-      - 美国_12
-      - 美国_13
-      - 美国_14
-      - 美国_15
       - 美国_16
-      - 台湾_10
       - 美国_17
       - 美国_18
       - 美国_19
-      - 台湾_11
-      - 希腊_1
-      - 希腊_2
       - 美国_20
-      - 希腊_3
-      - 台湾_12
-      - 俄罗斯_3
       - 美国_21
-      - 俄罗斯_4
-      - 台湾_13
       - 美国_22
       - 美国_23
-      - 俄罗斯_5
       - 美国_24
       - 美国_25
-      - 俄罗斯_6
-      - 俄罗斯_7
       - 美国_26
       - 美国_27
       - 美国_28
       - 美国_29
       - 美国_30
       - 美国_31
-      - 俄罗斯_8
       - 美国_32
-      - 俄罗斯_9
       - 美国_33
       - 美国_34
-      - 美国_35
-      - 美国_36
-      - 美国_37
-      - 美国_38
-      - 美国_39
-      - 美国_40
-      - 美国_41
-      - 美国_42
-      - 香港_6
-      - 俄罗斯_10
-      - 美国_43
-      - 美国_44
-      - 澳门_1
-      - 美国_45
-      - 美国_46
-      - 美国_47
-      - 澳门_2
-      - 美国_48
-      - 台湾_14
-      - 美国_49
-      - 美国_50
-      - 意大利
-      - 意大利_1
-      - 美国_51
-      - 美国_52
-      - 意大利_2
-      - 俄罗斯_11
-      - 台湾_15
-      - US_4
-      - 美国_53
+      - 台湾_10
 rule-providers:
   LocalAreaNetwork:
     type: http
