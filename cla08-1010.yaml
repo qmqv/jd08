@@ -46,2863 +46,6 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇺🇸 美国 | USA
-    type: vless
-    server: 173.245.49.128
-    port: 2096
-    uuid: 3f333027-7697-4342-baa5-7721198fa929
-    network: ws
-    servername: la.ordak.dpdns.org
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /fl?ed=2560
-      headers:
-        Host: la.ordak.dpdns.org
-  - name: 🇭🇰 香港 | HKG
-    type: hysteria2
-    server: hkbgp.jjxcloud.xyz
-    port: 8443
-    password: cd7e0971-4b98-41fc-9ecb-1267a2b0e4f4
-    sni: hkbgp.jjxcloud.xyz
-    skip-cert-verify: false
-  - name: 01(TG:@tccjd)
-    type: vless
-    server: 192.200.160.238
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.jpmj.dev
-    tls: true
-    ws-opts:
-      path: /?ed=2560&telegram🇨🇳+@wangcai2
-      headers:
-        Host: sni.jpmj.dev
-  - name: 02(TG:@tccjd)
-    type: vless
-    server: 104.20.1.252
-    port: 80
-    uuid: 33e1a095-1e25-4198-bfe7-ec312e4f98ee
-    network: ws
-    tls: false
-    ws-opts:
-      path: /?ed
-      headers:
-        Host: CREDibLe-pLaNt7ddV4jJ7et.OnEeaT.CO.
-  - name: 03(TG:@tccjd)
-    type: trojan
-    server: 104.21.40.34
-    port: 443
-    password: humanity
-    sni: www.gossipglove.com
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.gossipglove.com
-  - name: 04(TG:@tccjd)
-    type: vless
-    server: fran.scroogethebest.com
-    port: 443
-    uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
-    servername: fran.scroogethebest.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
-      short-id: 4fa44664f6a566d3
-  - name: 06(TG:@tccjd)
-    type: vless
-    server: dnss.iraniranshopdashnoard.ir
-    port: 2086
-    uuid: a2626d27-e0f8-490d-b23c-c9ca0dea4ea9
-    network: httpupgrade
-    tls: false
-    http-opts:
-      path:
-        - /?ed=2080
-      headers:
-        Host:
-          - bio.mehrsazi.ir
-  - name: 07(TG:@tccjd)
-    type: vless
-    server: dns.dressforida.monster
-    port: 443
-    uuid: 79149019-5abe-46f9-91ae-e1e7d1d2c408
-    servername: www.techradar.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 4YLfHf90V012Oyd2wHbwAXaJNvNUGrKWmatTKc165U8
-      short-id: 174c6cf22e22
-  - name: 08(TG:@tccjd)
-    type: vless
-    server: 104.21.3.219
-    port: 8443
-    uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
-    network: ws
-    servername: ovhwuxian.pai50288.uk
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /57ba2ab1
-      headers:
-        Host: ovhwuxian.pai50288.uk
-  - name: 01(TG:@tccjd)_1
-    type: ss
-    server: 176.123.168.79
-    port: 42095
-    cipher: chacha20-ietf-poly1305
-    password: VCFAk7Hc8FI27kHavKAfJpamy
-  - name: 03(TG:@tccjd)_1
-    type: ss
-    server: 77.105.141.175
-    port: 9001
-    cipher: chacha20-ietf-poly1305
-    password: 70vxiyEWzXN2w0ctWa5GZ4
-  - name: 01(TG:@tccjd)_2
-    type: ss
-    server: 176.123.168.79
-    port: 42095
-    cipher: chacha20-ietf-poly1305
-    password: VCFAk7Hc8FI27kHavKAfJpamy
-  - name: 02(TG:@tccjd)_1
-    type: ss
-    server: net0.iraliza.net.tr
-    port: 1080
-    cipher: chacha20-ietf-poly1305
-    password: l8RjpJoNWqiKB7KzlBTMeg
-  - name: 03(TG:@tccjd)_2
-    type: ss
-    server: 176.123.168.79
-    port: 42095
-    cipher: chacha20-ietf-poly1305
-    password: VCFAk7Hc8FI27kHavKAfJpamy
-  - name: 04(TG:@tccjd)_1
-    type: ss
-    server: 147.45.135.39
-    port: 4205
-    cipher: chacha20-ietf-poly1305
-    password: c0Zy18nHmjcUfome1fYPhA
-  - name: 01(TG:@tccjd)_3
-    type: trojan
-    server: 180.131.145.169
-    port: 18718
-    password: RmhZQ47pEm
-    sni: www.tesla.com
-    skip-cert-verify: false
-    tls: true
-  - name: 01(TG:@tccjd)_4
-    type: vless
-    server: qauuf1.hajisina.com.tr
-    port: 80
-    uuid: 144dc62b-21d6-4991-a3f5-8cf5a1792cb3
-    tls: false
-  - name: 02(TG:@tccjd)_2
-    type: vless
-    server: 130.49.179.101
-    port: 8443
-    uuid: 010c8bf7-0a43-404f-a6c5-2427acb4d476
-    servername: sun6-21.userapi.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
-      short-id: 3ca620a7ed5f3196
-  - name: 03(TG:@tccjd)_3
-    type: vless
-    server: qauuf2.hajisina.com.tr
-    port: 80
-    uuid: 144dc62b-21d6-4991-a3f5-8cf5a1792cb3
-    tls: false
-  - name: 04(TG:@tccjd)_2
-    type: vless
-    server: a3.legendperm.ir
-    port: 2083
-    uuid: 144dc62b-21d6-4991-a3f5-8cf5a1792cb3
-    network: http
-    servername: a2.legendperm.ir
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path:
-        - /Qauuf
-      headers:
-        Host:
-          - a2.legendperm.ir
-  - name: 01(TG:@tccjd)_5
-    type: vless
-    server: 188.114.98.0
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 02(TG:@tccjd)_3
-    type: vless
-    server: 188.114.98.0
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 03(TG:@tccjd)_4
-    type: vless
-    server: 188.114.98.0
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping/
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 04(TG:@tccjd)_3
-    type: vless
-    server: 188.114.98.0
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping/
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 05(TG:@tccjd)
-    type: vless
-    server: 188.114.98.0
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping/
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 06(TG:@tccjd)_1
-    type: vless
-    server: 188.114.98.0
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 07(TG:@tccjd)_1
-    type: vless
-    server: 188.114.98.0
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 08(TG:@tccjd)_1
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 09(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 10(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 11(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 12(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 13(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 14(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 15(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 16(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 17(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 18(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 19(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 20(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 21(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 22(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 23(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 24(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 25(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 26(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 27(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 28(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 29(TG:@tccjd)
-    type: vless
-    server: 185.116.236.180
-    port: 443
-    uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-    servername: www.ahram.org.eg
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: bghqfrQXIb4EqsVpdc8t9VHvbh9Zsjc2NKYdN3Yh6Eo
-      short-id: 22f70489
-  - name: 30(TG:@tccjd)
-    type: vless
-    server: 188.114.98.0
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - atus.pabloping.pro
-  - name: 31(TG:@tccjd)
-    type: vless
-    server: 188.114.98.0
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - atus.pabloping.pro
-  - name: 32(TG:@tccjd)
-    type: vless
-    server: 188.114.98.0
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - atus.pabloping.pro
-  - name: 33(TG:@tccjd)
-    type: vless
-    server: 172.64.152.23
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 34(TG:@tccjd)
-    type: vless
-    server: 172.64.152.170
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 36(TG:@tccjd)
-    type: vless
-    server: 172.64.152.170
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 35(TG:@tccjd)
-    type: vless
-    server: 172.64.152.23
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 38(TG:@tccjd)
-    type: vless
-    server: 172.64.152.170
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 39(TG:@tccjd)
-    type: vless
-    server: 172.64.152.23
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 40(TG:@tccjd)
-    type: vless
-    server: 172.64.152.23
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 41(TG:@tccjd)
-    type: vless
-    server: 172.64.152.170
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 42(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 43(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 44(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 45(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 46(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 47(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 48(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 49(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 50(TG:@tccjd)
-    type: vless
-    server: 188.114.98.0
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping/
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 51(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 52(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 53(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 54(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 55(TG:@tccjd)
-    type: vless
-    server: 188.114.98.0
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 56(TG:@tccjd)
-    type: vless
-    server: 188.114.98.0
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping/
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 57(TG:@tccjd)
-    type: vless
-    server: 188.114.98.0
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - atus.pabloping.pro
-  - name: 58(TG:@tccjd)
-    type: vless
-    server: 172.64.152.23
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 59(TG:@tccjd)
-    type: vless
-    server: 172.64.152.23
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 60(TG:@tccjd)
-    type: vless
-    server: 172.64.152.23
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 61(TG:@tccjd)
-    type: vless
-    server: 172.64.152.23
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 62(TG:@tccjd)
-    type: vless
-    server: 172.64.152.170
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 63(TG:@tccjd)
-    type: vless
-    server: 172.64.152.170
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 64(TG:@tccjd)
-    type: vless
-    server: 172.64.152.170
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 65(TG:@tccjd)
-    type: vless
-    server: 172.64.152.170
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 66(TG:@tccjd)
-    type: vless
-    server: 172.64.152.170
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 67(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 68(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 69(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 70(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 71(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 72(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 73(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 74(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 75(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 76(TG:@tccjd)
-    type: vless
-    server: 104.18.12.149
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 75(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 30(TG:@tccjd)_1
-    type: vless
-    server: w.smarteracloud.com
-    port: 2096
-    uuid: 337bf72e-bb79-4d5f-be3f-7822eb77100c
-    network: http
-    servername: otthnu73.indosoxr.info
-    tls: true
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - otthnu73.indosoxr.info
-  - name: 87(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 63(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - vusp.pabloping.pro
-  - name: 81(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 84(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 47(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - vusp.pabloping.pro
-  - name: 60(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 33(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - vusp.pabloping.pro
-  - name: 45(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - vusp.pabloping.pro
-  - name: 102(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 69(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 89(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 64(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - vusp.pabloping.pro
-  - name: 27(TG:@tccjd)_1
-    type: vless
-    server: w.smarteracloud.com
-    port: 2096
-    uuid: 337bf72e-bb79-4d5f-be3f-7822eb77100c
-    network: http
-    servername: otthnu73.indosoxr.info
-    tls: true
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - otthnu73.indosoxr.info
-  - name: 50(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 93(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 88(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 103(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 90(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 52(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 99(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 106(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 72(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 71(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 96(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 110(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 91(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 42(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - vusp.pabloping.pro
-  - name: 51(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 52(TG:@tccjd)_2
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 44(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - vusp.pabloping.pro
-  - name: 97(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 68(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 79(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 65(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - vusp.pabloping.pro
-  - name: 38(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - vusp.pabloping.pro
-  - name: 37(TG:@tccjd)
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - vusp.pabloping.pro
-  - name: 95(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 83(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 107(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 80(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 101(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 94(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 100(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 105(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 78(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 70(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 104(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 111(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 108(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 92(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 98(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 36(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - vusp.pabloping.pro
-  - name: 61(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - vusp.pabloping.pro
-  - name: 67(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - vusp.pabloping.pro
-  - name: 76(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 40(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - vusp.pabloping.pro
-  - name: 48(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 39(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - vusp.pabloping.pro
-  - name: 43(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - vusp.pabloping.pro
-  - name: 56(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 49(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 26(TG:@tccjd)_1
-    type: vless
-    server: w.smarteracloud.com
-    port: 2096
-    uuid: 337bf72e-bb79-4d5f-be3f-7822eb77100c
-    network: http
-    servername: otthnu73.indosoxr.info
-    tls: true
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - otthnu73.indosoxr.info
-  - name: 86(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 41(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - vusp.pabloping.pro
-  - name: 74(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - vusp.pabloping.pro
-  - name: 73(TG:@tccjd)_1
-    type: vless
-    server: c.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - vusp.pabloping.pro
-  - name: 82(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 28(TG:@tccjd)_1
-    type: vless
-    server: w.smarteracloud.com
-    port: 2096
-    uuid: 337bf72e-bb79-4d5f-be3f-7822eb77100c
-    network: http
-    servername: otthnu73.indosoxr.info
-    tls: true
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - otthnu73.indosoxr.info
-  - name: 32(TG:@tccjd)_1
-    type: vless
-    server: w.smarteracloud.com
-    port: 2096
-    uuid: 337bf72e-bb79-4d5f-be3f-7822eb77100c
-    network: http
-    servername: otthnu73.indosoxr.info
-    tls: true
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - otthnu73.indosoxr.info
-  - name: 85(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 77(TG:@tccjd)
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 29(TG:@tccjd)_1
-    type: vless
-    server: w.smarteracloud.com
-    port: 2096
-    uuid: 337bf72e-bb79-4d5f-be3f-7822eb77100c
-    network: http
-    servername: otthnu73.indosoxr.info
-    tls: true
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - otthnu73.indosoxr.info
-  - name: 31(TG:@tccjd)_1
-    type: vless
-    server: w.smarteracloud.com
-    port: 2096
-    uuid: 337bf72e-bb79-4d5f-be3f-7822eb77100c
-    network: http
-    servername: otthnu73.indosoxr.info
-    tls: true
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - otthnu73.indosoxr.info
-  - name: 25(TG:@tccjd)_1
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 26(TG:@tccjd)_2
-    type: vless
-    server: w.smarteracloud.com
-    port: 2096
-    uuid: 337bf72e-bb79-4d5f-be3f-7822eb77100c
-    network: http
-    servername: otthnu73.indosoxr.info
-    tls: true
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - otthnu73.indosoxr.info
-  - name: 20(TG:@tccjd)_1
-    type: vless
-    server: w.smarteracloud.com
-    port: 2096
-    uuid: 337bf72e-bb79-4d5f-be3f-7822eb77100c
-    network: http
-    servername: otthnu73.indosoxr.info
-    tls: true
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - otthnu73.indosoxr.info
-  - name: 21(TG:@tccjd)_1
-    type: vless
-    server: w.smarteracloud.com
-    port: 2096
-    uuid: 337bf72e-bb79-4d5f-be3f-7822eb77100c
-    network: http
-    servername: otthnu73.indosoxr.info
-    tls: true
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - otthnu73.indosoxr.info
-  - name: 22(TG:@tccjd)_1
-    type: vless
-    server: w.smarteracloud.com
-    port: 2096
-    uuid: 337bf72e-bb79-4d5f-be3f-7822eb77100c
-    network: http
-    servername: otthnu73.indosoxr.info
-    tls: true
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - otthnu73.indosoxr.info
-  - name: 19(TG:@tccjd)_1
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 18(TG:@tccjd)_1
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 17(TG:@tccjd)_1
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 14(TG:@tccjd)_1
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 16(TG:@tccjd)_1
-    type: vless
-    server: w.smarteracloud.com
-    port: 2096
-    uuid: 337bf72e-bb79-4d5f-be3f-7822eb77100c
-    network: http
-    servername: otthnu73.indosoxr.info
-    tls: true
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - otthnu73.indosoxr.info
-  - name: 13(TG:@tccjd)_1
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 12(TG:@tccjd)_1
-    type: vless
-    server: w.smarteracloud.com
-    port: 2096
-    uuid: 337bf72e-bb79-4d5f-be3f-7822eb77100c
-    network: http
-    servername: otthnu73.indosoxr.info
-    tls: true
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - otthnu73.indosoxr.info
-  - name: 11(TG:@tccjd)_1
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 10(TG:@tccjd)_1
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 09(TG:@tccjd)_1
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - updn.pabloping.pro
-  - name: 08(TG:@tccjd)_2
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - upnl.pabloping.pro
-  - name: 07(TG:@tccjd)_2
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 06(TG:@tccjd)_2
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 05(TG:@tccjd)_1
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 04(TG:@tccjd)_4
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 03(TG:@tccjd)_5
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 02(TG:@tccjd)_4
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 01(TG:@tccjd)_6
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - nlbv2.pabloping.pro
-  - name: 01(TG:@tccjd)_7
-    type: vless
-    server: 81.200.151.199
-    port: 443
-    uuid: 400c1f85-9d3a-444a-8a50-81b11f3b4c20
-    servername: eh1.vk.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: UZ2NoBGMbrUpBav3lcqN-E43SxZTIvkjJuHNy-Yk_go
-      short-id: d26763126a7cf4fe
-  - name: 01(TG:@tccjd)_8
-    type: trojan
-    server: bestcdn1.868863.xyz
-    port: 2053
-    password: e217360a-6cb3-43fe-bf25-7f925bafab87
-    sni: 17720960885363.206352.xyz
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /agraeabtegrrh
-      headers:
-        Host: 17720960888594.206352.xyz
-  - name: 02(TG:@tccjd)_5
-    type: trojan
-    server: bestcdn1.868863.xyz
-    port: 2096
-    password: e217360a-6cb3-43fe-bf25-7f925bafab87
-    sni: 17720960885926.206353.xyz
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /agrbniuh
-      headers:
-        Host: 17720960886519.206353.xyz
-  - name: 03(TG:@tccjd)_6
-    type: trojan
-    server: bestcdn1.868863.xyz
-    port: 2087
-    password: e217360a-6cb3-43fe-bf25-7f925bafab87
-    sni: 17720960882569.206355.xyz
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /videomuaawe
-      headers:
-        Host: 17720960887707.206355.xyz
-  - name: 04(TG:@tccjd)_5
-    type: trojan
-    server: bestcdn1.868863.xyz
-    port: 2087
-    password: e217360a-6cb3-43fe-bf25-7f925bafab87
-    sni: 17720960889960.206356.xyz
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /dmusicmuaawe
-      headers:
-        Host: 17720960885678.206356.xyz
-  - name: 05(TG:@tccjd)_2
-    type: trojan
-    server: bestcdn1.868863.xyz
-    port: 2087
-    password: e217360a-6cb3-43fe-bf25-7f925bafab87
-    sni: 17720960888284.168381.xyz
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /tianboephth
-      headers:
-        Host: 17720960888713.168381.xyz
-  - name: 06(TG:@tccjd)_3
-    type: trojan
-    server: bestcdn2.868863.xyz
-    port: 2083
-    password: e217360a-6cb3-43fe-bf25-7f925bafab87
-    sni: 17720960882207.206352.xyz
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /agraeabtegrrh
-      headers:
-        Host: 17720960884915.206352.xyz
-  - name: 07(TG:@tccjd)_3
-    type: trojan
-    server: bestcdn2.868863.xyz
-    port: 2087
-    password: e217360a-6cb3-43fe-bf25-7f925bafab87
-    sni: 17720960887459.206353.xyz
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /agrbniuh
-      headers:
-        Host: 17720960883304.206353.xyz
-  - name: 08(TG:@tccjd)_3
-    type: trojan
-    server: bestcdn2.868863.xyz
-    port: 2096
-    password: e217360a-6cb3-43fe-bf25-7f925bafab87
-    sni: 17720960889328.206355.xyz
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /videomuaawe
-      headers:
-        Host: 17720960888476.206355.xyz
-  - name: 09(TG:@tccjd)_2
-    type: trojan
-    server: bestcdn2.868863.xyz
-    port: 2096
-    password: e217360a-6cb3-43fe-bf25-7f925bafab87
-    sni: 17720960883779.206356.xyz
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /dmusicmuaawe
-      headers:
-        Host: 17720960887364.206356.xyz
-  - name: 10(TG:@tccjd)_2
-    type: trojan
-    server: bestcdn2.868863.xyz
-    port: 2096
-    password: e217360a-6cb3-43fe-bf25-7f925bafab87
-    sni: 17720960881727.168381.xyz
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /tianboephth
-      headers:
-        Host: 17720960884182.168381.xyz
-  - name: 11(TG:@tccjd)_2
-    type: trojan
-    server: bestcdn3.868863.xyz
-    port: 2087
-    password: e217360a-6cb3-43fe-bf25-7f925bafab87
-    sni: 17720960886956.206352.xyz
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /agraeabtegrrh
-      headers:
-        Host: 17720960881072.206352.xyz
-  - name: 12(TG:@tccjd)_2
-    type: trojan
-    server: bestcdn3.868863.xyz
-    port: 2083
-    password: e217360a-6cb3-43fe-bf25-7f925bafab87
-    sni: 17720960882134.206353.xyz
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /agrbniuh
-      headers:
-        Host: 17720960882021.206353.xyz
-  - name: 13(TG:@tccjd)_2
-    type: trojan
-    server: bestcdn3.868863.xyz
-    port: 2053
-    password: e217360a-6cb3-43fe-bf25-7f925bafab87
-    sni: 17720960882062.206355.xyz
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /videomuaawe
-      headers:
-        Host: 17720960884724.206355.xyz
-  - name: 14(TG:@tccjd)_2
-    type: trojan
-    server: bestcdn3.868863.xyz
-    port: 2053
-    password: e217360a-6cb3-43fe-bf25-7f925bafab87
-    sni: 17720960889507.206356.xyz
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /dmusicmuaawe
-      headers:
-        Host: 17720960886820.206356.xyz
-  - name: 15(TG:@tccjd)_1
-    type: trojan
-    server: bestcdn3.868863.xyz
-    port: 2053
-    password: e217360a-6cb3-43fe-bf25-7f925bafab87
-    sni: 17720960887400.168381.xyz
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /tianboephth
-      headers:
-        Host: 17720960883910.168381.xyz
-  - name: 16(TG:@tccjd)_2
-    type: trojan
-    server: bestcdn4.868863.xyz
-    port: 2096
-    password: e217360a-6cb3-43fe-bf25-7f925bafab87
-    sni: 17720960881131.206352.xyz
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /agraeabtegrrh
-      headers:
-        Host: 17720960883697.206352.xyz
-  - name: 17(TG:@tccjd)_2
-    type: trojan
-    server: bestcdn4.868863.xyz
-    port: 8443
-    password: e217360a-6cb3-43fe-bf25-7f925bafab87
-    sni: 17720960887037.206353.xyz
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /agrbniuh
-      headers:
-        Host: 17720960882677.206353.xyz
-  - name: 18(TG:@tccjd)_2
-    type: trojan
-    server: bestcdn4.868863.xyz
-    port: 2083
-    password: e217360a-6cb3-43fe-bf25-7f925bafab87
-    sni: 17720960882657.206355.xyz
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /videomuaawe
-      headers:
-        Host: 17720960884830.206355.xyz
-  - name: 19(TG:@tccjd)_2
-    type: trojan
-    server: bestcdn4.868863.xyz
-    port: 2083
-    password: e217360a-6cb3-43fe-bf25-7f925bafab87
-    sni: 17720960884823.206356.xyz
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /dmusicmuaawe
-      headers:
-        Host: 17720960889336.206356.xyz
-  - name: 20(TG:@tccjd)_2
-    type: trojan
-    server: bestcdn4.868863.xyz
-    port: 2083
-    password: e217360a-6cb3-43fe-bf25-7f925bafab87
-    sni: 17720960885375.168381.xyz
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /tianboephth
-      headers:
-        Host: 17720960884829.168381.xyz
-  - name: 美国(TG:@tccjd)
-    type: vless
-    server: afrcloud22.mmv.kr
-    port: 443
-    uuid: 8fc83032-cb7e-4626-8058-f7051a68eb7b
-    network: ws
-    servername: afrcloud22.mmv.kr
-    tls: true
-    ws-opts:
-      path: /
-  - name: 美国(TG:@tccjd)_1
-    type: vless
-    server: 172.66.128.70
-    port: 2052
-    uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
-    network: ws
-    tls: false
-    ws-opts:
-      path: /?ed
-      headers:
-        Host: ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy.
-  - name: 美国(TG:@tccjd)_2
-    type: vless
-    server: y670.0h0.ccwu.cc
-    port: 80
-    uuid: 60c4d55d-bee3-4719-9568-aabf45153f9f
-    network: ws
-    servername: y670.0h0.ccwu.cc
-    tls: false
-    ws-opts:
-      path: /gPvZ4oCcNDyuc3szX7xhuvpEm
-      headers:
-        Host: y670.0h0.ccwu.cc
-  - name: 美国(TG:@tccjd)_3
-    type: vless
-    server: nodejs.org
-    port: 80
-    uuid: 2a2a8023-3b4b-407d-a00a-7beb5a158148
-    network: ws
-    tls: false
-    ws-opts:
-      path: /?ed
-      headers:
-        Host: SHAggy-AGREEMeNTSpUfz4utdI.SpOrTland.COMPANy.
-  - name: 美国(TG:@tccjd)_4
-    type: vless
-    server: y670.0h0.ccwu.cc
-    port: 80
-    uuid: 60c4d55d-bee3-4719-9568-aabf45153f9f
-    network: ws
-    tls: false
-    ws-opts:
-      path: /gPvZ4oCcNDyuc3szX7xhuvpEm
-      headers:
-        Host: y670.0h0.ccwu.cc
-  - name: 德国(TG:@tccjd)
-    type: vless
-    server: nodejs.org
-    port: 2052
-    uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
-    network: ws
-    tls: false
-    ws-opts:
-      path: /?ed
-      headers:
-        Host: ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy.
-  - name: 美国(TG:@tccjd)_5
-    type: vless
-    server: vb-p.0c0.ccwu.cc
-    port: 80
-    uuid: 60c4d55d-bee3-4719-9568-aabf45153f9f
-    network: ws
-    tls: false
-    ws-opts:
-      path: /gPvZ4oCcNDyuc3szX7xhuvpEm
-      headers:
-        Host: vb-p.0c0.ccwu.cc
-  - name: 美国(TG:@tccjd)_6
-    type: vless
-    server: nodejs.org
-    port: 80
-    uuid: 33e1a095-1e25-4198-bfe7-ec312e4f98ee
-    network: ws
-    tls: false
-    ws-opts:
-      path: /?ed
-      headers:
-        Host: CREDibLe-pLaNt7ddV4jJ7et.OnEeaT.CO.
-  - name: 美国(TG:@tccjd)_7
-    type: vless
-    server: nodejs.org
-    port: 80
-    uuid: 7d4a519b-d270-434e-a42d-d39624577a92
-    network: ws
-    tls: false
-    ws-opts:
-      path: /?ed
-      headers:
-        Host: BrIgHt-orGaNizaTioNAuhudDhESZ.spoRTlAnd.CoMpANY.
-  - name: 美国(TG:@tccjd)_8
-    type: vless
-    server: 172.66.128.70
-    port: 2052
-    uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
-    network: ws
-    tls: false
-    ws-opts:
-      path: /?ed
-      headers:
-        Host: ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy.
-  - name: 美国(TG:@tccjd)_9
-    type: vless
-    server: nodejs.org
-    port: 2052
-    uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
-    network: ws
-    tls: false
-    ws-opts:
-      path: /?ed
-      headers:
-        Host: ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy.
-  - name: 美国(TG:@tccjd)_10
-    type: vless
-    server: 220.128.110.108
-    port: 43
-    uuid: 3e974f9e-f568-4c2a-a4db-e9b666b4ea9e
-    network: ws
-    servername: 63.hhhhh.eu.org
-    tls: true
-    ws-opts:
-      path: /220.128.110.108:43
-      headers:
-        Host: 63.hhhhh.eu.org
-  - name: 美国(TG:@tccjd)_11
-    type: ss
-    server: ldu.izenny.com
-    port: 34411
-    cipher: chacha20-ietf-poly1305
-    password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  - name: 美国(TG:@tccjd)_12
-    type: ss
-    server: ldu.izenny.com
-    port: 34411
-    cipher: chacha20-ietf-poly1305
-    password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  - name: 美国(TG:@tccjd)_13
-    type: ss
-    server: ldu.izenny.com
-    port: 57927
-    cipher: chacha20-ietf-poly1305
-    password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  - name: 美国(TG:@tccjd)_14
-    type: ss
-    server: ldu.izenny.com
-    port: 10589
-    cipher: chacha20-ietf-poly1305
-    password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
   - name: 英国(TG:@tccjd)
     type: vmess
     server: 82.198.246.97
@@ -2912,7 +55,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_15
+  - name: 美国(TG:@tccjd)
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -2921,7 +64,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_16
+  - name: 美国(TG:@tccjd)_1
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -2957,7 +100,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_17
+  - name: 美国(TG:@tccjd)_2
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -2966,7 +109,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_18
+  - name: 美国(TG:@tccjd)_3
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -2984,7 +127,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_19
+  - name: 美国(TG:@tccjd)_4
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -3011,7 +154,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_20
+  - name: 美国(TG:@tccjd)_5
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -3047,7 +190,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_21
+  - name: 美国(TG:@tccjd)_6
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -3056,7 +199,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_22
+  - name: 美国(TG:@tccjd)_7
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -3065,7 +208,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_23
+  - name: 美国(TG:@tccjd)_8
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -3083,7 +226,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_24
+  - name: 美国(TG:@tccjd)_9
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -3101,7 +244,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_25
+  - name: 美国(TG:@tccjd)_10
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -3110,7 +253,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_26
+  - name: 美国(TG:@tccjd)_11
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -3119,7 +262,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_27
+  - name: 美国(TG:@tccjd)_12
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -3128,7 +271,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_28
+  - name: 美国(TG:@tccjd)_13
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -3164,7 +307,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_29
+  - name: 美国(TG:@tccjd)_14
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -3182,7 +325,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_30
+  - name: 美国(TG:@tccjd)_15
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -3200,7 +343,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_31
+  - name: 美国(TG:@tccjd)_16
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -3209,7 +352,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_32
+  - name: 美国(TG:@tccjd)_17
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -3218,7 +361,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 美国(TG:@tccjd)_33
+  - name: 美国(TG:@tccjd)_18
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -3254,6 +397,66 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
+  - name: 01(TG:@tccjd)
+    type: ss
+    server: 176.123.168.79
+    port: 42095
+    cipher: chacha20-ietf-poly1305
+    password: VCFAk7Hc8FI27kHavKAfJpamy
+  - name: 03(TG:@tccjd)
+    type: ss
+    server: 77.105.141.175
+    port: 9001
+    cipher: chacha20-ietf-poly1305
+    password: 70vxiyEWzXN2w0ctWa5GZ4
+  - name: 01(TG:@tccjd)_1
+    type: ss
+    server: 176.123.168.79
+    port: 42095
+    cipher: chacha20-ietf-poly1305
+    password: VCFAk7Hc8FI27kHavKAfJpamy
+  - name: 02(TG:@tccjd)
+    type: ss
+    server: net0.iraliza.net.tr
+    port: 1080
+    cipher: chacha20-ietf-poly1305
+    password: l8RjpJoNWqiKB7KzlBTMeg
+  - name: 03(TG:@tccjd)_1
+    type: ss
+    server: 176.123.168.79
+    port: 42095
+    cipher: chacha20-ietf-poly1305
+    password: VCFAk7Hc8FI27kHavKAfJpamy
+  - name: 04(TG:@tccjd)
+    type: ss
+    server: 147.45.135.39
+    port: 4205
+    cipher: chacha20-ietf-poly1305
+    password: c0Zy18nHmjcUfome1fYPhA
+  - name: 美国(TG:@tccjd)_19
+    type: ss
+    server: ldu.izenny.com
+    port: 34411
+    cipher: chacha20-ietf-poly1305
+    password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  - name: 美国(TG:@tccjd)_20
+    type: ss
+    server: ldu.izenny.com
+    port: 34411
+    cipher: chacha20-ietf-poly1305
+    password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  - name: 美国(TG:@tccjd)_21
+    type: ss
+    server: ldu.izenny.com
+    port: 57927
+    cipher: chacha20-ietf-poly1305
+    password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  - name: 美国(TG:@tccjd)_22
+    type: ss
+    server: ldu.izenny.com
+    port: 10589
+    cipher: chacha20-ietf-poly1305
+    password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
   - name: 🇭🇰 香港 | HKG 36
     type: ss
     server: hd117-xg-jd.huidu51.com
@@ -3266,283 +469,43 @@ proxies:
     port: 46602
     cipher: chacha20-ietf-poly1305
     password: b4b78f5d-f4ec-4eae-8f83-9e4ed9e16326
-  - name: 美國
-    type: trojan
-    server: 172.66.44.230
-    port: 8443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: false
+  - name: 🇺🇸 美国 | USA
+    type: vless
+    server: 173.245.49.128
+    port: 2096
+    uuid: 3f333027-7697-4342-baa5-7721198fa929
+    network: ws
+    servername: la.ordak.dpdns.org
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /fl?ed=2560
+      headers:
+        Host: la.ordak.dpdns.org
+  - name: 01(TG:@tccjd)_2
+    type: vless
+    server: 192.200.160.238
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.jpmj.dev
     tls: true
     ws-opts:
-      path: /tro8sFW1S91B6sZrM1?ed=2560
+      path: /?ed=2560&telegram🇨🇳+@wangcai2
       headers:
-        Host: Koma-YT.PAGeS.Dev
-  - name: 01(TG:@tccjd)_9
+        Host: sni.jpmj.dev
+  - name: 02(TG:@tccjd)_1
     type: vless
-    server: 152.53.116.71
-    port: 443
-    uuid: 1e878456-0f00-4a85-99a6-1d69bdc62e3d
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: L0T7BLyB6gtVckvnxryaK-GGd2XwgoJ3YFM9M8kXmho
-      short-id: "7554"
-  - name: 02(TG:@tccjd)_6
-    type: vless
-    server: 217.154.38.156
-    port: 443
-    uuid: 2a8391ef-383c-4321-ac25-89b50973ab73
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: kWxGUQ6QtaU-SCCt8Ht-POUPS6Ue6w-KyHjxb1AYQ1w
-      short-id: 2e0f
-  - name: 03(TG:@tccjd)_7
-    type: vless
-    server: 152.53.116.71
-    port: 443
-    uuid: 1e878456-0f00-4a85-99a6-1d69bdc62e3d
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: L0T7BLyB6gtVckvnxryaK-GGd2XwgoJ3YFM9M8kXmho
-      short-id: "7554"
-  - name: 04(TG:@tccjd)_6
-    type: vless
-    server: 152.53.116.71
-    port: 443
-    uuid: 1e878456-0f00-4a85-99a6-1d69bdc62e3d
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: L0T7BLyB6gtVckvnxryaK-GGd2XwgoJ3YFM9M8kXmho
-      short-id: "7554"
-  - name: 05(TG:@tccjd)_3
-    type: vless
-    server: 152.53.116.71
-    port: 443
-    uuid: 1e878456-0f00-4a85-99a6-1d69bdc62e3d
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: L0T7BLyB6gtVckvnxryaK-GGd2XwgoJ3YFM9M8kXmho
-      short-id: "7554"
-  - name: 06(TG:@tccjd)_4
-    type: vless
-    server: 217.154.38.156
-    port: 443
-    uuid: 2a8391ef-383c-4321-ac25-89b50973ab73
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: kWxGUQ6QtaU-SCCt8Ht-POUPS6Ue6w-KyHjxb1AYQ1w
-      short-id: 2e0f
-  - name: 07(TG:@tccjd)_4
-    type: vless
-    server: 217.154.38.156
-    port: 443
-    uuid: 2a8391ef-383c-4321-ac25-89b50973ab73
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: kWxGUQ6QtaU-SCCt8Ht-POUPS6Ue6w-KyHjxb1AYQ1w
-      short-id: 2e0f
-  - name: 08(TG:@tccjd)_4
-    type: vless
-    server: 142.248.80.157
-    port: 443
-    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
-    servername: apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
-  - name: 09(TG:@tccjd)_3
-    type: vless
-    server: 142.248.80.157
-    port: 443
-    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
-    servername: apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
-  - name: 10(TG:@tccjd)_3
-    type: vless
-    server: 152.53.116.71
-    port: 443
-    uuid: 0d328214-7ebc-413a-9820-2260b38d2242
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: L0T7BLyB6gtVckvnxryaK-GGd2XwgoJ3YFM9M8kXmho
-      short-id: "7554"
-  - name: 11(TG:@tccjd)_3
-    type: vless
-    server: 142.248.80.157
-    port: 443
-    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
-    servername: apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
-  - name: 12(TG:@tccjd)_3
-    type: vless
-    server: 142.248.80.157
-    port: 443
-    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
-    servername: apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
-  - name: 13(TG:@tccjd)_3
-    type: vless
-    server: 142.248.80.157
-    port: 443
-    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
-    servername: apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
-  - name: 14(TG:@tccjd)_3
-    type: vless
-    server: 142.248.80.157
-    port: 443
-    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
-    servername: apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
-  - name: 15(TG:@tccjd)_2
-    type: vless
-    server: 142.248.80.157
-    port: 443
-    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
-    servername: apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
-  - name: 16(TG:@tccjd)_3
-    type: vless
-    server: 142.248.80.157
-    port: 443
-    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
-    servername: apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
-  - name: 17(TG:@tccjd)_3
-    type: vless
-    server: 142.248.80.157
-    port: 443
-    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
-    servername: apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
-  - name: 18(TG:@tccjd)_3
-    type: vless
-    server: 142.248.80.157
-    port: 443
-    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
-    servername: apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
-  - name: 19(TG:@tccjd)_3
-    type: vless
-    server: 66.179.82.126
-    port: 443
-    uuid: b1267991-59ff-4b67-b141-97e3ced4e7c8
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1xMt7stxzh55Xy31H180TZNMvRYNkhEE86StqE4CtDs
-      short-id: 2f2a
-  - name: 20(TG:@tccjd)_3
-    type: vless
-    server: 142.248.80.157
-    port: 443
-    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
-    servername: apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
-  - name: 21(TG:@tccjd)_2
-    type: vless
-    server: 142.248.80.157
-    port: 443
-    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
-    servername: apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
-  - name: 22(TG:@tccjd)_2
-    type: vless
-    server: 152.53.116.71
-    port: 443
-    uuid: 0d328214-7ebc-413a-9820-2260b38d2242
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: L0T7BLyB6gtVckvnxryaK-GGd2XwgoJ3YFM9M8kXmho
-      short-id: "7554"
-  - name: 23(TG:@tccjd)_1
-    type: vless
-    server: 152.53.116.71
-    port: 443
-    uuid: 0d328214-7ebc-413a-9820-2260b38d2242
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: L0T7BLyB6gtVckvnxryaK-GGd2XwgoJ3YFM9M8kXmho
-      short-id: "7554"
-  - name: 24(TG:@tccjd)_1
-    type: vless
-    server: 66.179.82.126
-    port: 443
-    uuid: b1267991-59ff-4b67-b141-97e3ced4e7c8
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1xMt7stxzh55Xy31H180TZNMvRYNkhEE86StqE4CtDs
-      short-id: 2f2a
-  - name: 25(TG:@tccjd)_2
+    server: 104.20.1.252
+    port: 80
+    uuid: 33e1a095-1e25-4198-bfe7-ec312e4f98ee
+    network: ws
+    tls: false
+    ws-opts:
+      path: /?ed
+      headers:
+        Host: CREDibLe-pLaNt7ddV4jJ7et.OnEeaT.CO.
+  - name: 04(TG:@tccjd)_1
     type: vless
     server: fran.scroogethebest.com
     port: 443
@@ -3554,7 +517,200 @@ proxies:
     reality-opts:
       public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
       short-id: 4fa44664f6a566d3
-  - name: 26(TG:@tccjd)_3
+  - name: 07(TG:@tccjd)
+    type: vless
+    server: dns.dressforida.monster
+    port: 443
+    uuid: 79149019-5abe-46f9-91ae-e1e7d1d2c408
+    servername: www.techradar.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 4YLfHf90V012Oyd2wHbwAXaJNvNUGrKWmatTKc165U8
+      short-id: 174c6cf22e22
+  - name: 08(TG:@tccjd)
+    type: vless
+    server: 104.21.3.219
+    port: 8443
+    uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+    network: ws
+    servername: ovhwuxian.pai50288.uk
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /57ba2ab1
+      headers:
+        Host: ovhwuxian.pai50288.uk
+  - name: 01(TG:@tccjd)_3
+    type: vless
+    server: qauuf1.hajisina.com.tr
+    port: 80
+    uuid: 144dc62b-21d6-4991-a3f5-8cf5a1792cb3
+    tls: false
+  - name: 02(TG:@tccjd)_2
+    type: vless
+    server: 130.49.179.101
+    port: 8443
+    uuid: 010c8bf7-0a43-404f-a6c5-2427acb4d476
+    servername: sun6-21.userapi.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
+      short-id: 3ca620a7ed5f3196
+  - name: 03(TG:@tccjd)_2
+    type: vless
+    server: qauuf2.hajisina.com.tr
+    port: 80
+    uuid: 144dc62b-21d6-4991-a3f5-8cf5a1792cb3
+    tls: false
+  - name: 01(TG:@tccjd)_4
+    type: vless
+    server: 81.200.151.199
+    port: 443
+    uuid: 400c1f85-9d3a-444a-8a50-81b11f3b4c20
+    servername: eh1.vk.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: UZ2NoBGMbrUpBav3lcqN-E43SxZTIvkjJuHNy-Yk_go
+      short-id: d26763126a7cf4fe
+  - name: 美国(TG:@tccjd)_23
+    type: vless
+    server: afrcloud22.mmv.kr
+    port: 443
+    uuid: 8fc83032-cb7e-4626-8058-f7051a68eb7b
+    network: ws
+    servername: afrcloud22.mmv.kr
+    tls: true
+    ws-opts:
+      path: /
+  - name: 美国(TG:@tccjd)_24
+    type: vless
+    server: 172.66.128.70
+    port: 2052
+    uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
+    network: ws
+    tls: false
+    ws-opts:
+      path: /?ed
+      headers:
+        Host: ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy.
+  - name: 美国(TG:@tccjd)_25
+    type: vless
+    server: y670.0h0.ccwu.cc
+    port: 80
+    uuid: 60c4d55d-bee3-4719-9568-aabf45153f9f
+    network: ws
+    servername: y670.0h0.ccwu.cc
+    tls: false
+    ws-opts:
+      path: /gPvZ4oCcNDyuc3szX7xhuvpEm
+      headers:
+        Host: y670.0h0.ccwu.cc
+  - name: 美国(TG:@tccjd)_26
+    type: vless
+    server: nodejs.org
+    port: 80
+    uuid: 2a2a8023-3b4b-407d-a00a-7beb5a158148
+    network: ws
+    tls: false
+    ws-opts:
+      path: /?ed
+      headers:
+        Host: SHAggy-AGREEMeNTSpUfz4utdI.SpOrTland.COMPANy.
+  - name: 美国(TG:@tccjd)_27
+    type: vless
+    server: y670.0h0.ccwu.cc
+    port: 80
+    uuid: 60c4d55d-bee3-4719-9568-aabf45153f9f
+    network: ws
+    tls: false
+    ws-opts:
+      path: /gPvZ4oCcNDyuc3szX7xhuvpEm
+      headers:
+        Host: y670.0h0.ccwu.cc
+  - name: 德国(TG:@tccjd)
+    type: vless
+    server: nodejs.org
+    port: 2052
+    uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
+    network: ws
+    tls: false
+    ws-opts:
+      path: /?ed
+      headers:
+        Host: ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy.
+  - name: 美国(TG:@tccjd)_28
+    type: vless
+    server: vb-p.0c0.ccwu.cc
+    port: 80
+    uuid: 60c4d55d-bee3-4719-9568-aabf45153f9f
+    network: ws
+    tls: false
+    ws-opts:
+      path: /gPvZ4oCcNDyuc3szX7xhuvpEm
+      headers:
+        Host: vb-p.0c0.ccwu.cc
+  - name: 美国(TG:@tccjd)_29
+    type: vless
+    server: nodejs.org
+    port: 80
+    uuid: 33e1a095-1e25-4198-bfe7-ec312e4f98ee
+    network: ws
+    tls: false
+    ws-opts:
+      path: /?ed
+      headers:
+        Host: CREDibLe-pLaNt7ddV4jJ7et.OnEeaT.CO.
+  - name: 美国(TG:@tccjd)_30
+    type: vless
+    server: nodejs.org
+    port: 80
+    uuid: 7d4a519b-d270-434e-a42d-d39624577a92
+    network: ws
+    tls: false
+    ws-opts:
+      path: /?ed
+      headers:
+        Host: BrIgHt-orGaNizaTioNAuhudDhESZ.spoRTlAnd.CoMpANY.
+  - name: 美国(TG:@tccjd)_31
+    type: vless
+    server: 172.66.128.70
+    port: 2052
+    uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
+    network: ws
+    tls: false
+    ws-opts:
+      path: /?ed
+      headers:
+        Host: ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy.
+  - name: 美国(TG:@tccjd)_32
+    type: vless
+    server: nodejs.org
+    port: 2052
+    uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
+    network: ws
+    tls: false
+    ws-opts:
+      path: /?ed
+      headers:
+        Host: ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy.
+  - name: 美国(TG:@tccjd)_33
+    type: vless
+    server: 220.128.110.108
+    port: 43
+    uuid: 3e974f9e-f568-4c2a-a4db-e9b666b4ea9e
+    network: ws
+    servername: 63.hhhhh.eu.org
+    tls: true
+    ws-opts:
+      path: /220.128.110.108:43
+      headers:
+        Host: 63.hhhhh.eu.org
+  - name: 01(TG:@tccjd)_5
     type: vless
     server: 152.53.116.71
     port: 443
@@ -3565,7 +721,283 @@ proxies:
     reality-opts:
       public-key: L0T7BLyB6gtVckvnxryaK-GGd2XwgoJ3YFM9M8kXmho
       short-id: "7554"
-  - name: 27(TG:@tccjd)_2
+  - name: 02(TG:@tccjd)_3
+    type: vless
+    server: 217.154.38.156
+    port: 443
+    uuid: 2a8391ef-383c-4321-ac25-89b50973ab73
+    servername: yahoo.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: kWxGUQ6QtaU-SCCt8Ht-POUPS6Ue6w-KyHjxb1AYQ1w
+      short-id: 2e0f
+  - name: 03(TG:@tccjd)_3
+    type: vless
+    server: 152.53.116.71
+    port: 443
+    uuid: 1e878456-0f00-4a85-99a6-1d69bdc62e3d
+    servername: yahoo.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: L0T7BLyB6gtVckvnxryaK-GGd2XwgoJ3YFM9M8kXmho
+      short-id: "7554"
+  - name: 04(TG:@tccjd)_2
+    type: vless
+    server: 152.53.116.71
+    port: 443
+    uuid: 1e878456-0f00-4a85-99a6-1d69bdc62e3d
+    servername: yahoo.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: L0T7BLyB6gtVckvnxryaK-GGd2XwgoJ3YFM9M8kXmho
+      short-id: "7554"
+  - name: 05(TG:@tccjd)
+    type: vless
+    server: 152.53.116.71
+    port: 443
+    uuid: 1e878456-0f00-4a85-99a6-1d69bdc62e3d
+    servername: yahoo.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: L0T7BLyB6gtVckvnxryaK-GGd2XwgoJ3YFM9M8kXmho
+      short-id: "7554"
+  - name: 06(TG:@tccjd)
+    type: vless
+    server: 217.154.38.156
+    port: 443
+    uuid: 2a8391ef-383c-4321-ac25-89b50973ab73
+    servername: yahoo.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: kWxGUQ6QtaU-SCCt8Ht-POUPS6Ue6w-KyHjxb1AYQ1w
+      short-id: 2e0f
+  - name: 07(TG:@tccjd)_1
+    type: vless
+    server: 217.154.38.156
+    port: 443
+    uuid: 2a8391ef-383c-4321-ac25-89b50973ab73
+    servername: yahoo.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: kWxGUQ6QtaU-SCCt8Ht-POUPS6Ue6w-KyHjxb1AYQ1w
+      short-id: 2e0f
+  - name: 08(TG:@tccjd)_1
+    type: vless
+    server: 142.248.80.157
+    port: 443
+    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
+    servername: apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
+  - name: 09(TG:@tccjd)
+    type: vless
+    server: 142.248.80.157
+    port: 443
+    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
+    servername: apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
+  - name: 10(TG:@tccjd)
+    type: vless
+    server: 152.53.116.71
+    port: 443
+    uuid: 0d328214-7ebc-413a-9820-2260b38d2242
+    servername: yahoo.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: L0T7BLyB6gtVckvnxryaK-GGd2XwgoJ3YFM9M8kXmho
+      short-id: "7554"
+  - name: 11(TG:@tccjd)
+    type: vless
+    server: 142.248.80.157
+    port: 443
+    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
+    servername: apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
+  - name: 12(TG:@tccjd)
+    type: vless
+    server: 142.248.80.157
+    port: 443
+    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
+    servername: apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
+  - name: 13(TG:@tccjd)
+    type: vless
+    server: 142.248.80.157
+    port: 443
+    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
+    servername: apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
+  - name: 14(TG:@tccjd)
+    type: vless
+    server: 142.248.80.157
+    port: 443
+    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
+    servername: apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
+  - name: 15(TG:@tccjd)
+    type: vless
+    server: 142.248.80.157
+    port: 443
+    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
+    servername: apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
+  - name: 16(TG:@tccjd)
+    type: vless
+    server: 142.248.80.157
+    port: 443
+    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
+    servername: apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
+  - name: 17(TG:@tccjd)
+    type: vless
+    server: 142.248.80.157
+    port: 443
+    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
+    servername: apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
+  - name: 18(TG:@tccjd)
+    type: vless
+    server: 142.248.80.157
+    port: 443
+    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
+    servername: apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
+  - name: 19(TG:@tccjd)
+    type: vless
+    server: 66.179.82.126
+    port: 443
+    uuid: b1267991-59ff-4b67-b141-97e3ced4e7c8
+    servername: yahoo.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1xMt7stxzh55Xy31H180TZNMvRYNkhEE86StqE4CtDs
+      short-id: 2f2a
+  - name: 20(TG:@tccjd)
+    type: vless
+    server: 142.248.80.157
+    port: 443
+    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
+    servername: apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
+  - name: 21(TG:@tccjd)
+    type: vless
+    server: 142.248.80.157
+    port: 443
+    uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2
+    servername: apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y
+  - name: 22(TG:@tccjd)
+    type: vless
+    server: 152.53.116.71
+    port: 443
+    uuid: 0d328214-7ebc-413a-9820-2260b38d2242
+    servername: yahoo.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: L0T7BLyB6gtVckvnxryaK-GGd2XwgoJ3YFM9M8kXmho
+      short-id: "7554"
+  - name: 23(TG:@tccjd)
+    type: vless
+    server: 152.53.116.71
+    port: 443
+    uuid: 0d328214-7ebc-413a-9820-2260b38d2242
+    servername: yahoo.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: L0T7BLyB6gtVckvnxryaK-GGd2XwgoJ3YFM9M8kXmho
+      short-id: "7554"
+  - name: 24(TG:@tccjd)
+    type: vless
+    server: 66.179.82.126
+    port: 443
+    uuid: b1267991-59ff-4b67-b141-97e3ced4e7c8
+    servername: yahoo.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1xMt7stxzh55Xy31H180TZNMvRYNkhEE86StqE4CtDs
+      short-id: 2f2a
+  - name: 25(TG:@tccjd)
+    type: vless
+    server: fran.scroogethebest.com
+    port: 443
+    uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+    servername: fran.scroogethebest.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+      short-id: 4fa44664f6a566d3
+  - name: 26(TG:@tccjd)
+    type: vless
+    server: 152.53.116.71
+    port: 443
+    uuid: 1e878456-0f00-4a85-99a6-1d69bdc62e3d
+    servername: yahoo.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: L0T7BLyB6gtVckvnxryaK-GGd2XwgoJ3YFM9M8kXmho
+      short-id: "7554"
+  - name: 27(TG:@tccjd)
     type: vless
     server: by.cdn.titun.su
     port: 443
@@ -3577,7 +1009,7 @@ proxies:
     reality-opts:
       public-key: 0L6FE1vTechnKhN9LxFgmcDzqGVIfEQz8ZBGfvzKGzg
       short-id: cad317b20db4aad2
-  - name: 28(TG:@tccjd)_2
+  - name: 28(TG:@tccjd)
     type: vless
     server: 172.67.193.88
     port: 443
@@ -3590,7 +1022,7 @@ proxies:
       path: /assets
       headers:
         Host: MAHANteAm.noD32Cpu.iR
-  - name: 29(TG:@tccjd)_2
+  - name: 29(TG:@tccjd)
     type: vless
     server: fran.scroogethebest.com
     port: 443
@@ -3602,7 +1034,7 @@ proxies:
     reality-opts:
       public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
       short-id: 4fa44664f6a566d3
-  - name: 30(TG:@tccjd)_2
+  - name: 30(TG:@tccjd)
     type: vless
     server: 185.171.202.55
     port: 443
@@ -3614,7 +1046,7 @@ proxies:
     reality-opts:
       public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
       short-id: 4fa44664f6a566d3
-  - name: 31(TG:@tccjd)_2
+  - name: 31(TG:@tccjd)
     type: vless
     server: fran.scroogethebest.com
     port: 443
@@ -3626,7 +1058,7 @@ proxies:
     reality-opts:
       public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
       short-id: 4fa44664f6a566d3
-  - name: 32(TG:@tccjd)_2
+  - name: 32(TG:@tccjd)
     type: vless
     server: 143.20.236.51
     port: 443
@@ -4045,38 +1477,362 @@ proxies:
       path: /?ed@freenettir
       headers:
         Host: exemplary-milkytsxqiqyso.sportland.company.
+  - name: 03(TG:@tccjd)_4
+    type: trojan
+    server: 104.21.40.34
+    port: 443
+    password: humanity
+    sni: www.gossipglove.com
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.gossipglove.com
+  - name: 01(TG:@tccjd)_6
+    type: trojan
+    server: bestcdn1.868863.xyz
+    port: 2053
+    password: e217360a-6cb3-43fe-bf25-7f925bafab87
+    sni: 17720960885363.206352.xyz
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /agraeabtegrrh
+      headers:
+        Host: 17720960888594.206352.xyz
+  - name: 02(TG:@tccjd)_4
+    type: trojan
+    server: bestcdn1.868863.xyz
+    port: 2096
+    password: e217360a-6cb3-43fe-bf25-7f925bafab87
+    sni: 17720960885926.206353.xyz
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /agrbniuh
+      headers:
+        Host: 17720960886519.206353.xyz
+  - name: 03(TG:@tccjd)_5
+    type: trojan
+    server: bestcdn1.868863.xyz
+    port: 2087
+    password: e217360a-6cb3-43fe-bf25-7f925bafab87
+    sni: 17720960882569.206355.xyz
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /videomuaawe
+      headers:
+        Host: 17720960887707.206355.xyz
+  - name: 04(TG:@tccjd)_3
+    type: trojan
+    server: bestcdn1.868863.xyz
+    port: 2087
+    password: e217360a-6cb3-43fe-bf25-7f925bafab87
+    sni: 17720960889960.206356.xyz
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /dmusicmuaawe
+      headers:
+        Host: 17720960885678.206356.xyz
+  - name: 05(TG:@tccjd)_1
+    type: trojan
+    server: bestcdn1.868863.xyz
+    port: 2087
+    password: e217360a-6cb3-43fe-bf25-7f925bafab87
+    sni: 17720960888284.168381.xyz
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /tianboephth
+      headers:
+        Host: 17720960888713.168381.xyz
+  - name: 06(TG:@tccjd)_1
+    type: trojan
+    server: bestcdn2.868863.xyz
+    port: 2083
+    password: e217360a-6cb3-43fe-bf25-7f925bafab87
+    sni: 17720960882207.206352.xyz
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /agraeabtegrrh
+      headers:
+        Host: 17720960884915.206352.xyz
+  - name: 07(TG:@tccjd)_2
+    type: trojan
+    server: bestcdn2.868863.xyz
+    port: 2087
+    password: e217360a-6cb3-43fe-bf25-7f925bafab87
+    sni: 17720960887459.206353.xyz
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /agrbniuh
+      headers:
+        Host: 17720960883304.206353.xyz
+  - name: 08(TG:@tccjd)_2
+    type: trojan
+    server: bestcdn2.868863.xyz
+    port: 2096
+    password: e217360a-6cb3-43fe-bf25-7f925bafab87
+    sni: 17720960889328.206355.xyz
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /videomuaawe
+      headers:
+        Host: 17720960888476.206355.xyz
+  - name: 09(TG:@tccjd)_1
+    type: trojan
+    server: bestcdn2.868863.xyz
+    port: 2096
+    password: e217360a-6cb3-43fe-bf25-7f925bafab87
+    sni: 17720960883779.206356.xyz
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /dmusicmuaawe
+      headers:
+        Host: 17720960887364.206356.xyz
+  - name: 10(TG:@tccjd)_1
+    type: trojan
+    server: bestcdn2.868863.xyz
+    port: 2096
+    password: e217360a-6cb3-43fe-bf25-7f925bafab87
+    sni: 17720960881727.168381.xyz
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /tianboephth
+      headers:
+        Host: 17720960884182.168381.xyz
+  - name: 11(TG:@tccjd)_1
+    type: trojan
+    server: bestcdn3.868863.xyz
+    port: 2087
+    password: e217360a-6cb3-43fe-bf25-7f925bafab87
+    sni: 17720960886956.206352.xyz
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /agraeabtegrrh
+      headers:
+        Host: 17720960881072.206352.xyz
+  - name: 12(TG:@tccjd)_1
+    type: trojan
+    server: bestcdn3.868863.xyz
+    port: 2083
+    password: e217360a-6cb3-43fe-bf25-7f925bafab87
+    sni: 17720960882134.206353.xyz
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /agrbniuh
+      headers:
+        Host: 17720960882021.206353.xyz
+  - name: 13(TG:@tccjd)_1
+    type: trojan
+    server: bestcdn3.868863.xyz
+    port: 2053
+    password: e217360a-6cb3-43fe-bf25-7f925bafab87
+    sni: 17720960882062.206355.xyz
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /videomuaawe
+      headers:
+        Host: 17720960884724.206355.xyz
+  - name: 14(TG:@tccjd)_1
+    type: trojan
+    server: bestcdn3.868863.xyz
+    port: 2053
+    password: e217360a-6cb3-43fe-bf25-7f925bafab87
+    sni: 17720960889507.206356.xyz
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /dmusicmuaawe
+      headers:
+        Host: 17720960886820.206356.xyz
+  - name: 15(TG:@tccjd)_1
+    type: trojan
+    server: bestcdn3.868863.xyz
+    port: 2053
+    password: e217360a-6cb3-43fe-bf25-7f925bafab87
+    sni: 17720960887400.168381.xyz
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /tianboephth
+      headers:
+        Host: 17720960883910.168381.xyz
+  - name: 16(TG:@tccjd)_1
+    type: trojan
+    server: bestcdn4.868863.xyz
+    port: 2096
+    password: e217360a-6cb3-43fe-bf25-7f925bafab87
+    sni: 17720960881131.206352.xyz
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /agraeabtegrrh
+      headers:
+        Host: 17720960883697.206352.xyz
+  - name: 17(TG:@tccjd)_1
+    type: trojan
+    server: bestcdn4.868863.xyz
+    port: 8443
+    password: e217360a-6cb3-43fe-bf25-7f925bafab87
+    sni: 17720960887037.206353.xyz
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /agrbniuh
+      headers:
+        Host: 17720960882677.206353.xyz
+  - name: 18(TG:@tccjd)_1
+    type: trojan
+    server: bestcdn4.868863.xyz
+    port: 2083
+    password: e217360a-6cb3-43fe-bf25-7f925bafab87
+    sni: 17720960882657.206355.xyz
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /videomuaawe
+      headers:
+        Host: 17720960884830.206355.xyz
+  - name: 19(TG:@tccjd)_1
+    type: trojan
+    server: bestcdn4.868863.xyz
+    port: 2083
+    password: e217360a-6cb3-43fe-bf25-7f925bafab87
+    sni: 17720960884823.206356.xyz
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /dmusicmuaawe
+      headers:
+        Host: 17720960889336.206356.xyz
+  - name: 20(TG:@tccjd)_1
+    type: trojan
+    server: bestcdn4.868863.xyz
+    port: 2083
+    password: e217360a-6cb3-43fe-bf25-7f925bafab87
+    sni: 17720960885375.168381.xyz
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /tianboephth
+      headers:
+        Host: 17720960884829.168381.xyz
+  - name: 美國
+    type: trojan
+    server: 172.66.44.230
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /tro8sFW1S91B6sZrM1?ed=2560
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+  - name: 🇭🇰 香港 | HKG
+    type: hysteria2
+    server: hkbgp.jjxcloud.xyz
+    port: 8443
+    password: cd7e0971-4b98-41fc-9ecb-1267a2b0e4f4
+    sni: hkbgp.jjxcloud.xyz
+    skip-cert-verify: false
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸 美国 | USA
-      - 🇭🇰 香港 | HKG
+      - 英国(TG:@tccjd)
+      - 美国(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - 英国(TG:@tccjd)_1
+      - 法国(TG:@tccjd)
+      - 英国(TG:@tccjd)_2
+      - 美国(TG:@tccjd)_2
+      - 美国(TG:@tccjd)_3
+      - 英国(TG:@tccjd)_3
+      - 美国(TG:@tccjd)_4
+      - 英国(TG:@tccjd)_4
+      - 英国(TG:@tccjd)_5
+      - 美国(TG:@tccjd)_5
+      - 英国(TG:@tccjd)_6
+      - 英国(TG:@tccjd)_7
+      - 英国(TG:@tccjd)_8
+      - 美国(TG:@tccjd)_6
+      - 美国(TG:@tccjd)_7
+      - 美国(TG:@tccjd)_8
+      - 英国(TG:@tccjd)_9
+      - 美国(TG:@tccjd)_9
+      - 法国(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_10
+      - 美国(TG:@tccjd)_11
+      - 美国(TG:@tccjd)_12
+      - 美国(TG:@tccjd)_13
+      - 英国(TG:@tccjd)_10
+      - 英国(TG:@tccjd)_11
+      - 英国(TG:@tccjd)_12
+      - 美国(TG:@tccjd)_14
+      - 英国(TG:@tccjd)_13
+      - 美国(TG:@tccjd)_15
+      - 英国(TG:@tccjd)_14
+      - 美国(TG:@tccjd)_16
+      - 美国(TG:@tccjd)_17
+      - 美国(TG:@tccjd)_18
+      - 英国(TG:@tccjd)_15
+      - 英国(TG:@tccjd)_16
+      - 英国(TG:@tccjd)_17
       - 01(TG:@tccjd)
-      - 02(TG:@tccjd)
       - 03(TG:@tccjd)
-      - 04(TG:@tccjd)
-      - 06(TG:@tccjd)
-      - 07(TG:@tccjd)
-      - 08(TG:@tccjd)
       - 01(TG:@tccjd)_1
+      - 02(TG:@tccjd)
       - 03(TG:@tccjd)_1
+      - 04(TG:@tccjd)
+      - 美国(TG:@tccjd)_19
+      - 美国(TG:@tccjd)_20
+      - 美国(TG:@tccjd)_21
+      - 美国(TG:@tccjd)_22
+      - 🇭🇰 香港 | HKG 36
+      - 🇭🇰 香港 | HKG 35
+      - 🇺🇸 美国 | USA
       - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_2
       - 04(TG:@tccjd)_1
+      - 07(TG:@tccjd)
+      - 08(TG:@tccjd)
       - 01(TG:@tccjd)_3
-      - 01(TG:@tccjd)_4
       - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_2
+      - 03(TG:@tccjd)_2
+      - 01(TG:@tccjd)_4
+      - 美国(TG:@tccjd)_23
+      - 美国(TG:@tccjd)_24
+      - 美国(TG:@tccjd)_25
+      - 美国(TG:@tccjd)_26
+      - 美国(TG:@tccjd)_27
+      - 德国(TG:@tccjd)
+      - 美国(TG:@tccjd)_28
+      - 美国(TG:@tccjd)_29
+      - 美国(TG:@tccjd)_30
+      - 美国(TG:@tccjd)_31
+      - 美国(TG:@tccjd)_32
+      - 美国(TG:@tccjd)_33
       - 01(TG:@tccjd)_5
       - 02(TG:@tccjd)_3
-      - 03(TG:@tccjd)_4
-      - 04(TG:@tccjd)_3
+      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_2
       - 05(TG:@tccjd)
-      - 06(TG:@tccjd)_1
+      - 06(TG:@tccjd)
       - 07(TG:@tccjd)_1
       - 08(TG:@tccjd)_1
       - 09(TG:@tccjd)
@@ -4103,258 +1859,6 @@ proxy-groups:
       - 30(TG:@tccjd)
       - 31(TG:@tccjd)
       - 32(TG:@tccjd)
-      - 33(TG:@tccjd)
-      - 34(TG:@tccjd)
-      - 36(TG:@tccjd)
-      - 35(TG:@tccjd)
-      - 38(TG:@tccjd)
-      - 39(TG:@tccjd)
-      - 40(TG:@tccjd)
-      - 41(TG:@tccjd)
-      - 42(TG:@tccjd)
-      - 43(TG:@tccjd)
-      - 44(TG:@tccjd)
-      - 45(TG:@tccjd)
-      - 46(TG:@tccjd)
-      - 47(TG:@tccjd)
-      - 48(TG:@tccjd)
-      - 49(TG:@tccjd)
-      - 50(TG:@tccjd)
-      - 51(TG:@tccjd)
-      - 52(TG:@tccjd)
-      - 53(TG:@tccjd)
-      - 54(TG:@tccjd)
-      - 55(TG:@tccjd)
-      - 56(TG:@tccjd)
-      - 57(TG:@tccjd)
-      - 58(TG:@tccjd)
-      - 59(TG:@tccjd)
-      - 60(TG:@tccjd)
-      - 61(TG:@tccjd)
-      - 62(TG:@tccjd)
-      - 63(TG:@tccjd)
-      - 64(TG:@tccjd)
-      - 65(TG:@tccjd)
-      - 66(TG:@tccjd)
-      - 67(TG:@tccjd)
-      - 68(TG:@tccjd)
-      - 69(TG:@tccjd)
-      - 70(TG:@tccjd)
-      - 71(TG:@tccjd)
-      - 72(TG:@tccjd)
-      - 73(TG:@tccjd)
-      - 74(TG:@tccjd)
-      - 75(TG:@tccjd)
-      - 76(TG:@tccjd)
-      - 75(TG:@tccjd)_1
-      - 30(TG:@tccjd)_1
-      - 87(TG:@tccjd)
-      - 63(TG:@tccjd)_1
-      - 81(TG:@tccjd)
-      - 84(TG:@tccjd)
-      - 47(TG:@tccjd)_1
-      - 60(TG:@tccjd)_1
-      - 33(TG:@tccjd)_1
-      - 45(TG:@tccjd)_1
-      - 102(TG:@tccjd)
-      - 69(TG:@tccjd)_1
-      - 89(TG:@tccjd)
-      - 64(TG:@tccjd)_1
-      - 27(TG:@tccjd)_1
-      - 50(TG:@tccjd)_1
-      - 93(TG:@tccjd)
-      - 88(TG:@tccjd)
-      - 103(TG:@tccjd)
-      - 90(TG:@tccjd)
-      - 52(TG:@tccjd)_1
-      - 99(TG:@tccjd)
-      - 106(TG:@tccjd)
-      - 72(TG:@tccjd)_1
-      - 71(TG:@tccjd)_1
-      - 96(TG:@tccjd)
-      - 110(TG:@tccjd)
-      - 91(TG:@tccjd)
-      - 42(TG:@tccjd)_1
-      - 51(TG:@tccjd)_1
-      - 52(TG:@tccjd)_2
-      - 44(TG:@tccjd)_1
-      - 97(TG:@tccjd)
-      - 68(TG:@tccjd)_1
-      - 79(TG:@tccjd)
-      - 65(TG:@tccjd)_1
-      - 38(TG:@tccjd)_1
-      - 37(TG:@tccjd)
-      - 95(TG:@tccjd)
-      - 83(TG:@tccjd)
-      - 107(TG:@tccjd)
-      - 80(TG:@tccjd)
-      - 101(TG:@tccjd)
-      - 94(TG:@tccjd)
-      - 100(TG:@tccjd)
-      - 105(TG:@tccjd)
-      - 78(TG:@tccjd)
-      - 70(TG:@tccjd)_1
-      - 104(TG:@tccjd)
-      - 111(TG:@tccjd)
-      - 108(TG:@tccjd)
-      - 92(TG:@tccjd)
-      - 98(TG:@tccjd)
-      - 36(TG:@tccjd)_1
-      - 61(TG:@tccjd)_1
-      - 67(TG:@tccjd)_1
-      - 76(TG:@tccjd)_1
-      - 40(TG:@tccjd)_1
-      - 48(TG:@tccjd)_1
-      - 39(TG:@tccjd)_1
-      - 43(TG:@tccjd)_1
-      - 56(TG:@tccjd)_1
-      - 49(TG:@tccjd)_1
-      - 26(TG:@tccjd)_1
-      - 86(TG:@tccjd)
-      - 41(TG:@tccjd)_1
-      - 74(TG:@tccjd)_1
-      - 73(TG:@tccjd)_1
-      - 82(TG:@tccjd)
-      - 28(TG:@tccjd)_1
-      - 32(TG:@tccjd)_1
-      - 85(TG:@tccjd)
-      - 77(TG:@tccjd)
-      - 29(TG:@tccjd)_1
-      - 31(TG:@tccjd)_1
-      - 25(TG:@tccjd)_1
-      - 26(TG:@tccjd)_2
-      - 20(TG:@tccjd)_1
-      - 21(TG:@tccjd)_1
-      - 22(TG:@tccjd)_1
-      - 19(TG:@tccjd)_1
-      - 18(TG:@tccjd)_1
-      - 17(TG:@tccjd)_1
-      - 14(TG:@tccjd)_1
-      - 16(TG:@tccjd)_1
-      - 13(TG:@tccjd)_1
-      - 12(TG:@tccjd)_1
-      - 11(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
-      - 09(TG:@tccjd)_1
-      - 08(TG:@tccjd)_2
-      - 07(TG:@tccjd)_2
-      - 06(TG:@tccjd)_2
-      - 05(TG:@tccjd)_1
-      - 04(TG:@tccjd)_4
-      - 03(TG:@tccjd)_5
-      - 02(TG:@tccjd)_4
-      - 01(TG:@tccjd)_6
-      - 01(TG:@tccjd)_7
-      - 01(TG:@tccjd)_8
-      - 02(TG:@tccjd)_5
-      - 03(TG:@tccjd)_6
-      - 04(TG:@tccjd)_5
-      - 05(TG:@tccjd)_2
-      - 06(TG:@tccjd)_3
-      - 07(TG:@tccjd)_3
-      - 08(TG:@tccjd)_3
-      - 09(TG:@tccjd)_2
-      - 10(TG:@tccjd)_2
-      - 11(TG:@tccjd)_2
-      - 12(TG:@tccjd)_2
-      - 13(TG:@tccjd)_2
-      - 14(TG:@tccjd)_2
-      - 15(TG:@tccjd)_1
-      - 16(TG:@tccjd)_2
-      - 17(TG:@tccjd)_2
-      - 18(TG:@tccjd)_2
-      - 19(TG:@tccjd)_2
-      - 20(TG:@tccjd)_2
-      - 美国(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_3
-      - 美国(TG:@tccjd)_4
-      - 德国(TG:@tccjd)
-      - 美国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_6
-      - 美国(TG:@tccjd)_7
-      - 美国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_9
-      - 美国(TG:@tccjd)_10
-      - 美国(TG:@tccjd)_11
-      - 美国(TG:@tccjd)_12
-      - 美国(TG:@tccjd)_13
-      - 美国(TG:@tccjd)_14
-      - 英国(TG:@tccjd)
-      - 美国(TG:@tccjd)_15
-      - 美国(TG:@tccjd)_16
-      - 英国(TG:@tccjd)_1
-      - 法国(TG:@tccjd)
-      - 英国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_17
-      - 美国(TG:@tccjd)_18
-      - 英国(TG:@tccjd)_3
-      - 美国(TG:@tccjd)_19
-      - 英国(TG:@tccjd)_4
-      - 英国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_20
-      - 英国(TG:@tccjd)_6
-      - 英国(TG:@tccjd)_7
-      - 英国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_21
-      - 美国(TG:@tccjd)_22
-      - 美国(TG:@tccjd)_23
-      - 英国(TG:@tccjd)_9
-      - 美国(TG:@tccjd)_24
-      - 法国(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_25
-      - 美国(TG:@tccjd)_26
-      - 美国(TG:@tccjd)_27
-      - 美国(TG:@tccjd)_28
-      - 英国(TG:@tccjd)_10
-      - 英国(TG:@tccjd)_11
-      - 英国(TG:@tccjd)_12
-      - 美国(TG:@tccjd)_29
-      - 英国(TG:@tccjd)_13
-      - 美国(TG:@tccjd)_30
-      - 英国(TG:@tccjd)_14
-      - 美国(TG:@tccjd)_31
-      - 美国(TG:@tccjd)_32
-      - 美国(TG:@tccjd)_33
-      - 英国(TG:@tccjd)_15
-      - 英国(TG:@tccjd)_16
-      - 英国(TG:@tccjd)_17
-      - 🇭🇰 香港 | HKG 36
-      - 🇭🇰 香港 | HKG 35
-      - 美國
-      - 01(TG:@tccjd)_9
-      - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_7
-      - 04(TG:@tccjd)_6
-      - 05(TG:@tccjd)_3
-      - 06(TG:@tccjd)_4
-      - 07(TG:@tccjd)_4
-      - 08(TG:@tccjd)_4
-      - 09(TG:@tccjd)_3
-      - 10(TG:@tccjd)_3
-      - 11(TG:@tccjd)_3
-      - 12(TG:@tccjd)_3
-      - 13(TG:@tccjd)_3
-      - 14(TG:@tccjd)_3
-      - 15(TG:@tccjd)_2
-      - 16(TG:@tccjd)_3
-      - 17(TG:@tccjd)_3
-      - 18(TG:@tccjd)_3
-      - 19(TG:@tccjd)_3
-      - 20(TG:@tccjd)_3
-      - 21(TG:@tccjd)_2
-      - 22(TG:@tccjd)_2
-      - 23(TG:@tccjd)_1
-      - 24(TG:@tccjd)_1
-      - 25(TG:@tccjd)_2
-      - 26(TG:@tccjd)_3
-      - 27(TG:@tccjd)_2
-      - 28(TG:@tccjd)_2
-      - 29(TG:@tccjd)_2
-      - 30(TG:@tccjd)_2
-      - 31(TG:@tccjd)_2
-      - 32(TG:@tccjd)_2
       - 🇫🇷FR_2 | ⬇️ 1.0MB/s
       - 🇫🇷FR_3 | ⬇️ 1.8MB/s
       - 🇺🇸_US_美国_3
@@ -4390,35 +1894,111 @@ proxy-groups:
       - 🇦🇲AM_1 | ⬇️ 1.3MB/s
       - 🇫🇷FR_2 | ⬇️ 1.0MB/s_2
       - 🇳🇱 荷兰 03_1
+      - 03(TG:@tccjd)_4
+      - 01(TG:@tccjd)_6
+      - 02(TG:@tccjd)_4
+      - 03(TG:@tccjd)_5
+      - 04(TG:@tccjd)_3
+      - 05(TG:@tccjd)_1
+      - 06(TG:@tccjd)_1
+      - 07(TG:@tccjd)_2
+      - 08(TG:@tccjd)_2
+      - 09(TG:@tccjd)_1
+      - 10(TG:@tccjd)_1
+      - 11(TG:@tccjd)_1
+      - 12(TG:@tccjd)_1
+      - 13(TG:@tccjd)_1
+      - 14(TG:@tccjd)_1
+      - 15(TG:@tccjd)_1
+      - 16(TG:@tccjd)_1
+      - 17(TG:@tccjd)_1
+      - 18(TG:@tccjd)_1
+      - 19(TG:@tccjd)_1
+      - 20(TG:@tccjd)_1
+      - 美國
+      - 🇭🇰 香港 | HKG
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - 🇺🇸 美国 | USA
-      - 🇭🇰 香港 | HKG
+      - 英国(TG:@tccjd)
+      - 美国(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - 英国(TG:@tccjd)_1
+      - 法国(TG:@tccjd)
+      - 英国(TG:@tccjd)_2
+      - 美国(TG:@tccjd)_2
+      - 美国(TG:@tccjd)_3
+      - 英国(TG:@tccjd)_3
+      - 美国(TG:@tccjd)_4
+      - 英国(TG:@tccjd)_4
+      - 英国(TG:@tccjd)_5
+      - 美国(TG:@tccjd)_5
+      - 英国(TG:@tccjd)_6
+      - 英国(TG:@tccjd)_7
+      - 英国(TG:@tccjd)_8
+      - 美国(TG:@tccjd)_6
+      - 美国(TG:@tccjd)_7
+      - 美国(TG:@tccjd)_8
+      - 英国(TG:@tccjd)_9
+      - 美国(TG:@tccjd)_9
+      - 法国(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_10
+      - 美国(TG:@tccjd)_11
+      - 美国(TG:@tccjd)_12
+      - 美国(TG:@tccjd)_13
+      - 英国(TG:@tccjd)_10
+      - 英国(TG:@tccjd)_11
+      - 英国(TG:@tccjd)_12
+      - 美国(TG:@tccjd)_14
+      - 英国(TG:@tccjd)_13
+      - 美国(TG:@tccjd)_15
+      - 英国(TG:@tccjd)_14
+      - 美国(TG:@tccjd)_16
+      - 美国(TG:@tccjd)_17
+      - 美国(TG:@tccjd)_18
+      - 英国(TG:@tccjd)_15
+      - 英国(TG:@tccjd)_16
+      - 英国(TG:@tccjd)_17
       - 01(TG:@tccjd)
-      - 02(TG:@tccjd)
       - 03(TG:@tccjd)
-      - 04(TG:@tccjd)
-      - 06(TG:@tccjd)
-      - 07(TG:@tccjd)
-      - 08(TG:@tccjd)
       - 01(TG:@tccjd)_1
+      - 02(TG:@tccjd)
       - 03(TG:@tccjd)_1
+      - 04(TG:@tccjd)
+      - 美国(TG:@tccjd)_19
+      - 美国(TG:@tccjd)_20
+      - 美国(TG:@tccjd)_21
+      - 美国(TG:@tccjd)_22
+      - 🇭🇰 香港 | HKG 36
+      - 🇭🇰 香港 | HKG 35
+      - 🇺🇸 美国 | USA
       - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_2
       - 04(TG:@tccjd)_1
+      - 07(TG:@tccjd)
+      - 08(TG:@tccjd)
       - 01(TG:@tccjd)_3
-      - 01(TG:@tccjd)_4
       - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_2
+      - 03(TG:@tccjd)_2
+      - 01(TG:@tccjd)_4
+      - 美国(TG:@tccjd)_23
+      - 美国(TG:@tccjd)_24
+      - 美国(TG:@tccjd)_25
+      - 美国(TG:@tccjd)_26
+      - 美国(TG:@tccjd)_27
+      - 德国(TG:@tccjd)
+      - 美国(TG:@tccjd)_28
+      - 美国(TG:@tccjd)_29
+      - 美国(TG:@tccjd)_30
+      - 美国(TG:@tccjd)_31
+      - 美国(TG:@tccjd)_32
+      - 美国(TG:@tccjd)_33
       - 01(TG:@tccjd)_5
       - 02(TG:@tccjd)_3
-      - 03(TG:@tccjd)_4
-      - 04(TG:@tccjd)_3
+      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_2
       - 05(TG:@tccjd)
-      - 06(TG:@tccjd)_1
+      - 06(TG:@tccjd)
       - 07(TG:@tccjd)_1
       - 08(TG:@tccjd)_1
       - 09(TG:@tccjd)
@@ -4445,258 +2025,6 @@ proxy-groups:
       - 30(TG:@tccjd)
       - 31(TG:@tccjd)
       - 32(TG:@tccjd)
-      - 33(TG:@tccjd)
-      - 34(TG:@tccjd)
-      - 36(TG:@tccjd)
-      - 35(TG:@tccjd)
-      - 38(TG:@tccjd)
-      - 39(TG:@tccjd)
-      - 40(TG:@tccjd)
-      - 41(TG:@tccjd)
-      - 42(TG:@tccjd)
-      - 43(TG:@tccjd)
-      - 44(TG:@tccjd)
-      - 45(TG:@tccjd)
-      - 46(TG:@tccjd)
-      - 47(TG:@tccjd)
-      - 48(TG:@tccjd)
-      - 49(TG:@tccjd)
-      - 50(TG:@tccjd)
-      - 51(TG:@tccjd)
-      - 52(TG:@tccjd)
-      - 53(TG:@tccjd)
-      - 54(TG:@tccjd)
-      - 55(TG:@tccjd)
-      - 56(TG:@tccjd)
-      - 57(TG:@tccjd)
-      - 58(TG:@tccjd)
-      - 59(TG:@tccjd)
-      - 60(TG:@tccjd)
-      - 61(TG:@tccjd)
-      - 62(TG:@tccjd)
-      - 63(TG:@tccjd)
-      - 64(TG:@tccjd)
-      - 65(TG:@tccjd)
-      - 66(TG:@tccjd)
-      - 67(TG:@tccjd)
-      - 68(TG:@tccjd)
-      - 69(TG:@tccjd)
-      - 70(TG:@tccjd)
-      - 71(TG:@tccjd)
-      - 72(TG:@tccjd)
-      - 73(TG:@tccjd)
-      - 74(TG:@tccjd)
-      - 75(TG:@tccjd)
-      - 76(TG:@tccjd)
-      - 75(TG:@tccjd)_1
-      - 30(TG:@tccjd)_1
-      - 87(TG:@tccjd)
-      - 63(TG:@tccjd)_1
-      - 81(TG:@tccjd)
-      - 84(TG:@tccjd)
-      - 47(TG:@tccjd)_1
-      - 60(TG:@tccjd)_1
-      - 33(TG:@tccjd)_1
-      - 45(TG:@tccjd)_1
-      - 102(TG:@tccjd)
-      - 69(TG:@tccjd)_1
-      - 89(TG:@tccjd)
-      - 64(TG:@tccjd)_1
-      - 27(TG:@tccjd)_1
-      - 50(TG:@tccjd)_1
-      - 93(TG:@tccjd)
-      - 88(TG:@tccjd)
-      - 103(TG:@tccjd)
-      - 90(TG:@tccjd)
-      - 52(TG:@tccjd)_1
-      - 99(TG:@tccjd)
-      - 106(TG:@tccjd)
-      - 72(TG:@tccjd)_1
-      - 71(TG:@tccjd)_1
-      - 96(TG:@tccjd)
-      - 110(TG:@tccjd)
-      - 91(TG:@tccjd)
-      - 42(TG:@tccjd)_1
-      - 51(TG:@tccjd)_1
-      - 52(TG:@tccjd)_2
-      - 44(TG:@tccjd)_1
-      - 97(TG:@tccjd)
-      - 68(TG:@tccjd)_1
-      - 79(TG:@tccjd)
-      - 65(TG:@tccjd)_1
-      - 38(TG:@tccjd)_1
-      - 37(TG:@tccjd)
-      - 95(TG:@tccjd)
-      - 83(TG:@tccjd)
-      - 107(TG:@tccjd)
-      - 80(TG:@tccjd)
-      - 101(TG:@tccjd)
-      - 94(TG:@tccjd)
-      - 100(TG:@tccjd)
-      - 105(TG:@tccjd)
-      - 78(TG:@tccjd)
-      - 70(TG:@tccjd)_1
-      - 104(TG:@tccjd)
-      - 111(TG:@tccjd)
-      - 108(TG:@tccjd)
-      - 92(TG:@tccjd)
-      - 98(TG:@tccjd)
-      - 36(TG:@tccjd)_1
-      - 61(TG:@tccjd)_1
-      - 67(TG:@tccjd)_1
-      - 76(TG:@tccjd)_1
-      - 40(TG:@tccjd)_1
-      - 48(TG:@tccjd)_1
-      - 39(TG:@tccjd)_1
-      - 43(TG:@tccjd)_1
-      - 56(TG:@tccjd)_1
-      - 49(TG:@tccjd)_1
-      - 26(TG:@tccjd)_1
-      - 86(TG:@tccjd)
-      - 41(TG:@tccjd)_1
-      - 74(TG:@tccjd)_1
-      - 73(TG:@tccjd)_1
-      - 82(TG:@tccjd)
-      - 28(TG:@tccjd)_1
-      - 32(TG:@tccjd)_1
-      - 85(TG:@tccjd)
-      - 77(TG:@tccjd)
-      - 29(TG:@tccjd)_1
-      - 31(TG:@tccjd)_1
-      - 25(TG:@tccjd)_1
-      - 26(TG:@tccjd)_2
-      - 20(TG:@tccjd)_1
-      - 21(TG:@tccjd)_1
-      - 22(TG:@tccjd)_1
-      - 19(TG:@tccjd)_1
-      - 18(TG:@tccjd)_1
-      - 17(TG:@tccjd)_1
-      - 14(TG:@tccjd)_1
-      - 16(TG:@tccjd)_1
-      - 13(TG:@tccjd)_1
-      - 12(TG:@tccjd)_1
-      - 11(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
-      - 09(TG:@tccjd)_1
-      - 08(TG:@tccjd)_2
-      - 07(TG:@tccjd)_2
-      - 06(TG:@tccjd)_2
-      - 05(TG:@tccjd)_1
-      - 04(TG:@tccjd)_4
-      - 03(TG:@tccjd)_5
-      - 02(TG:@tccjd)_4
-      - 01(TG:@tccjd)_6
-      - 01(TG:@tccjd)_7
-      - 01(TG:@tccjd)_8
-      - 02(TG:@tccjd)_5
-      - 03(TG:@tccjd)_6
-      - 04(TG:@tccjd)_5
-      - 05(TG:@tccjd)_2
-      - 06(TG:@tccjd)_3
-      - 07(TG:@tccjd)_3
-      - 08(TG:@tccjd)_3
-      - 09(TG:@tccjd)_2
-      - 10(TG:@tccjd)_2
-      - 11(TG:@tccjd)_2
-      - 12(TG:@tccjd)_2
-      - 13(TG:@tccjd)_2
-      - 14(TG:@tccjd)_2
-      - 15(TG:@tccjd)_1
-      - 16(TG:@tccjd)_2
-      - 17(TG:@tccjd)_2
-      - 18(TG:@tccjd)_2
-      - 19(TG:@tccjd)_2
-      - 20(TG:@tccjd)_2
-      - 美国(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_3
-      - 美国(TG:@tccjd)_4
-      - 德国(TG:@tccjd)
-      - 美国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_6
-      - 美国(TG:@tccjd)_7
-      - 美国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_9
-      - 美国(TG:@tccjd)_10
-      - 美国(TG:@tccjd)_11
-      - 美国(TG:@tccjd)_12
-      - 美国(TG:@tccjd)_13
-      - 美国(TG:@tccjd)_14
-      - 英国(TG:@tccjd)
-      - 美国(TG:@tccjd)_15
-      - 美国(TG:@tccjd)_16
-      - 英国(TG:@tccjd)_1
-      - 法国(TG:@tccjd)
-      - 英国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_17
-      - 美国(TG:@tccjd)_18
-      - 英国(TG:@tccjd)_3
-      - 美国(TG:@tccjd)_19
-      - 英国(TG:@tccjd)_4
-      - 英国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_20
-      - 英国(TG:@tccjd)_6
-      - 英国(TG:@tccjd)_7
-      - 英国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_21
-      - 美国(TG:@tccjd)_22
-      - 美国(TG:@tccjd)_23
-      - 英国(TG:@tccjd)_9
-      - 美国(TG:@tccjd)_24
-      - 法国(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_25
-      - 美国(TG:@tccjd)_26
-      - 美国(TG:@tccjd)_27
-      - 美国(TG:@tccjd)_28
-      - 英国(TG:@tccjd)_10
-      - 英国(TG:@tccjd)_11
-      - 英国(TG:@tccjd)_12
-      - 美国(TG:@tccjd)_29
-      - 英国(TG:@tccjd)_13
-      - 美国(TG:@tccjd)_30
-      - 英国(TG:@tccjd)_14
-      - 美国(TG:@tccjd)_31
-      - 美国(TG:@tccjd)_32
-      - 美国(TG:@tccjd)_33
-      - 英国(TG:@tccjd)_15
-      - 英国(TG:@tccjd)_16
-      - 英国(TG:@tccjd)_17
-      - 🇭🇰 香港 | HKG 36
-      - 🇭🇰 香港 | HKG 35
-      - 美國
-      - 01(TG:@tccjd)_9
-      - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_7
-      - 04(TG:@tccjd)_6
-      - 05(TG:@tccjd)_3
-      - 06(TG:@tccjd)_4
-      - 07(TG:@tccjd)_4
-      - 08(TG:@tccjd)_4
-      - 09(TG:@tccjd)_3
-      - 10(TG:@tccjd)_3
-      - 11(TG:@tccjd)_3
-      - 12(TG:@tccjd)_3
-      - 13(TG:@tccjd)_3
-      - 14(TG:@tccjd)_3
-      - 15(TG:@tccjd)_2
-      - 16(TG:@tccjd)_3
-      - 17(TG:@tccjd)_3
-      - 18(TG:@tccjd)_3
-      - 19(TG:@tccjd)_3
-      - 20(TG:@tccjd)_3
-      - 21(TG:@tccjd)_2
-      - 22(TG:@tccjd)_2
-      - 23(TG:@tccjd)_1
-      - 24(TG:@tccjd)_1
-      - 25(TG:@tccjd)_2
-      - 26(TG:@tccjd)_3
-      - 27(TG:@tccjd)_2
-      - 28(TG:@tccjd)_2
-      - 29(TG:@tccjd)_2
-      - 30(TG:@tccjd)_2
-      - 31(TG:@tccjd)_2
-      - 32(TG:@tccjd)_2
       - 🇫🇷FR_2 | ⬇️ 1.0MB/s
       - 🇫🇷FR_3 | ⬇️ 1.8MB/s
       - 🇺🇸_US_美国_3
@@ -4732,6 +2060,29 @@ proxy-groups:
       - 🇦🇲AM_1 | ⬇️ 1.3MB/s
       - 🇫🇷FR_2 | ⬇️ 1.0MB/s_2
       - 🇳🇱 荷兰 03_1
+      - 03(TG:@tccjd)_4
+      - 01(TG:@tccjd)_6
+      - 02(TG:@tccjd)_4
+      - 03(TG:@tccjd)_5
+      - 04(TG:@tccjd)_3
+      - 05(TG:@tccjd)_1
+      - 06(TG:@tccjd)_1
+      - 07(TG:@tccjd)_2
+      - 08(TG:@tccjd)_2
+      - 09(TG:@tccjd)_1
+      - 10(TG:@tccjd)_1
+      - 11(TG:@tccjd)_1
+      - 12(TG:@tccjd)_1
+      - 13(TG:@tccjd)_1
+      - 14(TG:@tccjd)_1
+      - 15(TG:@tccjd)_1
+      - 16(TG:@tccjd)_1
+      - 17(TG:@tccjd)_1
+      - 18(TG:@tccjd)_1
+      - 19(TG:@tccjd)_1
+      - 20(TG:@tccjd)_1
+      - 美國
+      - 🇭🇰 香港 | HKG
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -4741,32 +2092,85 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 | USA
-      - 🇭🇰 香港 | HKG
+      - 英国(TG:@tccjd)
+      - 美国(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - 英国(TG:@tccjd)_1
+      - 法国(TG:@tccjd)
+      - 英国(TG:@tccjd)_2
+      - 美国(TG:@tccjd)_2
+      - 美国(TG:@tccjd)_3
+      - 英国(TG:@tccjd)_3
+      - 美国(TG:@tccjd)_4
+      - 英国(TG:@tccjd)_4
+      - 英国(TG:@tccjd)_5
+      - 美国(TG:@tccjd)_5
+      - 英国(TG:@tccjd)_6
+      - 英国(TG:@tccjd)_7
+      - 英国(TG:@tccjd)_8
+      - 美国(TG:@tccjd)_6
+      - 美国(TG:@tccjd)_7
+      - 美国(TG:@tccjd)_8
+      - 英国(TG:@tccjd)_9
+      - 美国(TG:@tccjd)_9
+      - 法国(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_10
+      - 美国(TG:@tccjd)_11
+      - 美国(TG:@tccjd)_12
+      - 美国(TG:@tccjd)_13
+      - 英国(TG:@tccjd)_10
+      - 英国(TG:@tccjd)_11
+      - 英国(TG:@tccjd)_12
+      - 美国(TG:@tccjd)_14
+      - 英国(TG:@tccjd)_13
+      - 美国(TG:@tccjd)_15
+      - 英国(TG:@tccjd)_14
+      - 美国(TG:@tccjd)_16
+      - 美国(TG:@tccjd)_17
+      - 美国(TG:@tccjd)_18
+      - 英国(TG:@tccjd)_15
+      - 英国(TG:@tccjd)_16
+      - 英国(TG:@tccjd)_17
       - 01(TG:@tccjd)
-      - 02(TG:@tccjd)
       - 03(TG:@tccjd)
-      - 04(TG:@tccjd)
-      - 06(TG:@tccjd)
-      - 07(TG:@tccjd)
-      - 08(TG:@tccjd)
       - 01(TG:@tccjd)_1
+      - 02(TG:@tccjd)
       - 03(TG:@tccjd)_1
+      - 04(TG:@tccjd)
+      - 美国(TG:@tccjd)_19
+      - 美国(TG:@tccjd)_20
+      - 美国(TG:@tccjd)_21
+      - 美国(TG:@tccjd)_22
+      - 🇭🇰 香港 | HKG 36
+      - 🇭🇰 香港 | HKG 35
+      - 🇺🇸 美国 | USA
       - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_2
       - 04(TG:@tccjd)_1
+      - 07(TG:@tccjd)
+      - 08(TG:@tccjd)
       - 01(TG:@tccjd)_3
-      - 01(TG:@tccjd)_4
       - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_2
+      - 03(TG:@tccjd)_2
+      - 01(TG:@tccjd)_4
+      - 美国(TG:@tccjd)_23
+      - 美国(TG:@tccjd)_24
+      - 美国(TG:@tccjd)_25
+      - 美国(TG:@tccjd)_26
+      - 美国(TG:@tccjd)_27
+      - 德国(TG:@tccjd)
+      - 美国(TG:@tccjd)_28
+      - 美国(TG:@tccjd)_29
+      - 美国(TG:@tccjd)_30
+      - 美国(TG:@tccjd)_31
+      - 美国(TG:@tccjd)_32
+      - 美国(TG:@tccjd)_33
       - 01(TG:@tccjd)_5
       - 02(TG:@tccjd)_3
-      - 03(TG:@tccjd)_4
-      - 04(TG:@tccjd)_3
+      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_2
       - 05(TG:@tccjd)
-      - 06(TG:@tccjd)_1
+      - 06(TG:@tccjd)
       - 07(TG:@tccjd)_1
       - 08(TG:@tccjd)_1
       - 09(TG:@tccjd)
@@ -4793,258 +2197,6 @@ proxy-groups:
       - 30(TG:@tccjd)
       - 31(TG:@tccjd)
       - 32(TG:@tccjd)
-      - 33(TG:@tccjd)
-      - 34(TG:@tccjd)
-      - 36(TG:@tccjd)
-      - 35(TG:@tccjd)
-      - 38(TG:@tccjd)
-      - 39(TG:@tccjd)
-      - 40(TG:@tccjd)
-      - 41(TG:@tccjd)
-      - 42(TG:@tccjd)
-      - 43(TG:@tccjd)
-      - 44(TG:@tccjd)
-      - 45(TG:@tccjd)
-      - 46(TG:@tccjd)
-      - 47(TG:@tccjd)
-      - 48(TG:@tccjd)
-      - 49(TG:@tccjd)
-      - 50(TG:@tccjd)
-      - 51(TG:@tccjd)
-      - 52(TG:@tccjd)
-      - 53(TG:@tccjd)
-      - 54(TG:@tccjd)
-      - 55(TG:@tccjd)
-      - 56(TG:@tccjd)
-      - 57(TG:@tccjd)
-      - 58(TG:@tccjd)
-      - 59(TG:@tccjd)
-      - 60(TG:@tccjd)
-      - 61(TG:@tccjd)
-      - 62(TG:@tccjd)
-      - 63(TG:@tccjd)
-      - 64(TG:@tccjd)
-      - 65(TG:@tccjd)
-      - 66(TG:@tccjd)
-      - 67(TG:@tccjd)
-      - 68(TG:@tccjd)
-      - 69(TG:@tccjd)
-      - 70(TG:@tccjd)
-      - 71(TG:@tccjd)
-      - 72(TG:@tccjd)
-      - 73(TG:@tccjd)
-      - 74(TG:@tccjd)
-      - 75(TG:@tccjd)
-      - 76(TG:@tccjd)
-      - 75(TG:@tccjd)_1
-      - 30(TG:@tccjd)_1
-      - 87(TG:@tccjd)
-      - 63(TG:@tccjd)_1
-      - 81(TG:@tccjd)
-      - 84(TG:@tccjd)
-      - 47(TG:@tccjd)_1
-      - 60(TG:@tccjd)_1
-      - 33(TG:@tccjd)_1
-      - 45(TG:@tccjd)_1
-      - 102(TG:@tccjd)
-      - 69(TG:@tccjd)_1
-      - 89(TG:@tccjd)
-      - 64(TG:@tccjd)_1
-      - 27(TG:@tccjd)_1
-      - 50(TG:@tccjd)_1
-      - 93(TG:@tccjd)
-      - 88(TG:@tccjd)
-      - 103(TG:@tccjd)
-      - 90(TG:@tccjd)
-      - 52(TG:@tccjd)_1
-      - 99(TG:@tccjd)
-      - 106(TG:@tccjd)
-      - 72(TG:@tccjd)_1
-      - 71(TG:@tccjd)_1
-      - 96(TG:@tccjd)
-      - 110(TG:@tccjd)
-      - 91(TG:@tccjd)
-      - 42(TG:@tccjd)_1
-      - 51(TG:@tccjd)_1
-      - 52(TG:@tccjd)_2
-      - 44(TG:@tccjd)_1
-      - 97(TG:@tccjd)
-      - 68(TG:@tccjd)_1
-      - 79(TG:@tccjd)
-      - 65(TG:@tccjd)_1
-      - 38(TG:@tccjd)_1
-      - 37(TG:@tccjd)
-      - 95(TG:@tccjd)
-      - 83(TG:@tccjd)
-      - 107(TG:@tccjd)
-      - 80(TG:@tccjd)
-      - 101(TG:@tccjd)
-      - 94(TG:@tccjd)
-      - 100(TG:@tccjd)
-      - 105(TG:@tccjd)
-      - 78(TG:@tccjd)
-      - 70(TG:@tccjd)_1
-      - 104(TG:@tccjd)
-      - 111(TG:@tccjd)
-      - 108(TG:@tccjd)
-      - 92(TG:@tccjd)
-      - 98(TG:@tccjd)
-      - 36(TG:@tccjd)_1
-      - 61(TG:@tccjd)_1
-      - 67(TG:@tccjd)_1
-      - 76(TG:@tccjd)_1
-      - 40(TG:@tccjd)_1
-      - 48(TG:@tccjd)_1
-      - 39(TG:@tccjd)_1
-      - 43(TG:@tccjd)_1
-      - 56(TG:@tccjd)_1
-      - 49(TG:@tccjd)_1
-      - 26(TG:@tccjd)_1
-      - 86(TG:@tccjd)
-      - 41(TG:@tccjd)_1
-      - 74(TG:@tccjd)_1
-      - 73(TG:@tccjd)_1
-      - 82(TG:@tccjd)
-      - 28(TG:@tccjd)_1
-      - 32(TG:@tccjd)_1
-      - 85(TG:@tccjd)
-      - 77(TG:@tccjd)
-      - 29(TG:@tccjd)_1
-      - 31(TG:@tccjd)_1
-      - 25(TG:@tccjd)_1
-      - 26(TG:@tccjd)_2
-      - 20(TG:@tccjd)_1
-      - 21(TG:@tccjd)_1
-      - 22(TG:@tccjd)_1
-      - 19(TG:@tccjd)_1
-      - 18(TG:@tccjd)_1
-      - 17(TG:@tccjd)_1
-      - 14(TG:@tccjd)_1
-      - 16(TG:@tccjd)_1
-      - 13(TG:@tccjd)_1
-      - 12(TG:@tccjd)_1
-      - 11(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
-      - 09(TG:@tccjd)_1
-      - 08(TG:@tccjd)_2
-      - 07(TG:@tccjd)_2
-      - 06(TG:@tccjd)_2
-      - 05(TG:@tccjd)_1
-      - 04(TG:@tccjd)_4
-      - 03(TG:@tccjd)_5
-      - 02(TG:@tccjd)_4
-      - 01(TG:@tccjd)_6
-      - 01(TG:@tccjd)_7
-      - 01(TG:@tccjd)_8
-      - 02(TG:@tccjd)_5
-      - 03(TG:@tccjd)_6
-      - 04(TG:@tccjd)_5
-      - 05(TG:@tccjd)_2
-      - 06(TG:@tccjd)_3
-      - 07(TG:@tccjd)_3
-      - 08(TG:@tccjd)_3
-      - 09(TG:@tccjd)_2
-      - 10(TG:@tccjd)_2
-      - 11(TG:@tccjd)_2
-      - 12(TG:@tccjd)_2
-      - 13(TG:@tccjd)_2
-      - 14(TG:@tccjd)_2
-      - 15(TG:@tccjd)_1
-      - 16(TG:@tccjd)_2
-      - 17(TG:@tccjd)_2
-      - 18(TG:@tccjd)_2
-      - 19(TG:@tccjd)_2
-      - 20(TG:@tccjd)_2
-      - 美国(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_3
-      - 美国(TG:@tccjd)_4
-      - 德国(TG:@tccjd)
-      - 美国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_6
-      - 美国(TG:@tccjd)_7
-      - 美国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_9
-      - 美国(TG:@tccjd)_10
-      - 美国(TG:@tccjd)_11
-      - 美国(TG:@tccjd)_12
-      - 美国(TG:@tccjd)_13
-      - 美国(TG:@tccjd)_14
-      - 英国(TG:@tccjd)
-      - 美国(TG:@tccjd)_15
-      - 美国(TG:@tccjd)_16
-      - 英国(TG:@tccjd)_1
-      - 法国(TG:@tccjd)
-      - 英国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_17
-      - 美国(TG:@tccjd)_18
-      - 英国(TG:@tccjd)_3
-      - 美国(TG:@tccjd)_19
-      - 英国(TG:@tccjd)_4
-      - 英国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_20
-      - 英国(TG:@tccjd)_6
-      - 英国(TG:@tccjd)_7
-      - 英国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_21
-      - 美国(TG:@tccjd)_22
-      - 美国(TG:@tccjd)_23
-      - 英国(TG:@tccjd)_9
-      - 美国(TG:@tccjd)_24
-      - 法国(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_25
-      - 美国(TG:@tccjd)_26
-      - 美国(TG:@tccjd)_27
-      - 美国(TG:@tccjd)_28
-      - 英国(TG:@tccjd)_10
-      - 英国(TG:@tccjd)_11
-      - 英国(TG:@tccjd)_12
-      - 美国(TG:@tccjd)_29
-      - 英国(TG:@tccjd)_13
-      - 美国(TG:@tccjd)_30
-      - 英国(TG:@tccjd)_14
-      - 美国(TG:@tccjd)_31
-      - 美国(TG:@tccjd)_32
-      - 美国(TG:@tccjd)_33
-      - 英国(TG:@tccjd)_15
-      - 英国(TG:@tccjd)_16
-      - 英国(TG:@tccjd)_17
-      - 🇭🇰 香港 | HKG 36
-      - 🇭🇰 香港 | HKG 35
-      - 美國
-      - 01(TG:@tccjd)_9
-      - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_7
-      - 04(TG:@tccjd)_6
-      - 05(TG:@tccjd)_3
-      - 06(TG:@tccjd)_4
-      - 07(TG:@tccjd)_4
-      - 08(TG:@tccjd)_4
-      - 09(TG:@tccjd)_3
-      - 10(TG:@tccjd)_3
-      - 11(TG:@tccjd)_3
-      - 12(TG:@tccjd)_3
-      - 13(TG:@tccjd)_3
-      - 14(TG:@tccjd)_3
-      - 15(TG:@tccjd)_2
-      - 16(TG:@tccjd)_3
-      - 17(TG:@tccjd)_3
-      - 18(TG:@tccjd)_3
-      - 19(TG:@tccjd)_3
-      - 20(TG:@tccjd)_3
-      - 21(TG:@tccjd)_2
-      - 22(TG:@tccjd)_2
-      - 23(TG:@tccjd)_1
-      - 24(TG:@tccjd)_1
-      - 25(TG:@tccjd)_2
-      - 26(TG:@tccjd)_3
-      - 27(TG:@tccjd)_2
-      - 28(TG:@tccjd)_2
-      - 29(TG:@tccjd)_2
-      - 30(TG:@tccjd)_2
-      - 31(TG:@tccjd)_2
-      - 32(TG:@tccjd)_2
       - 🇫🇷FR_2 | ⬇️ 1.0MB/s
       - 🇫🇷FR_3 | ⬇️ 1.8MB/s
       - 🇺🇸_US_美国_3
@@ -5080,37 +2232,113 @@ proxy-groups:
       - 🇦🇲AM_1 | ⬇️ 1.3MB/s
       - 🇫🇷FR_2 | ⬇️ 1.0MB/s_2
       - 🇳🇱 荷兰 03_1
+      - 03(TG:@tccjd)_4
+      - 01(TG:@tccjd)_6
+      - 02(TG:@tccjd)_4
+      - 03(TG:@tccjd)_5
+      - 04(TG:@tccjd)_3
+      - 05(TG:@tccjd)_1
+      - 06(TG:@tccjd)_1
+      - 07(TG:@tccjd)_2
+      - 08(TG:@tccjd)_2
+      - 09(TG:@tccjd)_1
+      - 10(TG:@tccjd)_1
+      - 11(TG:@tccjd)_1
+      - 12(TG:@tccjd)_1
+      - 13(TG:@tccjd)_1
+      - 14(TG:@tccjd)_1
+      - 15(TG:@tccjd)_1
+      - 16(TG:@tccjd)_1
+      - 17(TG:@tccjd)_1
+      - 18(TG:@tccjd)_1
+      - 19(TG:@tccjd)_1
+      - 20(TG:@tccjd)_1
+      - 美國
+      - 🇭🇰 香港 | HKG
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国 | USA
-      - 🇭🇰 香港 | HKG
+      - 英国(TG:@tccjd)
+      - 美国(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - 英国(TG:@tccjd)_1
+      - 法国(TG:@tccjd)
+      - 英国(TG:@tccjd)_2
+      - 美国(TG:@tccjd)_2
+      - 美国(TG:@tccjd)_3
+      - 英国(TG:@tccjd)_3
+      - 美国(TG:@tccjd)_4
+      - 英国(TG:@tccjd)_4
+      - 英国(TG:@tccjd)_5
+      - 美国(TG:@tccjd)_5
+      - 英国(TG:@tccjd)_6
+      - 英国(TG:@tccjd)_7
+      - 英国(TG:@tccjd)_8
+      - 美国(TG:@tccjd)_6
+      - 美国(TG:@tccjd)_7
+      - 美国(TG:@tccjd)_8
+      - 英国(TG:@tccjd)_9
+      - 美国(TG:@tccjd)_9
+      - 法国(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_10
+      - 美国(TG:@tccjd)_11
+      - 美国(TG:@tccjd)_12
+      - 美国(TG:@tccjd)_13
+      - 英国(TG:@tccjd)_10
+      - 英国(TG:@tccjd)_11
+      - 英国(TG:@tccjd)_12
+      - 美国(TG:@tccjd)_14
+      - 英国(TG:@tccjd)_13
+      - 美国(TG:@tccjd)_15
+      - 英国(TG:@tccjd)_14
+      - 美国(TG:@tccjd)_16
+      - 美国(TG:@tccjd)_17
+      - 美国(TG:@tccjd)_18
+      - 英国(TG:@tccjd)_15
+      - 英国(TG:@tccjd)_16
+      - 英国(TG:@tccjd)_17
       - 01(TG:@tccjd)
-      - 02(TG:@tccjd)
       - 03(TG:@tccjd)
-      - 04(TG:@tccjd)
-      - 06(TG:@tccjd)
-      - 07(TG:@tccjd)
-      - 08(TG:@tccjd)
       - 01(TG:@tccjd)_1
+      - 02(TG:@tccjd)
       - 03(TG:@tccjd)_1
+      - 04(TG:@tccjd)
+      - 美国(TG:@tccjd)_19
+      - 美国(TG:@tccjd)_20
+      - 美国(TG:@tccjd)_21
+      - 美国(TG:@tccjd)_22
+      - 🇭🇰 香港 | HKG 36
+      - 🇭🇰 香港 | HKG 35
+      - 🇺🇸 美国 | USA
       - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_2
       - 04(TG:@tccjd)_1
+      - 07(TG:@tccjd)
+      - 08(TG:@tccjd)
       - 01(TG:@tccjd)_3
-      - 01(TG:@tccjd)_4
       - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_2
+      - 03(TG:@tccjd)_2
+      - 01(TG:@tccjd)_4
+      - 美国(TG:@tccjd)_23
+      - 美国(TG:@tccjd)_24
+      - 美国(TG:@tccjd)_25
+      - 美国(TG:@tccjd)_26
+      - 美国(TG:@tccjd)_27
+      - 德国(TG:@tccjd)
+      - 美国(TG:@tccjd)_28
+      - 美国(TG:@tccjd)_29
+      - 美国(TG:@tccjd)_30
+      - 美国(TG:@tccjd)_31
+      - 美国(TG:@tccjd)_32
+      - 美国(TG:@tccjd)_33
       - 01(TG:@tccjd)_5
       - 02(TG:@tccjd)_3
-      - 03(TG:@tccjd)_4
-      - 04(TG:@tccjd)_3
+      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_2
       - 05(TG:@tccjd)
-      - 06(TG:@tccjd)_1
+      - 06(TG:@tccjd)
       - 07(TG:@tccjd)_1
       - 08(TG:@tccjd)_1
       - 09(TG:@tccjd)
@@ -5137,258 +2365,6 @@ proxy-groups:
       - 30(TG:@tccjd)
       - 31(TG:@tccjd)
       - 32(TG:@tccjd)
-      - 33(TG:@tccjd)
-      - 34(TG:@tccjd)
-      - 36(TG:@tccjd)
-      - 35(TG:@tccjd)
-      - 38(TG:@tccjd)
-      - 39(TG:@tccjd)
-      - 40(TG:@tccjd)
-      - 41(TG:@tccjd)
-      - 42(TG:@tccjd)
-      - 43(TG:@tccjd)
-      - 44(TG:@tccjd)
-      - 45(TG:@tccjd)
-      - 46(TG:@tccjd)
-      - 47(TG:@tccjd)
-      - 48(TG:@tccjd)
-      - 49(TG:@tccjd)
-      - 50(TG:@tccjd)
-      - 51(TG:@tccjd)
-      - 52(TG:@tccjd)
-      - 53(TG:@tccjd)
-      - 54(TG:@tccjd)
-      - 55(TG:@tccjd)
-      - 56(TG:@tccjd)
-      - 57(TG:@tccjd)
-      - 58(TG:@tccjd)
-      - 59(TG:@tccjd)
-      - 60(TG:@tccjd)
-      - 61(TG:@tccjd)
-      - 62(TG:@tccjd)
-      - 63(TG:@tccjd)
-      - 64(TG:@tccjd)
-      - 65(TG:@tccjd)
-      - 66(TG:@tccjd)
-      - 67(TG:@tccjd)
-      - 68(TG:@tccjd)
-      - 69(TG:@tccjd)
-      - 70(TG:@tccjd)
-      - 71(TG:@tccjd)
-      - 72(TG:@tccjd)
-      - 73(TG:@tccjd)
-      - 74(TG:@tccjd)
-      - 75(TG:@tccjd)
-      - 76(TG:@tccjd)
-      - 75(TG:@tccjd)_1
-      - 30(TG:@tccjd)_1
-      - 87(TG:@tccjd)
-      - 63(TG:@tccjd)_1
-      - 81(TG:@tccjd)
-      - 84(TG:@tccjd)
-      - 47(TG:@tccjd)_1
-      - 60(TG:@tccjd)_1
-      - 33(TG:@tccjd)_1
-      - 45(TG:@tccjd)_1
-      - 102(TG:@tccjd)
-      - 69(TG:@tccjd)_1
-      - 89(TG:@tccjd)
-      - 64(TG:@tccjd)_1
-      - 27(TG:@tccjd)_1
-      - 50(TG:@tccjd)_1
-      - 93(TG:@tccjd)
-      - 88(TG:@tccjd)
-      - 103(TG:@tccjd)
-      - 90(TG:@tccjd)
-      - 52(TG:@tccjd)_1
-      - 99(TG:@tccjd)
-      - 106(TG:@tccjd)
-      - 72(TG:@tccjd)_1
-      - 71(TG:@tccjd)_1
-      - 96(TG:@tccjd)
-      - 110(TG:@tccjd)
-      - 91(TG:@tccjd)
-      - 42(TG:@tccjd)_1
-      - 51(TG:@tccjd)_1
-      - 52(TG:@tccjd)_2
-      - 44(TG:@tccjd)_1
-      - 97(TG:@tccjd)
-      - 68(TG:@tccjd)_1
-      - 79(TG:@tccjd)
-      - 65(TG:@tccjd)_1
-      - 38(TG:@tccjd)_1
-      - 37(TG:@tccjd)
-      - 95(TG:@tccjd)
-      - 83(TG:@tccjd)
-      - 107(TG:@tccjd)
-      - 80(TG:@tccjd)
-      - 101(TG:@tccjd)
-      - 94(TG:@tccjd)
-      - 100(TG:@tccjd)
-      - 105(TG:@tccjd)
-      - 78(TG:@tccjd)
-      - 70(TG:@tccjd)_1
-      - 104(TG:@tccjd)
-      - 111(TG:@tccjd)
-      - 108(TG:@tccjd)
-      - 92(TG:@tccjd)
-      - 98(TG:@tccjd)
-      - 36(TG:@tccjd)_1
-      - 61(TG:@tccjd)_1
-      - 67(TG:@tccjd)_1
-      - 76(TG:@tccjd)_1
-      - 40(TG:@tccjd)_1
-      - 48(TG:@tccjd)_1
-      - 39(TG:@tccjd)_1
-      - 43(TG:@tccjd)_1
-      - 56(TG:@tccjd)_1
-      - 49(TG:@tccjd)_1
-      - 26(TG:@tccjd)_1
-      - 86(TG:@tccjd)
-      - 41(TG:@tccjd)_1
-      - 74(TG:@tccjd)_1
-      - 73(TG:@tccjd)_1
-      - 82(TG:@tccjd)
-      - 28(TG:@tccjd)_1
-      - 32(TG:@tccjd)_1
-      - 85(TG:@tccjd)
-      - 77(TG:@tccjd)
-      - 29(TG:@tccjd)_1
-      - 31(TG:@tccjd)_1
-      - 25(TG:@tccjd)_1
-      - 26(TG:@tccjd)_2
-      - 20(TG:@tccjd)_1
-      - 21(TG:@tccjd)_1
-      - 22(TG:@tccjd)_1
-      - 19(TG:@tccjd)_1
-      - 18(TG:@tccjd)_1
-      - 17(TG:@tccjd)_1
-      - 14(TG:@tccjd)_1
-      - 16(TG:@tccjd)_1
-      - 13(TG:@tccjd)_1
-      - 12(TG:@tccjd)_1
-      - 11(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
-      - 09(TG:@tccjd)_1
-      - 08(TG:@tccjd)_2
-      - 07(TG:@tccjd)_2
-      - 06(TG:@tccjd)_2
-      - 05(TG:@tccjd)_1
-      - 04(TG:@tccjd)_4
-      - 03(TG:@tccjd)_5
-      - 02(TG:@tccjd)_4
-      - 01(TG:@tccjd)_6
-      - 01(TG:@tccjd)_7
-      - 01(TG:@tccjd)_8
-      - 02(TG:@tccjd)_5
-      - 03(TG:@tccjd)_6
-      - 04(TG:@tccjd)_5
-      - 05(TG:@tccjd)_2
-      - 06(TG:@tccjd)_3
-      - 07(TG:@tccjd)_3
-      - 08(TG:@tccjd)_3
-      - 09(TG:@tccjd)_2
-      - 10(TG:@tccjd)_2
-      - 11(TG:@tccjd)_2
-      - 12(TG:@tccjd)_2
-      - 13(TG:@tccjd)_2
-      - 14(TG:@tccjd)_2
-      - 15(TG:@tccjd)_1
-      - 16(TG:@tccjd)_2
-      - 17(TG:@tccjd)_2
-      - 18(TG:@tccjd)_2
-      - 19(TG:@tccjd)_2
-      - 20(TG:@tccjd)_2
-      - 美国(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_3
-      - 美国(TG:@tccjd)_4
-      - 德国(TG:@tccjd)
-      - 美国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_6
-      - 美国(TG:@tccjd)_7
-      - 美国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_9
-      - 美国(TG:@tccjd)_10
-      - 美国(TG:@tccjd)_11
-      - 美国(TG:@tccjd)_12
-      - 美国(TG:@tccjd)_13
-      - 美国(TG:@tccjd)_14
-      - 英国(TG:@tccjd)
-      - 美国(TG:@tccjd)_15
-      - 美国(TG:@tccjd)_16
-      - 英国(TG:@tccjd)_1
-      - 法国(TG:@tccjd)
-      - 英国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_17
-      - 美国(TG:@tccjd)_18
-      - 英国(TG:@tccjd)_3
-      - 美国(TG:@tccjd)_19
-      - 英国(TG:@tccjd)_4
-      - 英国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_20
-      - 英国(TG:@tccjd)_6
-      - 英国(TG:@tccjd)_7
-      - 英国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_21
-      - 美国(TG:@tccjd)_22
-      - 美国(TG:@tccjd)_23
-      - 英国(TG:@tccjd)_9
-      - 美国(TG:@tccjd)_24
-      - 法国(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_25
-      - 美国(TG:@tccjd)_26
-      - 美国(TG:@tccjd)_27
-      - 美国(TG:@tccjd)_28
-      - 英国(TG:@tccjd)_10
-      - 英国(TG:@tccjd)_11
-      - 英国(TG:@tccjd)_12
-      - 美国(TG:@tccjd)_29
-      - 英国(TG:@tccjd)_13
-      - 美国(TG:@tccjd)_30
-      - 英国(TG:@tccjd)_14
-      - 美国(TG:@tccjd)_31
-      - 美国(TG:@tccjd)_32
-      - 美国(TG:@tccjd)_33
-      - 英国(TG:@tccjd)_15
-      - 英国(TG:@tccjd)_16
-      - 英国(TG:@tccjd)_17
-      - 🇭🇰 香港 | HKG 36
-      - 🇭🇰 香港 | HKG 35
-      - 美國
-      - 01(TG:@tccjd)_9
-      - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_7
-      - 04(TG:@tccjd)_6
-      - 05(TG:@tccjd)_3
-      - 06(TG:@tccjd)_4
-      - 07(TG:@tccjd)_4
-      - 08(TG:@tccjd)_4
-      - 09(TG:@tccjd)_3
-      - 10(TG:@tccjd)_3
-      - 11(TG:@tccjd)_3
-      - 12(TG:@tccjd)_3
-      - 13(TG:@tccjd)_3
-      - 14(TG:@tccjd)_3
-      - 15(TG:@tccjd)_2
-      - 16(TG:@tccjd)_3
-      - 17(TG:@tccjd)_3
-      - 18(TG:@tccjd)_3
-      - 19(TG:@tccjd)_3
-      - 20(TG:@tccjd)_3
-      - 21(TG:@tccjd)_2
-      - 22(TG:@tccjd)_2
-      - 23(TG:@tccjd)_1
-      - 24(TG:@tccjd)_1
-      - 25(TG:@tccjd)_2
-      - 26(TG:@tccjd)_3
-      - 27(TG:@tccjd)_2
-      - 28(TG:@tccjd)_2
-      - 29(TG:@tccjd)_2
-      - 30(TG:@tccjd)_2
-      - 31(TG:@tccjd)_2
-      - 32(TG:@tccjd)_2
       - 🇫🇷FR_2 | ⬇️ 1.0MB/s
       - 🇫🇷FR_3 | ⬇️ 1.8MB/s
       - 🇺🇸_US_美国_3
@@ -5424,37 +2400,113 @@ proxy-groups:
       - 🇦🇲AM_1 | ⬇️ 1.3MB/s
       - 🇫🇷FR_2 | ⬇️ 1.0MB/s_2
       - 🇳🇱 荷兰 03_1
+      - 03(TG:@tccjd)_4
+      - 01(TG:@tccjd)_6
+      - 02(TG:@tccjd)_4
+      - 03(TG:@tccjd)_5
+      - 04(TG:@tccjd)_3
+      - 05(TG:@tccjd)_1
+      - 06(TG:@tccjd)_1
+      - 07(TG:@tccjd)_2
+      - 08(TG:@tccjd)_2
+      - 09(TG:@tccjd)_1
+      - 10(TG:@tccjd)_1
+      - 11(TG:@tccjd)_1
+      - 12(TG:@tccjd)_1
+      - 13(TG:@tccjd)_1
+      - 14(TG:@tccjd)_1
+      - 15(TG:@tccjd)_1
+      - 16(TG:@tccjd)_1
+      - 17(TG:@tccjd)_1
+      - 18(TG:@tccjd)_1
+      - 19(TG:@tccjd)_1
+      - 20(TG:@tccjd)_1
+      - 美國
+      - 🇭🇰 香港 | HKG
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸 美国 | USA
-      - 🇭🇰 香港 | HKG
+      - 英国(TG:@tccjd)
+      - 美国(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - 英国(TG:@tccjd)_1
+      - 法国(TG:@tccjd)
+      - 英国(TG:@tccjd)_2
+      - 美国(TG:@tccjd)_2
+      - 美国(TG:@tccjd)_3
+      - 英国(TG:@tccjd)_3
+      - 美国(TG:@tccjd)_4
+      - 英国(TG:@tccjd)_4
+      - 英国(TG:@tccjd)_5
+      - 美国(TG:@tccjd)_5
+      - 英国(TG:@tccjd)_6
+      - 英国(TG:@tccjd)_7
+      - 英国(TG:@tccjd)_8
+      - 美国(TG:@tccjd)_6
+      - 美国(TG:@tccjd)_7
+      - 美国(TG:@tccjd)_8
+      - 英国(TG:@tccjd)_9
+      - 美国(TG:@tccjd)_9
+      - 法国(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_10
+      - 美国(TG:@tccjd)_11
+      - 美国(TG:@tccjd)_12
+      - 美国(TG:@tccjd)_13
+      - 英国(TG:@tccjd)_10
+      - 英国(TG:@tccjd)_11
+      - 英国(TG:@tccjd)_12
+      - 美国(TG:@tccjd)_14
+      - 英国(TG:@tccjd)_13
+      - 美国(TG:@tccjd)_15
+      - 英国(TG:@tccjd)_14
+      - 美国(TG:@tccjd)_16
+      - 美国(TG:@tccjd)_17
+      - 美国(TG:@tccjd)_18
+      - 英国(TG:@tccjd)_15
+      - 英国(TG:@tccjd)_16
+      - 英国(TG:@tccjd)_17
       - 01(TG:@tccjd)
-      - 02(TG:@tccjd)
       - 03(TG:@tccjd)
-      - 04(TG:@tccjd)
-      - 06(TG:@tccjd)
-      - 07(TG:@tccjd)
-      - 08(TG:@tccjd)
       - 01(TG:@tccjd)_1
+      - 02(TG:@tccjd)
       - 03(TG:@tccjd)_1
+      - 04(TG:@tccjd)
+      - 美国(TG:@tccjd)_19
+      - 美国(TG:@tccjd)_20
+      - 美国(TG:@tccjd)_21
+      - 美国(TG:@tccjd)_22
+      - 🇭🇰 香港 | HKG 36
+      - 🇭🇰 香港 | HKG 35
+      - 🇺🇸 美国 | USA
       - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_2
       - 04(TG:@tccjd)_1
+      - 07(TG:@tccjd)
+      - 08(TG:@tccjd)
       - 01(TG:@tccjd)_3
-      - 01(TG:@tccjd)_4
       - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_2
+      - 03(TG:@tccjd)_2
+      - 01(TG:@tccjd)_4
+      - 美国(TG:@tccjd)_23
+      - 美国(TG:@tccjd)_24
+      - 美国(TG:@tccjd)_25
+      - 美国(TG:@tccjd)_26
+      - 美国(TG:@tccjd)_27
+      - 德国(TG:@tccjd)
+      - 美国(TG:@tccjd)_28
+      - 美国(TG:@tccjd)_29
+      - 美国(TG:@tccjd)_30
+      - 美国(TG:@tccjd)_31
+      - 美国(TG:@tccjd)_32
+      - 美国(TG:@tccjd)_33
       - 01(TG:@tccjd)_5
       - 02(TG:@tccjd)_3
-      - 03(TG:@tccjd)_4
-      - 04(TG:@tccjd)_3
+      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_2
       - 05(TG:@tccjd)
-      - 06(TG:@tccjd)_1
+      - 06(TG:@tccjd)
       - 07(TG:@tccjd)_1
       - 08(TG:@tccjd)_1
       - 09(TG:@tccjd)
@@ -5481,258 +2533,6 @@ proxy-groups:
       - 30(TG:@tccjd)
       - 31(TG:@tccjd)
       - 32(TG:@tccjd)
-      - 33(TG:@tccjd)
-      - 34(TG:@tccjd)
-      - 36(TG:@tccjd)
-      - 35(TG:@tccjd)
-      - 38(TG:@tccjd)
-      - 39(TG:@tccjd)
-      - 40(TG:@tccjd)
-      - 41(TG:@tccjd)
-      - 42(TG:@tccjd)
-      - 43(TG:@tccjd)
-      - 44(TG:@tccjd)
-      - 45(TG:@tccjd)
-      - 46(TG:@tccjd)
-      - 47(TG:@tccjd)
-      - 48(TG:@tccjd)
-      - 49(TG:@tccjd)
-      - 50(TG:@tccjd)
-      - 51(TG:@tccjd)
-      - 52(TG:@tccjd)
-      - 53(TG:@tccjd)
-      - 54(TG:@tccjd)
-      - 55(TG:@tccjd)
-      - 56(TG:@tccjd)
-      - 57(TG:@tccjd)
-      - 58(TG:@tccjd)
-      - 59(TG:@tccjd)
-      - 60(TG:@tccjd)
-      - 61(TG:@tccjd)
-      - 62(TG:@tccjd)
-      - 63(TG:@tccjd)
-      - 64(TG:@tccjd)
-      - 65(TG:@tccjd)
-      - 66(TG:@tccjd)
-      - 67(TG:@tccjd)
-      - 68(TG:@tccjd)
-      - 69(TG:@tccjd)
-      - 70(TG:@tccjd)
-      - 71(TG:@tccjd)
-      - 72(TG:@tccjd)
-      - 73(TG:@tccjd)
-      - 74(TG:@tccjd)
-      - 75(TG:@tccjd)
-      - 76(TG:@tccjd)
-      - 75(TG:@tccjd)_1
-      - 30(TG:@tccjd)_1
-      - 87(TG:@tccjd)
-      - 63(TG:@tccjd)_1
-      - 81(TG:@tccjd)
-      - 84(TG:@tccjd)
-      - 47(TG:@tccjd)_1
-      - 60(TG:@tccjd)_1
-      - 33(TG:@tccjd)_1
-      - 45(TG:@tccjd)_1
-      - 102(TG:@tccjd)
-      - 69(TG:@tccjd)_1
-      - 89(TG:@tccjd)
-      - 64(TG:@tccjd)_1
-      - 27(TG:@tccjd)_1
-      - 50(TG:@tccjd)_1
-      - 93(TG:@tccjd)
-      - 88(TG:@tccjd)
-      - 103(TG:@tccjd)
-      - 90(TG:@tccjd)
-      - 52(TG:@tccjd)_1
-      - 99(TG:@tccjd)
-      - 106(TG:@tccjd)
-      - 72(TG:@tccjd)_1
-      - 71(TG:@tccjd)_1
-      - 96(TG:@tccjd)
-      - 110(TG:@tccjd)
-      - 91(TG:@tccjd)
-      - 42(TG:@tccjd)_1
-      - 51(TG:@tccjd)_1
-      - 52(TG:@tccjd)_2
-      - 44(TG:@tccjd)_1
-      - 97(TG:@tccjd)
-      - 68(TG:@tccjd)_1
-      - 79(TG:@tccjd)
-      - 65(TG:@tccjd)_1
-      - 38(TG:@tccjd)_1
-      - 37(TG:@tccjd)
-      - 95(TG:@tccjd)
-      - 83(TG:@tccjd)
-      - 107(TG:@tccjd)
-      - 80(TG:@tccjd)
-      - 101(TG:@tccjd)
-      - 94(TG:@tccjd)
-      - 100(TG:@tccjd)
-      - 105(TG:@tccjd)
-      - 78(TG:@tccjd)
-      - 70(TG:@tccjd)_1
-      - 104(TG:@tccjd)
-      - 111(TG:@tccjd)
-      - 108(TG:@tccjd)
-      - 92(TG:@tccjd)
-      - 98(TG:@tccjd)
-      - 36(TG:@tccjd)_1
-      - 61(TG:@tccjd)_1
-      - 67(TG:@tccjd)_1
-      - 76(TG:@tccjd)_1
-      - 40(TG:@tccjd)_1
-      - 48(TG:@tccjd)_1
-      - 39(TG:@tccjd)_1
-      - 43(TG:@tccjd)_1
-      - 56(TG:@tccjd)_1
-      - 49(TG:@tccjd)_1
-      - 26(TG:@tccjd)_1
-      - 86(TG:@tccjd)
-      - 41(TG:@tccjd)_1
-      - 74(TG:@tccjd)_1
-      - 73(TG:@tccjd)_1
-      - 82(TG:@tccjd)
-      - 28(TG:@tccjd)_1
-      - 32(TG:@tccjd)_1
-      - 85(TG:@tccjd)
-      - 77(TG:@tccjd)
-      - 29(TG:@tccjd)_1
-      - 31(TG:@tccjd)_1
-      - 25(TG:@tccjd)_1
-      - 26(TG:@tccjd)_2
-      - 20(TG:@tccjd)_1
-      - 21(TG:@tccjd)_1
-      - 22(TG:@tccjd)_1
-      - 19(TG:@tccjd)_1
-      - 18(TG:@tccjd)_1
-      - 17(TG:@tccjd)_1
-      - 14(TG:@tccjd)_1
-      - 16(TG:@tccjd)_1
-      - 13(TG:@tccjd)_1
-      - 12(TG:@tccjd)_1
-      - 11(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
-      - 09(TG:@tccjd)_1
-      - 08(TG:@tccjd)_2
-      - 07(TG:@tccjd)_2
-      - 06(TG:@tccjd)_2
-      - 05(TG:@tccjd)_1
-      - 04(TG:@tccjd)_4
-      - 03(TG:@tccjd)_5
-      - 02(TG:@tccjd)_4
-      - 01(TG:@tccjd)_6
-      - 01(TG:@tccjd)_7
-      - 01(TG:@tccjd)_8
-      - 02(TG:@tccjd)_5
-      - 03(TG:@tccjd)_6
-      - 04(TG:@tccjd)_5
-      - 05(TG:@tccjd)_2
-      - 06(TG:@tccjd)_3
-      - 07(TG:@tccjd)_3
-      - 08(TG:@tccjd)_3
-      - 09(TG:@tccjd)_2
-      - 10(TG:@tccjd)_2
-      - 11(TG:@tccjd)_2
-      - 12(TG:@tccjd)_2
-      - 13(TG:@tccjd)_2
-      - 14(TG:@tccjd)_2
-      - 15(TG:@tccjd)_1
-      - 16(TG:@tccjd)_2
-      - 17(TG:@tccjd)_2
-      - 18(TG:@tccjd)_2
-      - 19(TG:@tccjd)_2
-      - 20(TG:@tccjd)_2
-      - 美国(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_3
-      - 美国(TG:@tccjd)_4
-      - 德国(TG:@tccjd)
-      - 美国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_6
-      - 美国(TG:@tccjd)_7
-      - 美国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_9
-      - 美国(TG:@tccjd)_10
-      - 美国(TG:@tccjd)_11
-      - 美国(TG:@tccjd)_12
-      - 美国(TG:@tccjd)_13
-      - 美国(TG:@tccjd)_14
-      - 英国(TG:@tccjd)
-      - 美国(TG:@tccjd)_15
-      - 美国(TG:@tccjd)_16
-      - 英国(TG:@tccjd)_1
-      - 法国(TG:@tccjd)
-      - 英国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_17
-      - 美国(TG:@tccjd)_18
-      - 英国(TG:@tccjd)_3
-      - 美国(TG:@tccjd)_19
-      - 英国(TG:@tccjd)_4
-      - 英国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_20
-      - 英国(TG:@tccjd)_6
-      - 英国(TG:@tccjd)_7
-      - 英国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_21
-      - 美国(TG:@tccjd)_22
-      - 美国(TG:@tccjd)_23
-      - 英国(TG:@tccjd)_9
-      - 美国(TG:@tccjd)_24
-      - 法国(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_25
-      - 美国(TG:@tccjd)_26
-      - 美国(TG:@tccjd)_27
-      - 美国(TG:@tccjd)_28
-      - 英国(TG:@tccjd)_10
-      - 英国(TG:@tccjd)_11
-      - 英国(TG:@tccjd)_12
-      - 美国(TG:@tccjd)_29
-      - 英国(TG:@tccjd)_13
-      - 美国(TG:@tccjd)_30
-      - 英国(TG:@tccjd)_14
-      - 美国(TG:@tccjd)_31
-      - 美国(TG:@tccjd)_32
-      - 美国(TG:@tccjd)_33
-      - 英国(TG:@tccjd)_15
-      - 英国(TG:@tccjd)_16
-      - 英国(TG:@tccjd)_17
-      - 🇭🇰 香港 | HKG 36
-      - 🇭🇰 香港 | HKG 35
-      - 美國
-      - 01(TG:@tccjd)_9
-      - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_7
-      - 04(TG:@tccjd)_6
-      - 05(TG:@tccjd)_3
-      - 06(TG:@tccjd)_4
-      - 07(TG:@tccjd)_4
-      - 08(TG:@tccjd)_4
-      - 09(TG:@tccjd)_3
-      - 10(TG:@tccjd)_3
-      - 11(TG:@tccjd)_3
-      - 12(TG:@tccjd)_3
-      - 13(TG:@tccjd)_3
-      - 14(TG:@tccjd)_3
-      - 15(TG:@tccjd)_2
-      - 16(TG:@tccjd)_3
-      - 17(TG:@tccjd)_3
-      - 18(TG:@tccjd)_3
-      - 19(TG:@tccjd)_3
-      - 20(TG:@tccjd)_3
-      - 21(TG:@tccjd)_2
-      - 22(TG:@tccjd)_2
-      - 23(TG:@tccjd)_1
-      - 24(TG:@tccjd)_1
-      - 25(TG:@tccjd)_2
-      - 26(TG:@tccjd)_3
-      - 27(TG:@tccjd)_2
-      - 28(TG:@tccjd)_2
-      - 29(TG:@tccjd)_2
-      - 30(TG:@tccjd)_2
-      - 31(TG:@tccjd)_2
-      - 32(TG:@tccjd)_2
       - 🇫🇷FR_2 | ⬇️ 1.0MB/s
       - 🇫🇷FR_3 | ⬇️ 1.8MB/s
       - 🇺🇸_US_美国_3
@@ -5768,37 +2568,113 @@ proxy-groups:
       - 🇦🇲AM_1 | ⬇️ 1.3MB/s
       - 🇫🇷FR_2 | ⬇️ 1.0MB/s_2
       - 🇳🇱 荷兰 03_1
+      - 03(TG:@tccjd)_4
+      - 01(TG:@tccjd)_6
+      - 02(TG:@tccjd)_4
+      - 03(TG:@tccjd)_5
+      - 04(TG:@tccjd)_3
+      - 05(TG:@tccjd)_1
+      - 06(TG:@tccjd)_1
+      - 07(TG:@tccjd)_2
+      - 08(TG:@tccjd)_2
+      - 09(TG:@tccjd)_1
+      - 10(TG:@tccjd)_1
+      - 11(TG:@tccjd)_1
+      - 12(TG:@tccjd)_1
+      - 13(TG:@tccjd)_1
+      - 14(TG:@tccjd)_1
+      - 15(TG:@tccjd)_1
+      - 16(TG:@tccjd)_1
+      - 17(TG:@tccjd)_1
+      - 18(TG:@tccjd)_1
+      - 19(TG:@tccjd)_1
+      - 20(TG:@tccjd)_1
+      - 美國
+      - 🇭🇰 香港 | HKG
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国 | USA
-      - 🇭🇰 香港 | HKG
+      - 英国(TG:@tccjd)
+      - 美国(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - 英国(TG:@tccjd)_1
+      - 法国(TG:@tccjd)
+      - 英国(TG:@tccjd)_2
+      - 美国(TG:@tccjd)_2
+      - 美国(TG:@tccjd)_3
+      - 英国(TG:@tccjd)_3
+      - 美国(TG:@tccjd)_4
+      - 英国(TG:@tccjd)_4
+      - 英国(TG:@tccjd)_5
+      - 美国(TG:@tccjd)_5
+      - 英国(TG:@tccjd)_6
+      - 英国(TG:@tccjd)_7
+      - 英国(TG:@tccjd)_8
+      - 美国(TG:@tccjd)_6
+      - 美国(TG:@tccjd)_7
+      - 美国(TG:@tccjd)_8
+      - 英国(TG:@tccjd)_9
+      - 美国(TG:@tccjd)_9
+      - 法国(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_10
+      - 美国(TG:@tccjd)_11
+      - 美国(TG:@tccjd)_12
+      - 美国(TG:@tccjd)_13
+      - 英国(TG:@tccjd)_10
+      - 英国(TG:@tccjd)_11
+      - 英国(TG:@tccjd)_12
+      - 美国(TG:@tccjd)_14
+      - 英国(TG:@tccjd)_13
+      - 美国(TG:@tccjd)_15
+      - 英国(TG:@tccjd)_14
+      - 美国(TG:@tccjd)_16
+      - 美国(TG:@tccjd)_17
+      - 美国(TG:@tccjd)_18
+      - 英国(TG:@tccjd)_15
+      - 英国(TG:@tccjd)_16
+      - 英国(TG:@tccjd)_17
       - 01(TG:@tccjd)
-      - 02(TG:@tccjd)
       - 03(TG:@tccjd)
-      - 04(TG:@tccjd)
-      - 06(TG:@tccjd)
-      - 07(TG:@tccjd)
-      - 08(TG:@tccjd)
       - 01(TG:@tccjd)_1
+      - 02(TG:@tccjd)
       - 03(TG:@tccjd)_1
+      - 04(TG:@tccjd)
+      - 美国(TG:@tccjd)_19
+      - 美国(TG:@tccjd)_20
+      - 美国(TG:@tccjd)_21
+      - 美国(TG:@tccjd)_22
+      - 🇭🇰 香港 | HKG 36
+      - 🇭🇰 香港 | HKG 35
+      - 🇺🇸 美国 | USA
       - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_2
       - 04(TG:@tccjd)_1
+      - 07(TG:@tccjd)
+      - 08(TG:@tccjd)
       - 01(TG:@tccjd)_3
-      - 01(TG:@tccjd)_4
       - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_2
+      - 03(TG:@tccjd)_2
+      - 01(TG:@tccjd)_4
+      - 美国(TG:@tccjd)_23
+      - 美国(TG:@tccjd)_24
+      - 美国(TG:@tccjd)_25
+      - 美国(TG:@tccjd)_26
+      - 美国(TG:@tccjd)_27
+      - 德国(TG:@tccjd)
+      - 美国(TG:@tccjd)_28
+      - 美国(TG:@tccjd)_29
+      - 美国(TG:@tccjd)_30
+      - 美国(TG:@tccjd)_31
+      - 美国(TG:@tccjd)_32
+      - 美国(TG:@tccjd)_33
       - 01(TG:@tccjd)_5
       - 02(TG:@tccjd)_3
-      - 03(TG:@tccjd)_4
-      - 04(TG:@tccjd)_3
+      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_2
       - 05(TG:@tccjd)
-      - 06(TG:@tccjd)_1
+      - 06(TG:@tccjd)
       - 07(TG:@tccjd)_1
       - 08(TG:@tccjd)_1
       - 09(TG:@tccjd)
@@ -5825,258 +2701,6 @@ proxy-groups:
       - 30(TG:@tccjd)
       - 31(TG:@tccjd)
       - 32(TG:@tccjd)
-      - 33(TG:@tccjd)
-      - 34(TG:@tccjd)
-      - 36(TG:@tccjd)
-      - 35(TG:@tccjd)
-      - 38(TG:@tccjd)
-      - 39(TG:@tccjd)
-      - 40(TG:@tccjd)
-      - 41(TG:@tccjd)
-      - 42(TG:@tccjd)
-      - 43(TG:@tccjd)
-      - 44(TG:@tccjd)
-      - 45(TG:@tccjd)
-      - 46(TG:@tccjd)
-      - 47(TG:@tccjd)
-      - 48(TG:@tccjd)
-      - 49(TG:@tccjd)
-      - 50(TG:@tccjd)
-      - 51(TG:@tccjd)
-      - 52(TG:@tccjd)
-      - 53(TG:@tccjd)
-      - 54(TG:@tccjd)
-      - 55(TG:@tccjd)
-      - 56(TG:@tccjd)
-      - 57(TG:@tccjd)
-      - 58(TG:@tccjd)
-      - 59(TG:@tccjd)
-      - 60(TG:@tccjd)
-      - 61(TG:@tccjd)
-      - 62(TG:@tccjd)
-      - 63(TG:@tccjd)
-      - 64(TG:@tccjd)
-      - 65(TG:@tccjd)
-      - 66(TG:@tccjd)
-      - 67(TG:@tccjd)
-      - 68(TG:@tccjd)
-      - 69(TG:@tccjd)
-      - 70(TG:@tccjd)
-      - 71(TG:@tccjd)
-      - 72(TG:@tccjd)
-      - 73(TG:@tccjd)
-      - 74(TG:@tccjd)
-      - 75(TG:@tccjd)
-      - 76(TG:@tccjd)
-      - 75(TG:@tccjd)_1
-      - 30(TG:@tccjd)_1
-      - 87(TG:@tccjd)
-      - 63(TG:@tccjd)_1
-      - 81(TG:@tccjd)
-      - 84(TG:@tccjd)
-      - 47(TG:@tccjd)_1
-      - 60(TG:@tccjd)_1
-      - 33(TG:@tccjd)_1
-      - 45(TG:@tccjd)_1
-      - 102(TG:@tccjd)
-      - 69(TG:@tccjd)_1
-      - 89(TG:@tccjd)
-      - 64(TG:@tccjd)_1
-      - 27(TG:@tccjd)_1
-      - 50(TG:@tccjd)_1
-      - 93(TG:@tccjd)
-      - 88(TG:@tccjd)
-      - 103(TG:@tccjd)
-      - 90(TG:@tccjd)
-      - 52(TG:@tccjd)_1
-      - 99(TG:@tccjd)
-      - 106(TG:@tccjd)
-      - 72(TG:@tccjd)_1
-      - 71(TG:@tccjd)_1
-      - 96(TG:@tccjd)
-      - 110(TG:@tccjd)
-      - 91(TG:@tccjd)
-      - 42(TG:@tccjd)_1
-      - 51(TG:@tccjd)_1
-      - 52(TG:@tccjd)_2
-      - 44(TG:@tccjd)_1
-      - 97(TG:@tccjd)
-      - 68(TG:@tccjd)_1
-      - 79(TG:@tccjd)
-      - 65(TG:@tccjd)_1
-      - 38(TG:@tccjd)_1
-      - 37(TG:@tccjd)
-      - 95(TG:@tccjd)
-      - 83(TG:@tccjd)
-      - 107(TG:@tccjd)
-      - 80(TG:@tccjd)
-      - 101(TG:@tccjd)
-      - 94(TG:@tccjd)
-      - 100(TG:@tccjd)
-      - 105(TG:@tccjd)
-      - 78(TG:@tccjd)
-      - 70(TG:@tccjd)_1
-      - 104(TG:@tccjd)
-      - 111(TG:@tccjd)
-      - 108(TG:@tccjd)
-      - 92(TG:@tccjd)
-      - 98(TG:@tccjd)
-      - 36(TG:@tccjd)_1
-      - 61(TG:@tccjd)_1
-      - 67(TG:@tccjd)_1
-      - 76(TG:@tccjd)_1
-      - 40(TG:@tccjd)_1
-      - 48(TG:@tccjd)_1
-      - 39(TG:@tccjd)_1
-      - 43(TG:@tccjd)_1
-      - 56(TG:@tccjd)_1
-      - 49(TG:@tccjd)_1
-      - 26(TG:@tccjd)_1
-      - 86(TG:@tccjd)
-      - 41(TG:@tccjd)_1
-      - 74(TG:@tccjd)_1
-      - 73(TG:@tccjd)_1
-      - 82(TG:@tccjd)
-      - 28(TG:@tccjd)_1
-      - 32(TG:@tccjd)_1
-      - 85(TG:@tccjd)
-      - 77(TG:@tccjd)
-      - 29(TG:@tccjd)_1
-      - 31(TG:@tccjd)_1
-      - 25(TG:@tccjd)_1
-      - 26(TG:@tccjd)_2
-      - 20(TG:@tccjd)_1
-      - 21(TG:@tccjd)_1
-      - 22(TG:@tccjd)_1
-      - 19(TG:@tccjd)_1
-      - 18(TG:@tccjd)_1
-      - 17(TG:@tccjd)_1
-      - 14(TG:@tccjd)_1
-      - 16(TG:@tccjd)_1
-      - 13(TG:@tccjd)_1
-      - 12(TG:@tccjd)_1
-      - 11(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
-      - 09(TG:@tccjd)_1
-      - 08(TG:@tccjd)_2
-      - 07(TG:@tccjd)_2
-      - 06(TG:@tccjd)_2
-      - 05(TG:@tccjd)_1
-      - 04(TG:@tccjd)_4
-      - 03(TG:@tccjd)_5
-      - 02(TG:@tccjd)_4
-      - 01(TG:@tccjd)_6
-      - 01(TG:@tccjd)_7
-      - 01(TG:@tccjd)_8
-      - 02(TG:@tccjd)_5
-      - 03(TG:@tccjd)_6
-      - 04(TG:@tccjd)_5
-      - 05(TG:@tccjd)_2
-      - 06(TG:@tccjd)_3
-      - 07(TG:@tccjd)_3
-      - 08(TG:@tccjd)_3
-      - 09(TG:@tccjd)_2
-      - 10(TG:@tccjd)_2
-      - 11(TG:@tccjd)_2
-      - 12(TG:@tccjd)_2
-      - 13(TG:@tccjd)_2
-      - 14(TG:@tccjd)_2
-      - 15(TG:@tccjd)_1
-      - 16(TG:@tccjd)_2
-      - 17(TG:@tccjd)_2
-      - 18(TG:@tccjd)_2
-      - 19(TG:@tccjd)_2
-      - 20(TG:@tccjd)_2
-      - 美国(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_3
-      - 美国(TG:@tccjd)_4
-      - 德国(TG:@tccjd)
-      - 美国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_6
-      - 美国(TG:@tccjd)_7
-      - 美国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_9
-      - 美国(TG:@tccjd)_10
-      - 美国(TG:@tccjd)_11
-      - 美国(TG:@tccjd)_12
-      - 美国(TG:@tccjd)_13
-      - 美国(TG:@tccjd)_14
-      - 英国(TG:@tccjd)
-      - 美国(TG:@tccjd)_15
-      - 美国(TG:@tccjd)_16
-      - 英国(TG:@tccjd)_1
-      - 法国(TG:@tccjd)
-      - 英国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_17
-      - 美国(TG:@tccjd)_18
-      - 英国(TG:@tccjd)_3
-      - 美国(TG:@tccjd)_19
-      - 英国(TG:@tccjd)_4
-      - 英国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_20
-      - 英国(TG:@tccjd)_6
-      - 英国(TG:@tccjd)_7
-      - 英国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_21
-      - 美国(TG:@tccjd)_22
-      - 美国(TG:@tccjd)_23
-      - 英国(TG:@tccjd)_9
-      - 美国(TG:@tccjd)_24
-      - 法国(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_25
-      - 美国(TG:@tccjd)_26
-      - 美国(TG:@tccjd)_27
-      - 美国(TG:@tccjd)_28
-      - 英国(TG:@tccjd)_10
-      - 英国(TG:@tccjd)_11
-      - 英国(TG:@tccjd)_12
-      - 美国(TG:@tccjd)_29
-      - 英国(TG:@tccjd)_13
-      - 美国(TG:@tccjd)_30
-      - 英国(TG:@tccjd)_14
-      - 美国(TG:@tccjd)_31
-      - 美国(TG:@tccjd)_32
-      - 美国(TG:@tccjd)_33
-      - 英国(TG:@tccjd)_15
-      - 英国(TG:@tccjd)_16
-      - 英国(TG:@tccjd)_17
-      - 🇭🇰 香港 | HKG 36
-      - 🇭🇰 香港 | HKG 35
-      - 美國
-      - 01(TG:@tccjd)_9
-      - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_7
-      - 04(TG:@tccjd)_6
-      - 05(TG:@tccjd)_3
-      - 06(TG:@tccjd)_4
-      - 07(TG:@tccjd)_4
-      - 08(TG:@tccjd)_4
-      - 09(TG:@tccjd)_3
-      - 10(TG:@tccjd)_3
-      - 11(TG:@tccjd)_3
-      - 12(TG:@tccjd)_3
-      - 13(TG:@tccjd)_3
-      - 14(TG:@tccjd)_3
-      - 15(TG:@tccjd)_2
-      - 16(TG:@tccjd)_3
-      - 17(TG:@tccjd)_3
-      - 18(TG:@tccjd)_3
-      - 19(TG:@tccjd)_3
-      - 20(TG:@tccjd)_3
-      - 21(TG:@tccjd)_2
-      - 22(TG:@tccjd)_2
-      - 23(TG:@tccjd)_1
-      - 24(TG:@tccjd)_1
-      - 25(TG:@tccjd)_2
-      - 26(TG:@tccjd)_3
-      - 27(TG:@tccjd)_2
-      - 28(TG:@tccjd)_2
-      - 29(TG:@tccjd)_2
-      - 30(TG:@tccjd)_2
-      - 31(TG:@tccjd)_2
-      - 32(TG:@tccjd)_2
       - 🇫🇷FR_2 | ⬇️ 1.0MB/s
       - 🇫🇷FR_3 | ⬇️ 1.8MB/s
       - 🇺🇸_US_美国_3
@@ -6112,6 +2736,29 @@ proxy-groups:
       - 🇦🇲AM_1 | ⬇️ 1.3MB/s
       - 🇫🇷FR_2 | ⬇️ 1.0MB/s_2
       - 🇳🇱 荷兰 03_1
+      - 03(TG:@tccjd)_4
+      - 01(TG:@tccjd)_6
+      - 02(TG:@tccjd)_4
+      - 03(TG:@tccjd)_5
+      - 04(TG:@tccjd)_3
+      - 05(TG:@tccjd)_1
+      - 06(TG:@tccjd)_1
+      - 07(TG:@tccjd)_2
+      - 08(TG:@tccjd)_2
+      - 09(TG:@tccjd)_1
+      - 10(TG:@tccjd)_1
+      - 11(TG:@tccjd)_1
+      - 12(TG:@tccjd)_1
+      - 13(TG:@tccjd)_1
+      - 14(TG:@tccjd)_1
+      - 15(TG:@tccjd)_1
+      - 16(TG:@tccjd)_1
+      - 17(TG:@tccjd)_1
+      - 18(TG:@tccjd)_1
+      - 19(TG:@tccjd)_1
+      - 20(TG:@tccjd)_1
+      - 美國
+      - 🇭🇰 香港 | HKG
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -6134,32 +2781,85 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 | USA
-      - 🇭🇰 香港 | HKG
+      - 英国(TG:@tccjd)
+      - 美国(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - 英国(TG:@tccjd)_1
+      - 法国(TG:@tccjd)
+      - 英国(TG:@tccjd)_2
+      - 美国(TG:@tccjd)_2
+      - 美国(TG:@tccjd)_3
+      - 英国(TG:@tccjd)_3
+      - 美国(TG:@tccjd)_4
+      - 英国(TG:@tccjd)_4
+      - 英国(TG:@tccjd)_5
+      - 美国(TG:@tccjd)_5
+      - 英国(TG:@tccjd)_6
+      - 英国(TG:@tccjd)_7
+      - 英国(TG:@tccjd)_8
+      - 美国(TG:@tccjd)_6
+      - 美国(TG:@tccjd)_7
+      - 美国(TG:@tccjd)_8
+      - 英国(TG:@tccjd)_9
+      - 美国(TG:@tccjd)_9
+      - 法国(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_10
+      - 美国(TG:@tccjd)_11
+      - 美国(TG:@tccjd)_12
+      - 美国(TG:@tccjd)_13
+      - 英国(TG:@tccjd)_10
+      - 英国(TG:@tccjd)_11
+      - 英国(TG:@tccjd)_12
+      - 美国(TG:@tccjd)_14
+      - 英国(TG:@tccjd)_13
+      - 美国(TG:@tccjd)_15
+      - 英国(TG:@tccjd)_14
+      - 美国(TG:@tccjd)_16
+      - 美国(TG:@tccjd)_17
+      - 美国(TG:@tccjd)_18
+      - 英国(TG:@tccjd)_15
+      - 英国(TG:@tccjd)_16
+      - 英国(TG:@tccjd)_17
       - 01(TG:@tccjd)
-      - 02(TG:@tccjd)
       - 03(TG:@tccjd)
-      - 04(TG:@tccjd)
-      - 06(TG:@tccjd)
-      - 07(TG:@tccjd)
-      - 08(TG:@tccjd)
       - 01(TG:@tccjd)_1
+      - 02(TG:@tccjd)
       - 03(TG:@tccjd)_1
+      - 04(TG:@tccjd)
+      - 美国(TG:@tccjd)_19
+      - 美国(TG:@tccjd)_20
+      - 美国(TG:@tccjd)_21
+      - 美国(TG:@tccjd)_22
+      - 🇭🇰 香港 | HKG 36
+      - 🇭🇰 香港 | HKG 35
+      - 🇺🇸 美国 | USA
       - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_2
       - 04(TG:@tccjd)_1
+      - 07(TG:@tccjd)
+      - 08(TG:@tccjd)
       - 01(TG:@tccjd)_3
-      - 01(TG:@tccjd)_4
       - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_3
-      - 04(TG:@tccjd)_2
+      - 03(TG:@tccjd)_2
+      - 01(TG:@tccjd)_4
+      - 美国(TG:@tccjd)_23
+      - 美国(TG:@tccjd)_24
+      - 美国(TG:@tccjd)_25
+      - 美国(TG:@tccjd)_26
+      - 美国(TG:@tccjd)_27
+      - 德国(TG:@tccjd)
+      - 美国(TG:@tccjd)_28
+      - 美国(TG:@tccjd)_29
+      - 美国(TG:@tccjd)_30
+      - 美国(TG:@tccjd)_31
+      - 美国(TG:@tccjd)_32
+      - 美国(TG:@tccjd)_33
       - 01(TG:@tccjd)_5
       - 02(TG:@tccjd)_3
-      - 03(TG:@tccjd)_4
-      - 04(TG:@tccjd)_3
+      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_2
       - 05(TG:@tccjd)
-      - 06(TG:@tccjd)_1
+      - 06(TG:@tccjd)
       - 07(TG:@tccjd)_1
       - 08(TG:@tccjd)_1
       - 09(TG:@tccjd)
@@ -6186,258 +2886,6 @@ proxy-groups:
       - 30(TG:@tccjd)
       - 31(TG:@tccjd)
       - 32(TG:@tccjd)
-      - 33(TG:@tccjd)
-      - 34(TG:@tccjd)
-      - 36(TG:@tccjd)
-      - 35(TG:@tccjd)
-      - 38(TG:@tccjd)
-      - 39(TG:@tccjd)
-      - 40(TG:@tccjd)
-      - 41(TG:@tccjd)
-      - 42(TG:@tccjd)
-      - 43(TG:@tccjd)
-      - 44(TG:@tccjd)
-      - 45(TG:@tccjd)
-      - 46(TG:@tccjd)
-      - 47(TG:@tccjd)
-      - 48(TG:@tccjd)
-      - 49(TG:@tccjd)
-      - 50(TG:@tccjd)
-      - 51(TG:@tccjd)
-      - 52(TG:@tccjd)
-      - 53(TG:@tccjd)
-      - 54(TG:@tccjd)
-      - 55(TG:@tccjd)
-      - 56(TG:@tccjd)
-      - 57(TG:@tccjd)
-      - 58(TG:@tccjd)
-      - 59(TG:@tccjd)
-      - 60(TG:@tccjd)
-      - 61(TG:@tccjd)
-      - 62(TG:@tccjd)
-      - 63(TG:@tccjd)
-      - 64(TG:@tccjd)
-      - 65(TG:@tccjd)
-      - 66(TG:@tccjd)
-      - 67(TG:@tccjd)
-      - 68(TG:@tccjd)
-      - 69(TG:@tccjd)
-      - 70(TG:@tccjd)
-      - 71(TG:@tccjd)
-      - 72(TG:@tccjd)
-      - 73(TG:@tccjd)
-      - 74(TG:@tccjd)
-      - 75(TG:@tccjd)
-      - 76(TG:@tccjd)
-      - 75(TG:@tccjd)_1
-      - 30(TG:@tccjd)_1
-      - 87(TG:@tccjd)
-      - 63(TG:@tccjd)_1
-      - 81(TG:@tccjd)
-      - 84(TG:@tccjd)
-      - 47(TG:@tccjd)_1
-      - 60(TG:@tccjd)_1
-      - 33(TG:@tccjd)_1
-      - 45(TG:@tccjd)_1
-      - 102(TG:@tccjd)
-      - 69(TG:@tccjd)_1
-      - 89(TG:@tccjd)
-      - 64(TG:@tccjd)_1
-      - 27(TG:@tccjd)_1
-      - 50(TG:@tccjd)_1
-      - 93(TG:@tccjd)
-      - 88(TG:@tccjd)
-      - 103(TG:@tccjd)
-      - 90(TG:@tccjd)
-      - 52(TG:@tccjd)_1
-      - 99(TG:@tccjd)
-      - 106(TG:@tccjd)
-      - 72(TG:@tccjd)_1
-      - 71(TG:@tccjd)_1
-      - 96(TG:@tccjd)
-      - 110(TG:@tccjd)
-      - 91(TG:@tccjd)
-      - 42(TG:@tccjd)_1
-      - 51(TG:@tccjd)_1
-      - 52(TG:@tccjd)_2
-      - 44(TG:@tccjd)_1
-      - 97(TG:@tccjd)
-      - 68(TG:@tccjd)_1
-      - 79(TG:@tccjd)
-      - 65(TG:@tccjd)_1
-      - 38(TG:@tccjd)_1
-      - 37(TG:@tccjd)
-      - 95(TG:@tccjd)
-      - 83(TG:@tccjd)
-      - 107(TG:@tccjd)
-      - 80(TG:@tccjd)
-      - 101(TG:@tccjd)
-      - 94(TG:@tccjd)
-      - 100(TG:@tccjd)
-      - 105(TG:@tccjd)
-      - 78(TG:@tccjd)
-      - 70(TG:@tccjd)_1
-      - 104(TG:@tccjd)
-      - 111(TG:@tccjd)
-      - 108(TG:@tccjd)
-      - 92(TG:@tccjd)
-      - 98(TG:@tccjd)
-      - 36(TG:@tccjd)_1
-      - 61(TG:@tccjd)_1
-      - 67(TG:@tccjd)_1
-      - 76(TG:@tccjd)_1
-      - 40(TG:@tccjd)_1
-      - 48(TG:@tccjd)_1
-      - 39(TG:@tccjd)_1
-      - 43(TG:@tccjd)_1
-      - 56(TG:@tccjd)_1
-      - 49(TG:@tccjd)_1
-      - 26(TG:@tccjd)_1
-      - 86(TG:@tccjd)
-      - 41(TG:@tccjd)_1
-      - 74(TG:@tccjd)_1
-      - 73(TG:@tccjd)_1
-      - 82(TG:@tccjd)
-      - 28(TG:@tccjd)_1
-      - 32(TG:@tccjd)_1
-      - 85(TG:@tccjd)
-      - 77(TG:@tccjd)
-      - 29(TG:@tccjd)_1
-      - 31(TG:@tccjd)_1
-      - 25(TG:@tccjd)_1
-      - 26(TG:@tccjd)_2
-      - 20(TG:@tccjd)_1
-      - 21(TG:@tccjd)_1
-      - 22(TG:@tccjd)_1
-      - 19(TG:@tccjd)_1
-      - 18(TG:@tccjd)_1
-      - 17(TG:@tccjd)_1
-      - 14(TG:@tccjd)_1
-      - 16(TG:@tccjd)_1
-      - 13(TG:@tccjd)_1
-      - 12(TG:@tccjd)_1
-      - 11(TG:@tccjd)_1
-      - 10(TG:@tccjd)_1
-      - 09(TG:@tccjd)_1
-      - 08(TG:@tccjd)_2
-      - 07(TG:@tccjd)_2
-      - 06(TG:@tccjd)_2
-      - 05(TG:@tccjd)_1
-      - 04(TG:@tccjd)_4
-      - 03(TG:@tccjd)_5
-      - 02(TG:@tccjd)_4
-      - 01(TG:@tccjd)_6
-      - 01(TG:@tccjd)_7
-      - 01(TG:@tccjd)_8
-      - 02(TG:@tccjd)_5
-      - 03(TG:@tccjd)_6
-      - 04(TG:@tccjd)_5
-      - 05(TG:@tccjd)_2
-      - 06(TG:@tccjd)_3
-      - 07(TG:@tccjd)_3
-      - 08(TG:@tccjd)_3
-      - 09(TG:@tccjd)_2
-      - 10(TG:@tccjd)_2
-      - 11(TG:@tccjd)_2
-      - 12(TG:@tccjd)_2
-      - 13(TG:@tccjd)_2
-      - 14(TG:@tccjd)_2
-      - 15(TG:@tccjd)_1
-      - 16(TG:@tccjd)_2
-      - 17(TG:@tccjd)_2
-      - 18(TG:@tccjd)_2
-      - 19(TG:@tccjd)_2
-      - 20(TG:@tccjd)_2
-      - 美国(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_3
-      - 美国(TG:@tccjd)_4
-      - 德国(TG:@tccjd)
-      - 美国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_6
-      - 美国(TG:@tccjd)_7
-      - 美国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_9
-      - 美国(TG:@tccjd)_10
-      - 美国(TG:@tccjd)_11
-      - 美国(TG:@tccjd)_12
-      - 美国(TG:@tccjd)_13
-      - 美国(TG:@tccjd)_14
-      - 英国(TG:@tccjd)
-      - 美国(TG:@tccjd)_15
-      - 美国(TG:@tccjd)_16
-      - 英国(TG:@tccjd)_1
-      - 法国(TG:@tccjd)
-      - 英国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_17
-      - 美国(TG:@tccjd)_18
-      - 英国(TG:@tccjd)_3
-      - 美国(TG:@tccjd)_19
-      - 英国(TG:@tccjd)_4
-      - 英国(TG:@tccjd)_5
-      - 美国(TG:@tccjd)_20
-      - 英国(TG:@tccjd)_6
-      - 英国(TG:@tccjd)_7
-      - 英国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_21
-      - 美国(TG:@tccjd)_22
-      - 美国(TG:@tccjd)_23
-      - 英国(TG:@tccjd)_9
-      - 美国(TG:@tccjd)_24
-      - 法国(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_25
-      - 美国(TG:@tccjd)_26
-      - 美国(TG:@tccjd)_27
-      - 美国(TG:@tccjd)_28
-      - 英国(TG:@tccjd)_10
-      - 英国(TG:@tccjd)_11
-      - 英国(TG:@tccjd)_12
-      - 美国(TG:@tccjd)_29
-      - 英国(TG:@tccjd)_13
-      - 美国(TG:@tccjd)_30
-      - 英国(TG:@tccjd)_14
-      - 美国(TG:@tccjd)_31
-      - 美国(TG:@tccjd)_32
-      - 美国(TG:@tccjd)_33
-      - 英国(TG:@tccjd)_15
-      - 英国(TG:@tccjd)_16
-      - 英国(TG:@tccjd)_17
-      - 🇭🇰 香港 | HKG 36
-      - 🇭🇰 香港 | HKG 35
-      - 美國
-      - 01(TG:@tccjd)_9
-      - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_7
-      - 04(TG:@tccjd)_6
-      - 05(TG:@tccjd)_3
-      - 06(TG:@tccjd)_4
-      - 07(TG:@tccjd)_4
-      - 08(TG:@tccjd)_4
-      - 09(TG:@tccjd)_3
-      - 10(TG:@tccjd)_3
-      - 11(TG:@tccjd)_3
-      - 12(TG:@tccjd)_3
-      - 13(TG:@tccjd)_3
-      - 14(TG:@tccjd)_3
-      - 15(TG:@tccjd)_2
-      - 16(TG:@tccjd)_3
-      - 17(TG:@tccjd)_3
-      - 18(TG:@tccjd)_3
-      - 19(TG:@tccjd)_3
-      - 20(TG:@tccjd)_3
-      - 21(TG:@tccjd)_2
-      - 22(TG:@tccjd)_2
-      - 23(TG:@tccjd)_1
-      - 24(TG:@tccjd)_1
-      - 25(TG:@tccjd)_2
-      - 26(TG:@tccjd)_3
-      - 27(TG:@tccjd)_2
-      - 28(TG:@tccjd)_2
-      - 29(TG:@tccjd)_2
-      - 30(TG:@tccjd)_2
-      - 31(TG:@tccjd)_2
-      - 32(TG:@tccjd)_2
       - 🇫🇷FR_2 | ⬇️ 1.0MB/s
       - 🇫🇷FR_3 | ⬇️ 1.8MB/s
       - 🇺🇸_US_美国_3
@@ -6473,6 +2921,29 @@ proxy-groups:
       - 🇦🇲AM_1 | ⬇️ 1.3MB/s
       - 🇫🇷FR_2 | ⬇️ 1.0MB/s_2
       - 🇳🇱 荷兰 03_1
+      - 03(TG:@tccjd)_4
+      - 01(TG:@tccjd)_6
+      - 02(TG:@tccjd)_4
+      - 03(TG:@tccjd)_5
+      - 04(TG:@tccjd)_3
+      - 05(TG:@tccjd)_1
+      - 06(TG:@tccjd)_1
+      - 07(TG:@tccjd)_2
+      - 08(TG:@tccjd)_2
+      - 09(TG:@tccjd)_1
+      - 10(TG:@tccjd)_1
+      - 11(TG:@tccjd)_1
+      - 12(TG:@tccjd)_1
+      - 13(TG:@tccjd)_1
+      - 14(TG:@tccjd)_1
+      - 15(TG:@tccjd)_1
+      - 16(TG:@tccjd)_1
+      - 17(TG:@tccjd)_1
+      - 18(TG:@tccjd)_1
+      - 19(TG:@tccjd)_1
+      - 20(TG:@tccjd)_1
+      - 美國
+      - 🇭🇰 香港 | HKG
 rule-providers:
   LocalAreaNetwork:
     type: http
