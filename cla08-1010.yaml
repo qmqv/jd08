@@ -464,27 +464,6 @@ proxies:
     reality-opts:
       public-key: 1LHMePKT5PP9F9WQ1HhZUWZlrK2p9AW_sUwKNfO4ZC0
       short-id: dd8ca121bb77dad9
-  - name: 03(TG:@tccjd)
-    type: trojan
-    server: 180.131.145.169
-    port: 18718
-    password: RmhZQ47pEm
-    sni: www.tesla.com
-    skip-cert-verify: true
-    tls: true
-  - name: 01(TG:@tccjd)_1
-    type: vless
-    server: b.pabloping.cloud
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - s3.nakosgol.com
   - name: 02(TG:@tccjd)_1
     type: vless
     server: 138.124.32.20
@@ -497,7 +476,7 @@ proxies:
     reality-opts:
       public-key: eQXsYV276NoiN9SDwuloNrJkX-NU2tDtkMK6ntKQwlg
       short-id: df13327f2677fc90
-  - name: 03(TG:@tccjd)_1
+  - name: 03(TG:@tccjd)
     type: vless
     server: 138.124.32.20
     port: 443
@@ -603,7 +582,7 @@ proxies:
       headers:
         Host:
           - s4.nakosgol.com
-  - name: 01(TG:@tccjd)_2
+  - name: 01(TG:@tccjd)_1
     type: vless
     server: sun.senboonzakara.ir
     port: 443
@@ -638,7 +617,7 @@ proxies:
       path: /
       headers:
         Host: rayan11-0l5mxs7b-v1.rayan-11.workers.dev
-  - name: 01(TG:@tccjd)_3
+  - name: 01(TG:@tccjd)_2
     type: vless
     server: 104.19.173.68
     port: 443
@@ -661,7 +640,7 @@ proxies:
     client-fingerprint: chrome
     reality-opts:
       public-key: 5vZadQxvsBfPR1hKN3TFOYsGLBBPDvd4sLVNnPzddRg
-  - name: 03(TG:@tccjd)_2
+  - name: 03(TG:@tccjd)_1
     type: vless
     server: mos-drywall.shop
     port: 443
@@ -707,7 +686,7 @@ proxies:
       path: /
       headers:
         Host: ca.adobe-connect.top
-  - name: 01(TG:@tccjd)_4
+  - name: 01(TG:@tccjd)_3
     type: vless
     server: 51.250.94.162
     port: 443
@@ -731,7 +710,7 @@ proxies:
     reality-opts:
       public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
       short-id: c8597fb67d55d9c4
-  - name: 01(TG:@tccjd)_5
+  - name: 01(TG:@tccjd)_4
     type: vless
     server: 104.18.6.36
     port: 2086
@@ -742,19 +721,6 @@ proxies:
       path: /
       headers:
         Host: shomal-g74f3znf-v2.shomal-321.workers.dev
-  - name: 01(TG:@tccjd)_6
-    type: vless
-    server: 172.67.175.118
-    port: 8880
-    uuid: ci49kfwjrc
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /compass/cdn
-      headers:
-        Host:
-          - ci49kfwjrc-57129121185.hediiigate.com
   - name: 02(TG:@tccjd)_6
     type: vless
     server: 143.20.236.51
@@ -767,7 +733,7 @@ proxies:
     reality-opts:
       public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
       short-id: c39cc7310a
-  - name: 03(TG:@tccjd)_3
+  - name: 03(TG:@tccjd)_2
     type: vless
     server: 143.20.236.51
     port: 443
@@ -827,21 +793,6 @@ proxies:
     reality-opts:
       public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
       short-id: c39cc7310a
-  - name: 08(TG:@tccjd)_1
-    type: vless
-    server: ep.tehrantolidi.ir
-    port: 443
-    uuid: dfe13f5a-9ce4-44fc-be96-1067bbf9202d
-    network: http
-    servername: 65kcnqjbg1.designseda.ir
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - www.designseda.ir
   - name: 09(TG:@tccjd)_1
     type: vless
     server: 143.20.236.51
@@ -890,19 +841,6 @@ proxies:
     reality-opts:
       public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
       short-id: c39cc7310a
-  - name: 13(TG:@tccjd)
-    type: vless
-    server: 172.67.175.118
-    port: 8880
-    uuid: ci49kfwjrc
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /compass/cdn
-      headers:
-        Host:
-          - ci49kfwjrc-57129121185.hediiigate.com
   - name: 14(TG:@tccjd)
     type: vless
     server: 143.20.236.51
@@ -939,19 +877,6 @@ proxies:
     reality-opts:
       public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
       short-id: c39cc7310a
-  - name: 18(TG:@tccjd)
-    type: vless
-    server: 104.21.17.104
-    port: 8880
-    uuid: ci49kfwjrc
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /compass/cdn
-      headers:
-        Host:
-          - ci49kfwjrc-57129121185.hediiigate.com
   - name: 17(TG:@tccjd)
     type: vless
     server: 198.41.222.191
@@ -1774,19 +1699,6 @@ proxies:
     port: 60129
     cipher: aes-256-gcm
     password: 0690659746980c46
-  - name: 🇺🇸 ShatakVPN 569904
-    type: vless
-    server: 104.18.32.47
-    port: 2052
-    uuid: 2271c50f-ac7a-4d7f-8b04-64085b0daa56
-    network: http
-    tls: false
-    http-opts:
-      path:
-        - /pabloping
-      headers:
-        Host:
-          - s2.nakosgol.com
   - name: " VLESS-81 | free-nodes_1"
     type: vless
     server: dns.dressforida.monster
@@ -1898,10 +1810,8 @@ proxy-groups:
       - 美国(TG:@tccjd)_30
       - 01(TG:@tccjd)
       - 02(TG:@tccjd)
-      - 03(TG:@tccjd)
-      - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_1
+      - 03(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
@@ -1911,35 +1821,31 @@ proxy-groups:
       - 10(TG:@tccjd)
       - 11(TG:@tccjd)
       - 12(TG:@tccjd)
-      - 01(TG:@tccjd)_2
+      - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_2
       - 02(TG:@tccjd)_3
-      - 01(TG:@tccjd)_3
+      - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
       - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_1
       - 06(TG:@tccjd)_1
-      - 01(TG:@tccjd)_4
+      - 01(TG:@tccjd)_3
       - 02(TG:@tccjd)_5
-      - 01(TG:@tccjd)_5
-      - 01(TG:@tccjd)_6
+      - 01(TG:@tccjd)_4
       - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_3
+      - 03(TG:@tccjd)_2
       - 04(TG:@tccjd)_2
       - 05(TG:@tccjd)_2
       - 06(TG:@tccjd)_2
       - 07(TG:@tccjd)_1
-      - 08(TG:@tccjd)_1
       - 09(TG:@tccjd)_1
       - 10(TG:@tccjd)_1
       - 11(TG:@tccjd)_1
       - 12(TG:@tccjd)_1
-      - 13(TG:@tccjd)
       - 14(TG:@tccjd)
       - 15(TG:@tccjd)
       - 16(TG:@tccjd)
-      - 18(TG:@tccjd)
       - 17(TG:@tccjd)
       - 19(TG:@tccjd)
       - 20(TG:@tccjd)
@@ -2013,7 +1919,6 @@ proxy-groups:
       - 🇯🇵 日本 09_1
       - 🇯🇵 日本 09_2
       - 🇯🇵 日本 09_3
-      - 🇺🇸 ShatakVPN 569904
       - " VLESS-81 | free-nodes_1"
       - " VLESS-85 | free-nodes_1"
       - " VLESS-81 | free-nodes_2"
@@ -2059,10 +1964,8 @@ proxy-groups:
       - 美国(TG:@tccjd)_30
       - 01(TG:@tccjd)
       - 02(TG:@tccjd)
-      - 03(TG:@tccjd)
-      - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_1
+      - 03(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
@@ -2072,35 +1975,31 @@ proxy-groups:
       - 10(TG:@tccjd)
       - 11(TG:@tccjd)
       - 12(TG:@tccjd)
-      - 01(TG:@tccjd)_2
+      - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_2
       - 02(TG:@tccjd)_3
-      - 01(TG:@tccjd)_3
+      - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
       - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_1
       - 06(TG:@tccjd)_1
-      - 01(TG:@tccjd)_4
+      - 01(TG:@tccjd)_3
       - 02(TG:@tccjd)_5
-      - 01(TG:@tccjd)_5
-      - 01(TG:@tccjd)_6
+      - 01(TG:@tccjd)_4
       - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_3
+      - 03(TG:@tccjd)_2
       - 04(TG:@tccjd)_2
       - 05(TG:@tccjd)_2
       - 06(TG:@tccjd)_2
       - 07(TG:@tccjd)_1
-      - 08(TG:@tccjd)_1
       - 09(TG:@tccjd)_1
       - 10(TG:@tccjd)_1
       - 11(TG:@tccjd)_1
       - 12(TG:@tccjd)_1
-      - 13(TG:@tccjd)
       - 14(TG:@tccjd)
       - 15(TG:@tccjd)
       - 16(TG:@tccjd)
-      - 18(TG:@tccjd)
       - 17(TG:@tccjd)
       - 19(TG:@tccjd)
       - 20(TG:@tccjd)
@@ -2174,7 +2073,6 @@ proxy-groups:
       - 🇯🇵 日本 09_1
       - 🇯🇵 日本 09_2
       - 🇯🇵 日本 09_3
-      - 🇺🇸 ShatakVPN 569904
       - " VLESS-81 | free-nodes_1"
       - " VLESS-85 | free-nodes_1"
       - " VLESS-81 | free-nodes_2"
@@ -2226,10 +2124,8 @@ proxy-groups:
       - 美国(TG:@tccjd)_30
       - 01(TG:@tccjd)
       - 02(TG:@tccjd)
-      - 03(TG:@tccjd)
-      - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_1
+      - 03(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
@@ -2239,35 +2135,31 @@ proxy-groups:
       - 10(TG:@tccjd)
       - 11(TG:@tccjd)
       - 12(TG:@tccjd)
-      - 01(TG:@tccjd)_2
+      - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_2
       - 02(TG:@tccjd)_3
-      - 01(TG:@tccjd)_3
+      - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
       - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_1
       - 06(TG:@tccjd)_1
-      - 01(TG:@tccjd)_4
+      - 01(TG:@tccjd)_3
       - 02(TG:@tccjd)_5
-      - 01(TG:@tccjd)_5
-      - 01(TG:@tccjd)_6
+      - 01(TG:@tccjd)_4
       - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_3
+      - 03(TG:@tccjd)_2
       - 04(TG:@tccjd)_2
       - 05(TG:@tccjd)_2
       - 06(TG:@tccjd)_2
       - 07(TG:@tccjd)_1
-      - 08(TG:@tccjd)_1
       - 09(TG:@tccjd)_1
       - 10(TG:@tccjd)_1
       - 11(TG:@tccjd)_1
       - 12(TG:@tccjd)_1
-      - 13(TG:@tccjd)
       - 14(TG:@tccjd)
       - 15(TG:@tccjd)
       - 16(TG:@tccjd)
-      - 18(TG:@tccjd)
       - 17(TG:@tccjd)
       - 19(TG:@tccjd)
       - 20(TG:@tccjd)
@@ -2341,7 +2233,6 @@ proxy-groups:
       - 🇯🇵 日本 09_1
       - 🇯🇵 日本 09_2
       - 🇯🇵 日本 09_3
-      - 🇺🇸 ShatakVPN 569904
       - " VLESS-81 | free-nodes_1"
       - " VLESS-85 | free-nodes_1"
       - " VLESS-81 | free-nodes_2"
@@ -2389,10 +2280,8 @@ proxy-groups:
       - 美国(TG:@tccjd)_30
       - 01(TG:@tccjd)
       - 02(TG:@tccjd)
-      - 03(TG:@tccjd)
-      - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_1
+      - 03(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
@@ -2402,35 +2291,31 @@ proxy-groups:
       - 10(TG:@tccjd)
       - 11(TG:@tccjd)
       - 12(TG:@tccjd)
-      - 01(TG:@tccjd)_2
+      - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_2
       - 02(TG:@tccjd)_3
-      - 01(TG:@tccjd)_3
+      - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
       - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_1
       - 06(TG:@tccjd)_1
-      - 01(TG:@tccjd)_4
+      - 01(TG:@tccjd)_3
       - 02(TG:@tccjd)_5
-      - 01(TG:@tccjd)_5
-      - 01(TG:@tccjd)_6
+      - 01(TG:@tccjd)_4
       - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_3
+      - 03(TG:@tccjd)_2
       - 04(TG:@tccjd)_2
       - 05(TG:@tccjd)_2
       - 06(TG:@tccjd)_2
       - 07(TG:@tccjd)_1
-      - 08(TG:@tccjd)_1
       - 09(TG:@tccjd)_1
       - 10(TG:@tccjd)_1
       - 11(TG:@tccjd)_1
       - 12(TG:@tccjd)_1
-      - 13(TG:@tccjd)
       - 14(TG:@tccjd)
       - 15(TG:@tccjd)
       - 16(TG:@tccjd)
-      - 18(TG:@tccjd)
       - 17(TG:@tccjd)
       - 19(TG:@tccjd)
       - 20(TG:@tccjd)
@@ -2504,7 +2389,6 @@ proxy-groups:
       - 🇯🇵 日本 09_1
       - 🇯🇵 日本 09_2
       - 🇯🇵 日本 09_3
-      - 🇺🇸 ShatakVPN 569904
       - " VLESS-81 | free-nodes_1"
       - " VLESS-85 | free-nodes_1"
       - " VLESS-81 | free-nodes_2"
@@ -2552,10 +2436,8 @@ proxy-groups:
       - 美国(TG:@tccjd)_30
       - 01(TG:@tccjd)
       - 02(TG:@tccjd)
-      - 03(TG:@tccjd)
-      - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_1
+      - 03(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
@@ -2565,35 +2447,31 @@ proxy-groups:
       - 10(TG:@tccjd)
       - 11(TG:@tccjd)
       - 12(TG:@tccjd)
-      - 01(TG:@tccjd)_2
+      - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_2
       - 02(TG:@tccjd)_3
-      - 01(TG:@tccjd)_3
+      - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
       - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_1
       - 06(TG:@tccjd)_1
-      - 01(TG:@tccjd)_4
+      - 01(TG:@tccjd)_3
       - 02(TG:@tccjd)_5
-      - 01(TG:@tccjd)_5
-      - 01(TG:@tccjd)_6
+      - 01(TG:@tccjd)_4
       - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_3
+      - 03(TG:@tccjd)_2
       - 04(TG:@tccjd)_2
       - 05(TG:@tccjd)_2
       - 06(TG:@tccjd)_2
       - 07(TG:@tccjd)_1
-      - 08(TG:@tccjd)_1
       - 09(TG:@tccjd)_1
       - 10(TG:@tccjd)_1
       - 11(TG:@tccjd)_1
       - 12(TG:@tccjd)_1
-      - 13(TG:@tccjd)
       - 14(TG:@tccjd)
       - 15(TG:@tccjd)
       - 16(TG:@tccjd)
-      - 18(TG:@tccjd)
       - 17(TG:@tccjd)
       - 19(TG:@tccjd)
       - 20(TG:@tccjd)
@@ -2667,7 +2545,6 @@ proxy-groups:
       - 🇯🇵 日本 09_1
       - 🇯🇵 日本 09_2
       - 🇯🇵 日本 09_3
-      - 🇺🇸 ShatakVPN 569904
       - " VLESS-81 | free-nodes_1"
       - " VLESS-85 | free-nodes_1"
       - " VLESS-81 | free-nodes_2"
@@ -2715,10 +2592,8 @@ proxy-groups:
       - 美国(TG:@tccjd)_30
       - 01(TG:@tccjd)
       - 02(TG:@tccjd)
-      - 03(TG:@tccjd)
-      - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_1
+      - 03(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
@@ -2728,35 +2603,31 @@ proxy-groups:
       - 10(TG:@tccjd)
       - 11(TG:@tccjd)
       - 12(TG:@tccjd)
-      - 01(TG:@tccjd)_2
+      - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_2
       - 02(TG:@tccjd)_3
-      - 01(TG:@tccjd)_3
+      - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
       - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_1
       - 06(TG:@tccjd)_1
-      - 01(TG:@tccjd)_4
+      - 01(TG:@tccjd)_3
       - 02(TG:@tccjd)_5
-      - 01(TG:@tccjd)_5
-      - 01(TG:@tccjd)_6
+      - 01(TG:@tccjd)_4
       - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_3
+      - 03(TG:@tccjd)_2
       - 04(TG:@tccjd)_2
       - 05(TG:@tccjd)_2
       - 06(TG:@tccjd)_2
       - 07(TG:@tccjd)_1
-      - 08(TG:@tccjd)_1
       - 09(TG:@tccjd)_1
       - 10(TG:@tccjd)_1
       - 11(TG:@tccjd)_1
       - 12(TG:@tccjd)_1
-      - 13(TG:@tccjd)
       - 14(TG:@tccjd)
       - 15(TG:@tccjd)
       - 16(TG:@tccjd)
-      - 18(TG:@tccjd)
       - 17(TG:@tccjd)
       - 19(TG:@tccjd)
       - 20(TG:@tccjd)
@@ -2830,7 +2701,6 @@ proxy-groups:
       - 🇯🇵 日本 09_1
       - 🇯🇵 日本 09_2
       - 🇯🇵 日本 09_3
-      - 🇺🇸 ShatakVPN 569904
       - " VLESS-81 | free-nodes_1"
       - " VLESS-85 | free-nodes_1"
       - " VLESS-81 | free-nodes_2"
@@ -2895,10 +2765,8 @@ proxy-groups:
       - 美国(TG:@tccjd)_30
       - 01(TG:@tccjd)
       - 02(TG:@tccjd)
-      - 03(TG:@tccjd)
-      - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_1
+      - 03(TG:@tccjd)
       - 04(TG:@tccjd)
       - 05(TG:@tccjd)
       - 06(TG:@tccjd)
@@ -2908,35 +2776,31 @@ proxy-groups:
       - 10(TG:@tccjd)
       - 11(TG:@tccjd)
       - 12(TG:@tccjd)
-      - 01(TG:@tccjd)_2
+      - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_2
       - 02(TG:@tccjd)_3
-      - 01(TG:@tccjd)_3
+      - 01(TG:@tccjd)_2
       - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
       - 04(TG:@tccjd)_1
       - 05(TG:@tccjd)_1
       - 06(TG:@tccjd)_1
-      - 01(TG:@tccjd)_4
+      - 01(TG:@tccjd)_3
       - 02(TG:@tccjd)_5
-      - 01(TG:@tccjd)_5
-      - 01(TG:@tccjd)_6
+      - 01(TG:@tccjd)_4
       - 02(TG:@tccjd)_6
-      - 03(TG:@tccjd)_3
+      - 03(TG:@tccjd)_2
       - 04(TG:@tccjd)_2
       - 05(TG:@tccjd)_2
       - 06(TG:@tccjd)_2
       - 07(TG:@tccjd)_1
-      - 08(TG:@tccjd)_1
       - 09(TG:@tccjd)_1
       - 10(TG:@tccjd)_1
       - 11(TG:@tccjd)_1
       - 12(TG:@tccjd)_1
-      - 13(TG:@tccjd)
       - 14(TG:@tccjd)
       - 15(TG:@tccjd)
       - 16(TG:@tccjd)
-      - 18(TG:@tccjd)
       - 17(TG:@tccjd)
       - 19(TG:@tccjd)
       - 20(TG:@tccjd)
@@ -3010,7 +2874,6 @@ proxy-groups:
       - 🇯🇵 日本 09_1
       - 🇯🇵 日本 09_2
       - 🇯🇵 日本 09_3
-      - 🇺🇸 ShatakVPN 569904
       - " VLESS-81 | free-nodes_1"
       - " VLESS-85 | free-nodes_1"
       - " VLESS-81 | free-nodes_2"
