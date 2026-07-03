@@ -24,23 +24,35 @@ dns:
       - https://1.1.1.1/dns-query#🚀 节点选择
       - https://8.8.8.8/dns-query#🚀 节点选择
 proxies:
-  - name: 🇯🇵 日本 | JPN
-    type: trojan
-    server: 103.106.228.187
-    port: 54603
-    password: u2sVknrSIFjDojeqAUjgYkCnh9szHcMQ
-    sni: 103.106.228.187
+  - name: YouTube(TG:@tccjd)
+    type: vmess
+    server: 157.85.230.247
+    port: 2052
+    uuid: 85357d35-492e-4814-835a-aba4cb7f00ad
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
-    tls: true
+    network: ws
+    ws-opts:
+      path: 85357d35-492e-4814-835a-aba4cb7f00ad-vm
+      headers:
+        Host: www.bing.com
     udp: true
-  - name: 01(TG:@tccjd)
-    type: trojan
-    server: 179.237.74.127
-    port: 47533
-    password: 3COPE----AZ--KANAL---JKVPN----
-    sni: promotion.yahoo.com
+  - name: 03(TG:@tccjd)
+    type: vmess
+    server: 157.85.230.247
+    port: 2052
+    uuid: 85357d35-492e-4814-835a-aba4cb7f00ad
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
-    tls: true
+    network: ws
+    ws-opts:
+      path: 85357d35-492e-4814-835a-aba4cb7f00ad-vm
+      headers:
+        Host: www.bing.com
     udp: true
   - name: 02(TG:@tccjd)
     type: ss
@@ -50,86 +62,7 @@ proxies:
     password: 5KilolFUjzlMabQ0ORwBUwr6sSvqRCzh
     skip-cert-verify: true
     udp: true
-  - name: 03(TG:@tccjd)
-    type: trojan
-    server: 179.237.74.127
-    port: 47533
-    password: 3COPE----AZ--KANAL---JKVPN----
-    sni: promotion.yahoo.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 04(TG:@tccjd)
-    type: trojan
-    server: 179.237.74.127
-    port: 47533
-    password: 3COPE----AZ--KANAL---RK_VPS----
-    sni: promotion.yahoo.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 01(TG:@tccjd)_1
-    type: vless
-    server: rigaaaa.jorzel.ir
-    port: 2060
-    uuid: 07efdb11-ce6f-47a1-81dc-2c2269812af5
-    network: http
-    servername: www.yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path:
-        - /path
-      headers:
-        Host:
-          - hostname
-    reality-opts:
-      public-key: G5_DckdgcTAbEubwJvlZDBwrncT1lOq6W5JRwINl1nE
-      short-id: 90cecfbf0c0a21ec
-    skip-cert-verify: true
-    udp: true
-  - name: 02(TG:@tccjd)_1
-    type: trojan
-    server: 104.18.152.233
-    port: 443
-    password: humanity
-    sni: www.calmloud.com
-    alpn:
-      - http/1.1
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.calmloud.com
-    udp: true
-  - name: 03(TG:@tccjd)_1
-    type: trojan
-    server: 104.16.174.36
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.ignitelimit.com
-    udp: true
-  - name: 04(TG:@tccjd)_1
-    type: trojan
-    server: 104.18.152.187
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.ignitelimit.com
-    udp: true
-  - name: 01(TG:@tccjd)_2
+  - name: 01(TG:@tccjd)
     type: vless
     server: wqof.foot8all.ir
     port: 52077
@@ -143,37 +76,7 @@ proxies:
       short-id: a7f1b353c9e43d98
     skip-cert-verify: true
     udp: true
-  - name: 02(TG:@tccjd)_2
-    type: vless
-    server: 172.66.213.38
-    port: 2095
-    uuid: 681314c5-b3ee-41f1-a959-fa42841f5383
-    network: httpupgrade
-    tls: false
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - gr4.monopolitass.ir
-    skip-cert-verify: true
-    udp: true
-  - name: 03(TG:@tccjd)_2
-    type: vless
-    server: cdn2.portalcode.ir
-    port: 2095
-    uuid: 681314c5-b3ee-41f1-a959-fa42841f5383
-    network: httpupgrade
-    tls: false
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - usv4.monopolitass.ir
-    skip-cert-verify: true
-    udp: true
-  - name: 04(TG:@tccjd)_2
+  - name: 04(TG:@tccjd)
     type: vless
     server: 39.107.252.182
     port: 443
@@ -187,52 +90,7 @@ proxies:
         Host: nbhhh.mrcool.kdns.fr
     skip-cert-verify: true
     udp: true
-  - name: 05(TG:@tccjd)
-    type: vless
-    server: cdn4.portalcode.ir
-    port: 2095
-    uuid: 681314c5-b3ee-41f1-a959-fa42841f5383
-    network: httpupgrade
-    tls: false
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - wjqd.monopolitass.ir
-    skip-cert-verify: true
-    udp: true
-  - name: 06(TG:@tccjd)
-    type: vless
-    server: cdn3.portalcode.ir
-    port: 2095
-    uuid: 681314c5-b3ee-41f1-a959-fa42841f5383
-    network: httpupgrade
-    tls: false
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - wqoefj.rainzone.ir
-    skip-cert-verify: true
-    udp: true
-  - name: 07(TG:@tccjd)
-    type: vless
-    server: cdn3.portalcode.ir
-    port: 2095
-    uuid: 681314c5-b3ee-41f1-a959-fa42841f5383
-    network: httpupgrade
-    tls: false
-    http-opts:
-      path:
-        - /
-      headers:
-        Host:
-          - wqoefj.rainzone.ir
-    skip-cert-verify: true
-    udp: true
-  - name: 01(TG:@tccjd)_3
+  - name: 01(TG:@tccjd)_1
     type: vless
     server: x4g-production.up.railway.app
     port: 443
@@ -247,21 +105,13 @@ proxies:
         Host: x4g-production.up.railway.app
     skip-cert-verify: true
     udp: true
-  - name: 02(TG:@tccjd)_3
+  - name: 02(TG:@tccjd)_1
     type: vless
     server: sca13.speedmeter.shop
     port: 8880
     uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
     network: grpc
     tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 🇸🇬新加坡(TG:@tccjd)
-    type: hysteria2
-    server: sg16.459921.xyz
-    port: 8080
-    password: 51d686b6-d209-4257-be19-f939b590b5bb
-    sni: sg16.459921.xyz
     skip-cert-verify: true
     udp: true
   - name: 🇸🇬SG_1 | ⬇️ 553KB/s
@@ -278,31 +128,6 @@ proxies:
       short-id: 04d59340
     skip-cert-verify: true
     udp: true
-  - name: 🇸🇬新加坡(TG:@tccjd)_1
-    type: hysteria2
-    server: sg06.459921.xyz
-    port: 8080
-    password: 51d686b6-d209-4257-be19-f939b590b5bb
-    sni: sg06.459921.xyz
-    skip-cert-verify: true
-    udp: true
-  - name: 🇯🇵日本 (TG:@tccjd)
-    type: hysteria2
-    server: jp10.dexlos.com
-    port: 21959
-    password: 1266E7B0-607F-43D3-9B19-18963D8E526B
-    sni: jp10.dexlos.com
-    skip-cert-verify: true
-    udp: true
-  - name: 日本(TG:@tccjd)
-    type: anytls
-    server: ahk.jueduibupao.top
-    port: 7000
-    password: a1b2dd91-b96d-4fd2-953d-d401079e7c9c
-    sni: www.microsoft.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
   - name: "  YouTube(TG:@tccjd)"
     type: vless
     server: 157.85.230.247
@@ -317,44 +142,7 @@ proxies:
       short-id: 38c7778a
     skip-cert-verify: true
     udp: true
-  - name: YouTube(TG:@tccjd)
-    type: vmess
-    server: 157.85.230.247
-    port: 2052
-    uuid: 85357d35-492e-4814-835a-aba4cb7f00ad
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: 85357d35-492e-4814-835a-aba4cb7f00ad-vm
-      headers:
-        Host: www.bing.com
-    udp: true
-  - name: "  YouTube(TG:@tccjd)_1"
-    type: anytls
-    server: 157.85.230.247
-    port: 18723
-    password: 85357d35-492e-4814-835a-aba4cb7f00ad
-    sni: www.bing.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
   - name: 美国(TG:@tccjd)
-    type: trojan
-    server: 104.16.72.41
-    port: 443
-    password: MITIVPN
-    sni: De.App-Cloud.ir
-    alpn:
-      - http/1.1
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /MiTiVPN=De
-    udp: true
-  - name: 美国(TG:@tccjd)_1
     type: vless
     server: 162.159.140.78
     port: 8880
@@ -366,15 +154,6 @@ proxies:
       headers:
         Host: billowing-wind-5b29.133-323.workers.dev
     skip-cert-verify: true
-    udp: true
-  - name: 🇨🇭瑞士(TG:@tccjd)
-    type: trojan
-    server: 179.237.74.127
-    port: 47533
-    password: 3COPE----AZ--KANAL---JKVPN----
-    sni: promotion.yahoo.com
-    skip-cert-verify: true
-    tls: true
     udp: true
   - name: 🇭🇺匈牙利(TG:@tccjd)
     type: vless
@@ -388,63 +167,6 @@ proxies:
     reality-opts:
       public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
       short-id: 2715592069f36fe7
-    skip-cert-verify: true
-    udp: true
-  - name: 🇨🇭瑞士(TG:@tccjd)_1
-    type: trojan
-    server: 179.237.74.127
-    port: 47533
-    password: 3COPE----AZ--KANAL---RK_VPS----
-    sni: promotion.yahoo.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国(TG:@tccjd)_2
-    type: trojan
-    server: blackshadow.dpdns.org
-    port: 443
-    password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-    sni: blackshadow.dpdns.org
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /195.123.218.174-443
-      headers:
-        Host: blackshadow.dpdns.org
-    udp: true
-  - name: 🇺🇸美国(TG:@tccjd)
-    type: hysteria2
-    server: us6.dexlos.com
-    port: 21058
-    password: 1266E7B0-607F-43D3-9B19-18963D8E526B
-    sni: us6.dexlos.com
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: xK9mN2pLq5vR8wB3
-    udp: true
-  - name: 🇫🇮芬兰(TG:@tccjd)
-    type: vless
-    server: 65.109.187.245
-    port: 443
-    uuid: RayNetTun
-    network: http
-    servername: www.amazonaws-china.com
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path:
-        - /
-    reality-opts:
-      public-key: UeeKSzMnVrDLbeeTRCoaoi-ravGnFXmdY_hy49fUNwI
-      short-id: 2d783442
-    skip-cert-verify: true
-    udp: true
-  - name: 🇯🇵日本(TG:@tccjd)
-    type: hysteria2
-    server: 139.162.90.176
-    port: 8443
-    password: 51d686b6-d209-4257-be19-f939b590b5bb
-    sni: 139.162.90.176
     skip-cert-verify: true
     udp: true
   - name: 🇩🇪德国(TG:@tccjd)
@@ -461,7 +183,7 @@ proxies:
       short-id: 671047edbaa38eef
     skip-cert-verify: true
     udp: true
-  - name: 🇺🇸美国(TG:@tccjd)_1
+  - name: 🇺🇸美国(TG:@tccjd)
     type: vless
     server: 39.107.252.182
     port: 443
@@ -475,7 +197,7 @@ proxies:
         Host: nbhhh.mrcool.kdns.fr
     skip-cert-verify: true
     udp: true
-  - name: 🇺🇸美国(TG:@tccjd)_2
+  - name: 🇺🇸美国(TG:@tccjd)_1
     type: vless
     server: 39.107.252.182
     port: 443
@@ -488,14 +210,6 @@ proxies:
       path: /
       headers:
         Host: nbhhh.mrcool.kdns.fr
-    skip-cert-verify: true
-    udp: true
-  - name: 🇫🇮芬兰 (TG:@tccjd)
-    type: hysteria2
-    server: helsinki02.m247-fi-02.live
-    port: 8449
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    sni: sni.fi-m247-02.com
     skip-cert-verify: true
     udp: true
   - name: 🇫🇷法国(TG:@tccjd)
@@ -509,14 +223,6 @@ proxies:
     client-fingerprint: chrome
     ws-opts:
       path: /ws
-    skip-cert-verify: true
-    udp: true
-  - name: 🇺🇸美国 (TG:@tccjd)
-    type: hysteria2
-    server: us02.459292.xyz
-    port: 8080
-    password: 51d686b6-d209-4257-be19-f939b590b5bb
-    sni: us02.459292.xyz
     skip-cert-verify: true
     udp: true
   - name: 🇩🇪德国(TG:@tccjd)_1
@@ -535,24 +241,7 @@ proxies:
       short-id: e4fb18c16a95e52d
     skip-cert-verify: true
     udp: true
-  - name: 🇬🇧英国(TG:@tccjd)
-    type: hysteria2
-    server: 2.26.7.99
-    port: 443
-    password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
-    sni: argg9.auragg.org
-    skip-cert-verify: true
-    udp: true
-  - name: 香港(TG:@tccjd)
-    type: trojan
-    server: moved-osprey.rooster465.autos
-    port: 443
-    password: PI36027154
-    sni: moved-osprey.rooster465.autos
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 🇺🇸美国(TG:@tccjd)_3
+  - name: 🇺🇸美国(TG:@tccjd)_2
     type: vless
     server: 153.76.122.94
     port: 443
@@ -565,15 +254,7 @@ proxies:
       short-id: aefe467c7b22f190
     skip-cert-verify: true
     udp: true
-  - name: 🇭🇰香港(TG:@tccjd)
-    type: trojan
-    server: moved-osprey.rooster465.autos
-    port: 443
-    password: PI36027154
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: "  YouTube(TG:@tccjd)_2"
+  - name: "  YouTube(TG:@tccjd)_1"
     type: vless
     server: 157.66.27.86
     port: 33165
@@ -585,31 +266,6 @@ proxies:
     reality-opts:
       public-key: OmkF1gmvjS7mQTVs7AAkwtT8nx8VL9iTCjGs_RveumA
       short-id: 37c4dad1db8e926b
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(TG:@tccjd)_3
-    type: vless
-    server: 45.130.125.172
-    port: 443
-    uuid: ac006062-f051-43c6-bd4c-f409285c8635
-    network: http
-    servername: germany4.alibaba1405.org
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path:
-        - /v2raylink
-      headers:
-        Host:
-          - germany4.alibaba1405.org
-    skip-cert-verify: true
-    udp: true
-  - name: 🇬🇧英国(TG:@tccjd)_1
-    type: hysteria2
-    server: 31.77.158.156
-    port: 443
-    password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
-    sni: argg2.auragg.org
     skip-cert-verify: true
     udp: true
   - name: 🇪🇪爱沙尼亚 (TG:@tccjd)
@@ -628,23 +284,6 @@ proxies:
       short-id: e98492849d852e54
     skip-cert-verify: true
     udp: true
-  - name: 美国(TG:@tccjd)_4
-    type: vless
-    server: 45.130.125.6
-    port: 443
-    uuid: ac006062-f051-43c6-bd4c-f409285c8635
-    network: http
-    servername: germany4.alibaba1405.org
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path:
-        - /v2raylink
-      headers:
-        Host:
-          - germany4.alibaba1405.org
-    skip-cert-verify: true
-    udp: true
   - name: 🇳🇱荷兰(TG:@tccjd)
     type: vless
     server: api.gruztrack.online
@@ -661,7 +300,7 @@ proxies:
       short-id: 29c9b82395df8529
     skip-cert-verify: true
     udp: true
-  - name: 美国(TG:@tccjd)_5
+  - name: 美国(TG:@tccjd)_1
     type: vless
     server: 158.160.198.162
     port: 443
@@ -675,7 +314,7 @@ proxies:
       short-id: 34256b39b4ebb864
     skip-cert-verify: true
     udp: true
-  - name: "  YouTube(TG:@tccjd)_3"
+  - name: "  YouTube(TG:@tccjd)_2"
     type: vless
     server: 185.245.40.251
     port: 443
@@ -688,23 +327,6 @@ proxies:
       public-key: YnBpu8Ul3-HHnTEq4YGz6i9uZVQE6a-fW1LcSs55sDg
       short-id: 1cc0b0
     skip-cert-verify: true
-    udp: true
-  - name: 🇬🇧英国(TG:@tccjd)_2
-    type: hysteria2
-    server: 31.77.158.156
-    port: 443
-    password: 98dab41c-f18a-406b-8de2-3cc8bb797d5d
-    sni: argg2.auragg.org
-    skip-cert-verify: true
-    udp: true
-  - name: 🇹🇼台湾(TG:@tccjd)
-    type: trojan
-    server: 103.159.89.90
-    port: 443
-    password: 9bae11fd9fc7b41b4dcffc0bfbc63613
-    sni: tw.pitopone.com
-    skip-cert-verify: true
-    tls: true
     udp: true
   - name: 🇰🇿哈萨克斯坦 (TG:@tccjd)
     type: vless
@@ -733,7 +355,7 @@ proxies:
         Host: azsv2.ir5ive.ir
     skip-cert-verify: true
     udp: true
-  - name: 美国(TG:@tccjd)_6
+  - name: 美国(TG:@tccjd)_2
     type: vless
     server: gr1.fifapes.monster
     port: 8882
@@ -767,7 +389,7 @@ proxies:
       path: /ws
     skip-cert-verify: true
     udp: true
-  - name: 美国(TG:@tccjd)_7
+  - name: 美国(TG:@tccjd)_3
     type: vless
     server: 162.159.24.39
     port: 443
@@ -812,20 +434,7 @@ proxies:
         Host: t1s1.rittbo.kdns.fr
     skip-cert-verify: true
     udp: true
-  - name: 美国(TG:@tccjd)_8
-    type: trojan
-    server: 104.16.72.41
-    port: 443
-    password: MITIVPN
-    sni: De.App-Cloud.ir
-    alpn:
-      - http/1.1
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /MiTiVPN=De
-    udp: true
-  - name: 美国(TG:@tccjd)_9
+  - name: 美国(TG:@tccjd)_4
     type: vless
     server: 162.159.140.78
     port: 8880
@@ -838,15 +447,7 @@ proxies:
         Host: billowing-wind-5b29.133-323.workers.dev
     skip-cert-verify: true
     udp: true
-  - name: 德国(TG:@tccjd)
-    type: hysteria2
-    server: helsinki02.m247-fi-02.live
-    port: 8449
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    sni: sni.fi-m247-02.com
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(TG:@tccjd)_10
+  - name: 美国(TG:@tccjd)_5
     type: vless
     server: gr1.fifapes.monster
     port: 8882
@@ -854,7 +455,7 @@ proxies:
     tls: false
     skip-cert-verify: true
     udp: true
-  - name: 美国(TG:@tccjd)_11
+  - name: 美国(TG:@tccjd)_6
     type: vless
     server: it.fifapes.monster
     port: 29148
@@ -862,72 +463,7 @@ proxies:
     tls: false
     skip-cert-verify: true
     udp: true
-  - name: 美国(TG:@tccjd)_12
-    type: vless
-    server: 45.130.125.6
-    port: 443
-    uuid: ac006062-f051-43c6-bd4c-f409285c8635
-    network: http
-    servername: germany4.alibaba1405.org
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path:
-        - /v2raylink
-      headers:
-        Host:
-          - germany4.alibaba1405.org
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(TG:@tccjd)_13
-    type: vless
-    server: 45.130.125.172
-    port: 443
-    uuid: ac006062-f051-43c6-bd4c-f409285c8635
-    network: http
-    servername: germany4.alibaba1405.org
-    tls: true
-    client-fingerprint: chrome
-    http-opts:
-      path:
-        - /v2raylink
-      headers:
-        Host:
-          - germany4.alibaba1405.org
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(TG:@tccjd)_14
-    type: vless
-    server: 45.130.125.172
-    port: 443
-    uuid: ac006062-f051-43c6-bd4c-f409285c8635
-    network: http
-    servername: germany4.alibaba1405.org
-    tls: true
-    http-opts:
-      path:
-        - /v2raylink
-    skip-cert-verify: true
-    udp: true
-  - name: 香港(TG:@tccjd)_1
-    type: trojan
-    server: moved-osprey.rooster465.autos
-    port: 443
-    password: PI36027154
-    sni: moved-osprey.rooster465.autos
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 香港(TG:@tccjd)_2
-    type: trojan
-    server: jpbgp.netvigor.cc
-    port: 19128
-    password: OccIqeORGQwiNkwS
-    sni: yazhou10.dynu.net
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国(TG:@tccjd)_15
+  - name: 美国(TG:@tccjd)_7
     type: vless
     server: 158.160.198.162
     port: 443
@@ -941,7 +477,7 @@ proxies:
       short-id: 34256b39b4ebb864
     skip-cert-verify: true
     udp: true
-  - name: 美国(TG:@tccjd)_16
+  - name: 美国(TG:@tccjd)_8
     type: vless
     server: 193.176.240.129
     port: 8880
@@ -982,44 +518,7 @@ proxies:
       short-id: 04d59340
     skip-cert-verify: true
     udp: true
-  - name: 01(TG:@tccjd)_4
-    type: tuic
-    server: 157.85.230.247
-    port: 52335
-    uuid: 85357d35-492e-4814-835a-aba4cb7f00ad
-    password: 85357d35-492e-4814-835a-aba4cb7f00ad
-    sni: www.bing.com
-    alpn:
-      - h3
-    congestion-controller: bbr
-    skip-cert-verify: true
-    disable-sni: false
-    udp: true
-  - name: 02(TG:@tccjd)_4
-    type: anytls
-    server: 157.85.230.247
-    port: 18723
-    password: 85357d35-492e-4814-835a-aba4cb7f00ad
-    sni: www.bing.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 03(TG:@tccjd)_3
-    type: vmess
-    server: 157.85.230.247
-    port: 2052
-    uuid: 85357d35-492e-4814-835a-aba4cb7f00ad
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: 85357d35-492e-4814-835a-aba4cb7f00ad-vm
-      headers:
-        Host: www.bing.com
-    udp: true
-  - name: 04(TG:@tccjd)_3
+  - name: 04(TG:@tccjd)_1
     type: vless
     server: 157.85.230.247
     port: 64371
@@ -1033,13 +532,183 @@ proxies:
       short-id: 38c7778a
     skip-cert-verify: true
     udp: true
-  - name: 美国（2026.07.03更新）
-    type: hysteria2
-    server: helsinki02.m247-fi-02.live
-    port: 8449
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    sni: sni.fi-m247-02.com
+  - name: 🇯🇵 日本 | JPN
+    type: trojan
+    server: 103.106.228.187
+    port: 54603
+    password: u2sVknrSIFjDojeqAUjgYkCnh9szHcMQ
+    sni: 103.106.228.187
     skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 01(TG:@tccjd)_2
+    type: trojan
+    server: 179.237.74.127
+    port: 47533
+    password: 3COPE----AZ--KANAL---JKVPN----
+    sni: promotion.yahoo.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 03(TG:@tccjd)_1
+    type: trojan
+    server: 179.237.74.127
+    port: 47533
+    password: 3COPE----AZ--KANAL---JKVPN----
+    sni: promotion.yahoo.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 04(TG:@tccjd)_2
+    type: trojan
+    server: 179.237.74.127
+    port: 47533
+    password: 3COPE----AZ--KANAL---RK_VPS----
+    sni: promotion.yahoo.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 02(TG:@tccjd)_2
+    type: trojan
+    server: 104.18.152.233
+    port: 443
+    password: humanity
+    sni: www.calmloud.com
+    alpn:
+      - http/1.1
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.calmloud.com
+    udp: true
+  - name: 03(TG:@tccjd)_2
+    type: trojan
+    server: 104.16.174.36
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.ignitelimit.com
+    udp: true
+  - name: 04(TG:@tccjd)_3
+    type: trojan
+    server: 104.18.152.187
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.ignitelimit.com
+    udp: true
+  - name: 美国(TG:@tccjd)_9
+    type: trojan
+    server: 104.16.72.41
+    port: 443
+    password: MITIVPN
+    sni: De.App-Cloud.ir
+    alpn:
+      - http/1.1
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /MiTiVPN=De
+    udp: true
+  - name: 🇨🇭瑞士(TG:@tccjd)
+    type: trojan
+    server: 179.237.74.127
+    port: 47533
+    password: 3COPE----AZ--KANAL---JKVPN----
+    sni: promotion.yahoo.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 🇨🇭瑞士(TG:@tccjd)_1
+    type: trojan
+    server: 179.237.74.127
+    port: 47533
+    password: 3COPE----AZ--KANAL---RK_VPS----
+    sni: promotion.yahoo.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 美国(TG:@tccjd)_10
+    type: trojan
+    server: blackshadow.dpdns.org
+    port: 443
+    password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+    sni: blackshadow.dpdns.org
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /195.123.218.174-443
+      headers:
+        Host: blackshadow.dpdns.org
+    udp: true
+  - name: 香港(TG:@tccjd)
+    type: trojan
+    server: moved-osprey.rooster465.autos
+    port: 443
+    password: PI36027154
+    sni: moved-osprey.rooster465.autos
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 🇭🇰香港(TG:@tccjd)
+    type: trojan
+    server: moved-osprey.rooster465.autos
+    port: 443
+    password: PI36027154
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 🇹🇼台湾(TG:@tccjd)
+    type: trojan
+    server: 103.159.89.90
+    port: 443
+    password: 9bae11fd9fc7b41b4dcffc0bfbc63613
+    sni: tw.pitopone.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 美国(TG:@tccjd)_11
+    type: trojan
+    server: 104.16.72.41
+    port: 443
+    password: MITIVPN
+    sni: De.App-Cloud.ir
+    alpn:
+      - http/1.1
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /MiTiVPN=De
+    udp: true
+  - name: 香港(TG:@tccjd)_1
+    type: trojan
+    server: moved-osprey.rooster465.autos
+    port: 443
+    password: PI36027154
+    sni: moved-osprey.rooster465.autos
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 香港(TG:@tccjd)_2
+    type: trojan
+    server: jpbgp.netvigor.cc
+    port: 19128
+    password: OccIqeORGQwiNkwS
+    sni: yazhou10.dynu.net
+    skip-cert-verify: true
+    tls: true
     udp: true
   - name: 🇹🇼TW_1 | ⬇️ 1.6MB/s
     type: trojan
@@ -1059,185 +728,299 @@ proxies:
     skip-cert-verify: true
     tls: true
     udp: true
+  - name: 🇸🇬新加坡(TG:@tccjd)
+    type: hysteria2
+    server: sg16.459921.xyz
+    port: 8080
+    password: 51d686b6-d209-4257-be19-f939b590b5bb
+    sni: sg16.459921.xyz
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬新加坡(TG:@tccjd)_1
+    type: hysteria2
+    server: sg06.459921.xyz
+    port: 8080
+    password: 51d686b6-d209-4257-be19-f939b590b5bb
+    sni: sg06.459921.xyz
+    skip-cert-verify: true
+    udp: true
+  - name: 🇯🇵日本 (TG:@tccjd)
+    type: hysteria2
+    server: jp10.dexlos.com
+    port: 21959
+    password: 1266E7B0-607F-43D3-9B19-18963D8E526B
+    sni: jp10.dexlos.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸美国(TG:@tccjd)_3
+    type: hysteria2
+    server: us6.dexlos.com
+    port: 21058
+    password: 1266E7B0-607F-43D3-9B19-18963D8E526B
+    sni: us6.dexlos.com
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: xK9mN2pLq5vR8wB3
+    udp: true
+  - name: 🇯🇵日本(TG:@tccjd)
+    type: hysteria2
+    server: 139.162.90.176
+    port: 8443
+    password: 51d686b6-d209-4257-be19-f939b590b5bb
+    sni: 139.162.90.176
+    skip-cert-verify: true
+    udp: true
+  - name: 🇫🇮芬兰 (TG:@tccjd)
+    type: hysteria2
+    server: helsinki02.m247-fi-02.live
+    port: 8449
+    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+    sni: sni.fi-m247-02.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸美国 (TG:@tccjd)
+    type: hysteria2
+    server: us02.459292.xyz
+    port: 8080
+    password: 51d686b6-d209-4257-be19-f939b590b5bb
+    sni: us02.459292.xyz
+    skip-cert-verify: true
+    udp: true
+  - name: 🇬🇧英国(TG:@tccjd)
+    type: hysteria2
+    server: 2.26.7.99
+    port: 443
+    password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
+    sni: argg9.auragg.org
+    skip-cert-verify: true
+    udp: true
+  - name: 🇬🇧英国(TG:@tccjd)_1
+    type: hysteria2
+    server: 31.77.158.156
+    port: 443
+    password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+    sni: argg2.auragg.org
+    skip-cert-verify: true
+    udp: true
+  - name: 🇬🇧英国(TG:@tccjd)_2
+    type: hysteria2
+    server: 31.77.158.156
+    port: 443
+    password: 98dab41c-f18a-406b-8de2-3cc8bb797d5d
+    sni: argg2.auragg.org
+    skip-cert-verify: true
+    udp: true
+  - name: 德国(TG:@tccjd)
+    type: hysteria2
+    server: helsinki02.m247-fi-02.live
+    port: 8449
+    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+    sni: sni.fi-m247-02.com
+    skip-cert-verify: true
+    udp: true
+  - name: 美国（2026.07.03更新）
+    type: hysteria2
+    server: helsinki02.m247-fi-02.live
+    port: 8449
+    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+    sni: sni.fi-m247-02.com
+    skip-cert-verify: true
+    udp: true
+  - name: 01(TG:@tccjd)_3
+    type: tuic
+    server: 157.85.230.247
+    port: 52335
+    uuid: 85357d35-492e-4814-835a-aba4cb7f00ad
+    password: 85357d35-492e-4814-835a-aba4cb7f00ad
+    sni: www.bing.com
+    alpn:
+      - h3
+    congestion-controller: bbr
+    skip-cert-verify: true
+    disable-sni: false
+    udp: true
+  - name: 日本(TG:@tccjd)
+    type: anytls
+    server: ahk.jueduibupao.top
+    port: 7000
+    password: a1b2dd91-b96d-4fd2-953d-d401079e7c9c
+    sni: www.microsoft.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: "  YouTube(TG:@tccjd)_3"
+    type: anytls
+    server: 157.85.230.247
+    port: 18723
+    password: 85357d35-492e-4814-835a-aba4cb7f00ad
+    sni: www.bing.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 02(TG:@tccjd)_3
+    type: anytls
+    server: 157.85.230.247
+    port: 18723
+    password: 85357d35-492e-4814-835a-aba4cb7f00ad
+    sni: www.bing.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵 日本 | JPN
-      - 01(TG:@tccjd)
-      - 02(TG:@tccjd)
+      - YouTube(TG:@tccjd)
       - 03(TG:@tccjd)
+      - 02(TG:@tccjd)
+      - 01(TG:@tccjd)
       - 04(TG:@tccjd)
       - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_1
-      - 04(TG:@tccjd)_1
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_2
-      - 04(TG:@tccjd)_2
-      - 05(TG:@tccjd)
-      - 06(TG:@tccjd)
-      - 07(TG:@tccjd)
-      - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 🇸🇬新加坡(TG:@tccjd)
       - 🇸🇬SG_1 | ⬇️ 553KB/s
-      - 🇸🇬新加坡(TG:@tccjd)_1
-      - 🇯🇵日本 (TG:@tccjd)
-      - 日本(TG:@tccjd)
       - "  YouTube(TG:@tccjd)"
-      - YouTube(TG:@tccjd)
-      - "  YouTube(TG:@tccjd)_1"
       - 美国(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - 🇨🇭瑞士(TG:@tccjd)
       - 🇭🇺匈牙利(TG:@tccjd)
-      - 🇨🇭瑞士(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_2
-      - 🇺🇸美国(TG:@tccjd)
-      - 🇫🇮芬兰(TG:@tccjd)
-      - 🇯🇵日本(TG:@tccjd)
       - 🇩🇪德国(TG:@tccjd)
+      - 🇺🇸美国(TG:@tccjd)
       - 🇺🇸美国(TG:@tccjd)_1
-      - 🇺🇸美国(TG:@tccjd)_2
-      - 🇫🇮芬兰 (TG:@tccjd)
       - 🇫🇷法国(TG:@tccjd)
-      - 🇺🇸美国 (TG:@tccjd)
       - 🇩🇪德国(TG:@tccjd)_1
-      - 🇬🇧英国(TG:@tccjd)
-      - 香港(TG:@tccjd)
-      - 🇺🇸美国(TG:@tccjd)_3
-      - 🇭🇰香港(TG:@tccjd)
-      - "  YouTube(TG:@tccjd)_2"
-      - 美国(TG:@tccjd)_3
-      - 🇬🇧英国(TG:@tccjd)_1
+      - 🇺🇸美国(TG:@tccjd)_2
+      - "  YouTube(TG:@tccjd)_1"
       - 🇪🇪爱沙尼亚 (TG:@tccjd)
-      - 美国(TG:@tccjd)_4
       - 🇳🇱荷兰(TG:@tccjd)
-      - 美国(TG:@tccjd)_5
-      - "  YouTube(TG:@tccjd)_3"
-      - 🇬🇧英国(TG:@tccjd)_2
-      - 🇹🇼台湾(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - "  YouTube(TG:@tccjd)_2"
       - 🇰🇿哈萨克斯坦 (TG:@tccjd)
       - 伊朗(TG:@tccjd)
-      - 美国(TG:@tccjd)_6
+      - 美国(TG:@tccjd)_2
       - 🇰🇷韩国(TG:@tccjd)
       - 🇩🇪德国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_7
+      - 美国(TG:@tccjd)_3
       - 加拿大(TG:@tccjd)
       - 加拿大(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_4
+      - 美国(TG:@tccjd)_5
+      - 美国(TG:@tccjd)_6
+      - 美国(TG:@tccjd)_7
       - 美国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_9
-      - 德国(TG:@tccjd)
-      - 美国(TG:@tccjd)_10
-      - 美国(TG:@tccjd)_11
-      - 美国(TG:@tccjd)_12
-      - 美国(TG:@tccjd)_13
-      - 美国(TG:@tccjd)_14
-      - 香港(TG:@tccjd)_1
-      - 香港(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_15
-      - 美国(TG:@tccjd)_16
       - 🇸🇬SG_1 | ⬇️ 553KB/s_1
       - 🇸🇬SG_1 | ⬇️ 553KB/s_2
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_1
+      - 🇯🇵 日本 | JPN
+      - 01(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
+      - 04(TG:@tccjd)_2
+      - 02(TG:@tccjd)_2
+      - 03(TG:@tccjd)_2
       - 04(TG:@tccjd)_3
-      - 美国（2026.07.03更新）
+      - 美国(TG:@tccjd)_9
+      - 🇨🇭瑞士(TG:@tccjd)
+      - 🇨🇭瑞士(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_10
+      - 香港(TG:@tccjd)
+      - 🇭🇰香港(TG:@tccjd)
+      - 🇹🇼台湾(TG:@tccjd)
+      - 美国(TG:@tccjd)_11
+      - 香港(TG:@tccjd)_1
+      - 香港(TG:@tccjd)_2
       - 🇹🇼TW_1 | ⬇️ 1.6MB/s
       - 🇹🇼TW_1 | ⬇️ 1.6MB/s_1
+      - 🇸🇬新加坡(TG:@tccjd)
+      - 🇸🇬新加坡(TG:@tccjd)_1
+      - 🇯🇵日本 (TG:@tccjd)
+      - 🇺🇸美国(TG:@tccjd)_3
+      - 🇯🇵日本(TG:@tccjd)
+      - 🇫🇮芬兰 (TG:@tccjd)
+      - 🇺🇸美国 (TG:@tccjd)
+      - 🇬🇧英国(TG:@tccjd)
+      - 🇬🇧英国(TG:@tccjd)_1
+      - 🇬🇧英国(TG:@tccjd)_2
+      - 德国(TG:@tccjd)
+      - 美国（2026.07.03更新）
+      - 01(TG:@tccjd)_3
+      - 日本(TG:@tccjd)
+      - "  YouTube(TG:@tccjd)_3"
+      - 02(TG:@tccjd)_3
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - 🇯🇵 日本 | JPN
-      - 01(TG:@tccjd)
-      - 02(TG:@tccjd)
+      - YouTube(TG:@tccjd)
       - 03(TG:@tccjd)
+      - 02(TG:@tccjd)
+      - 01(TG:@tccjd)
       - 04(TG:@tccjd)
       - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_1
-      - 04(TG:@tccjd)_1
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_2
-      - 04(TG:@tccjd)_2
-      - 05(TG:@tccjd)
-      - 06(TG:@tccjd)
-      - 07(TG:@tccjd)
-      - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 🇸🇬新加坡(TG:@tccjd)
       - 🇸🇬SG_1 | ⬇️ 553KB/s
-      - 🇸🇬新加坡(TG:@tccjd)_1
-      - 🇯🇵日本 (TG:@tccjd)
-      - 日本(TG:@tccjd)
       - "  YouTube(TG:@tccjd)"
-      - YouTube(TG:@tccjd)
-      - "  YouTube(TG:@tccjd)_1"
       - 美国(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - 🇨🇭瑞士(TG:@tccjd)
       - 🇭🇺匈牙利(TG:@tccjd)
-      - 🇨🇭瑞士(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_2
-      - 🇺🇸美国(TG:@tccjd)
-      - 🇫🇮芬兰(TG:@tccjd)
-      - 🇯🇵日本(TG:@tccjd)
       - 🇩🇪德国(TG:@tccjd)
+      - 🇺🇸美国(TG:@tccjd)
       - 🇺🇸美国(TG:@tccjd)_1
-      - 🇺🇸美国(TG:@tccjd)_2
-      - 🇫🇮芬兰 (TG:@tccjd)
       - 🇫🇷法国(TG:@tccjd)
-      - 🇺🇸美国 (TG:@tccjd)
       - 🇩🇪德国(TG:@tccjd)_1
-      - 🇬🇧英国(TG:@tccjd)
-      - 香港(TG:@tccjd)
-      - 🇺🇸美国(TG:@tccjd)_3
-      - 🇭🇰香港(TG:@tccjd)
-      - "  YouTube(TG:@tccjd)_2"
-      - 美国(TG:@tccjd)_3
-      - 🇬🇧英国(TG:@tccjd)_1
+      - 🇺🇸美国(TG:@tccjd)_2
+      - "  YouTube(TG:@tccjd)_1"
       - 🇪🇪爱沙尼亚 (TG:@tccjd)
-      - 美国(TG:@tccjd)_4
       - 🇳🇱荷兰(TG:@tccjd)
-      - 美国(TG:@tccjd)_5
-      - "  YouTube(TG:@tccjd)_3"
-      - 🇬🇧英国(TG:@tccjd)_2
-      - 🇹🇼台湾(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - "  YouTube(TG:@tccjd)_2"
       - 🇰🇿哈萨克斯坦 (TG:@tccjd)
       - 伊朗(TG:@tccjd)
-      - 美国(TG:@tccjd)_6
+      - 美国(TG:@tccjd)_2
       - 🇰🇷韩国(TG:@tccjd)
       - 🇩🇪德国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_7
+      - 美国(TG:@tccjd)_3
       - 加拿大(TG:@tccjd)
       - 加拿大(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_4
+      - 美国(TG:@tccjd)_5
+      - 美国(TG:@tccjd)_6
+      - 美国(TG:@tccjd)_7
       - 美国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_9
-      - 德国(TG:@tccjd)
-      - 美国(TG:@tccjd)_10
-      - 美国(TG:@tccjd)_11
-      - 美国(TG:@tccjd)_12
-      - 美国(TG:@tccjd)_13
-      - 美国(TG:@tccjd)_14
-      - 香港(TG:@tccjd)_1
-      - 香港(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_15
-      - 美国(TG:@tccjd)_16
       - 🇸🇬SG_1 | ⬇️ 553KB/s_1
       - 🇸🇬SG_1 | ⬇️ 553KB/s_2
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_1
+      - 🇯🇵 日本 | JPN
+      - 01(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
+      - 04(TG:@tccjd)_2
+      - 02(TG:@tccjd)_2
+      - 03(TG:@tccjd)_2
       - 04(TG:@tccjd)_3
-      - 美国（2026.07.03更新）
+      - 美国(TG:@tccjd)_9
+      - 🇨🇭瑞士(TG:@tccjd)
+      - 🇨🇭瑞士(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_10
+      - 香港(TG:@tccjd)
+      - 🇭🇰香港(TG:@tccjd)
+      - 🇹🇼台湾(TG:@tccjd)
+      - 美国(TG:@tccjd)_11
+      - 香港(TG:@tccjd)_1
+      - 香港(TG:@tccjd)_2
       - 🇹🇼TW_1 | ⬇️ 1.6MB/s
       - 🇹🇼TW_1 | ⬇️ 1.6MB/s_1
+      - 🇸🇬新加坡(TG:@tccjd)
+      - 🇸🇬新加坡(TG:@tccjd)_1
+      - 🇯🇵日本 (TG:@tccjd)
+      - 🇺🇸美国(TG:@tccjd)_3
+      - 🇯🇵日本(TG:@tccjd)
+      - 🇫🇮芬兰 (TG:@tccjd)
+      - 🇺🇸美国 (TG:@tccjd)
+      - 🇬🇧英国(TG:@tccjd)
+      - 🇬🇧英国(TG:@tccjd)_1
+      - 🇬🇧英国(TG:@tccjd)_2
+      - 德国(TG:@tccjd)
+      - 美国（2026.07.03更新）
+      - 01(TG:@tccjd)_3
+      - 日本(TG:@tccjd)
+      - "  YouTube(TG:@tccjd)_3"
+      - 02(TG:@tccjd)_3
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -1247,361 +1030,313 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本 | JPN
-      - 01(TG:@tccjd)
-      - 02(TG:@tccjd)
+      - YouTube(TG:@tccjd)
       - 03(TG:@tccjd)
+      - 02(TG:@tccjd)
+      - 01(TG:@tccjd)
       - 04(TG:@tccjd)
       - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_1
-      - 04(TG:@tccjd)_1
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_2
-      - 04(TG:@tccjd)_2
-      - 05(TG:@tccjd)
-      - 06(TG:@tccjd)
-      - 07(TG:@tccjd)
-      - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 🇸🇬新加坡(TG:@tccjd)
       - 🇸🇬SG_1 | ⬇️ 553KB/s
-      - 🇸🇬新加坡(TG:@tccjd)_1
-      - 🇯🇵日本 (TG:@tccjd)
-      - 日本(TG:@tccjd)
       - "  YouTube(TG:@tccjd)"
-      - YouTube(TG:@tccjd)
-      - "  YouTube(TG:@tccjd)_1"
       - 美国(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - 🇨🇭瑞士(TG:@tccjd)
       - 🇭🇺匈牙利(TG:@tccjd)
-      - 🇨🇭瑞士(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_2
-      - 🇺🇸美国(TG:@tccjd)
-      - 🇫🇮芬兰(TG:@tccjd)
-      - 🇯🇵日本(TG:@tccjd)
       - 🇩🇪德国(TG:@tccjd)
+      - 🇺🇸美国(TG:@tccjd)
       - 🇺🇸美国(TG:@tccjd)_1
-      - 🇺🇸美国(TG:@tccjd)_2
-      - 🇫🇮芬兰 (TG:@tccjd)
       - 🇫🇷法国(TG:@tccjd)
-      - 🇺🇸美国 (TG:@tccjd)
       - 🇩🇪德国(TG:@tccjd)_1
-      - 🇬🇧英国(TG:@tccjd)
-      - 香港(TG:@tccjd)
-      - 🇺🇸美国(TG:@tccjd)_3
-      - 🇭🇰香港(TG:@tccjd)
-      - "  YouTube(TG:@tccjd)_2"
-      - 美国(TG:@tccjd)_3
-      - 🇬🇧英国(TG:@tccjd)_1
+      - 🇺🇸美国(TG:@tccjd)_2
+      - "  YouTube(TG:@tccjd)_1"
       - 🇪🇪爱沙尼亚 (TG:@tccjd)
-      - 美国(TG:@tccjd)_4
       - 🇳🇱荷兰(TG:@tccjd)
-      - 美国(TG:@tccjd)_5
-      - "  YouTube(TG:@tccjd)_3"
-      - 🇬🇧英国(TG:@tccjd)_2
-      - 🇹🇼台湾(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - "  YouTube(TG:@tccjd)_2"
       - 🇰🇿哈萨克斯坦 (TG:@tccjd)
       - 伊朗(TG:@tccjd)
-      - 美国(TG:@tccjd)_6
+      - 美国(TG:@tccjd)_2
       - 🇰🇷韩国(TG:@tccjd)
       - 🇩🇪德国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_7
+      - 美国(TG:@tccjd)_3
       - 加拿大(TG:@tccjd)
       - 加拿大(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_4
+      - 美国(TG:@tccjd)_5
+      - 美国(TG:@tccjd)_6
+      - 美国(TG:@tccjd)_7
       - 美国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_9
-      - 德国(TG:@tccjd)
-      - 美国(TG:@tccjd)_10
-      - 美国(TG:@tccjd)_11
-      - 美国(TG:@tccjd)_12
-      - 美国(TG:@tccjd)_13
-      - 美国(TG:@tccjd)_14
-      - 香港(TG:@tccjd)_1
-      - 香港(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_15
-      - 美国(TG:@tccjd)_16
       - 🇸🇬SG_1 | ⬇️ 553KB/s_1
       - 🇸🇬SG_1 | ⬇️ 553KB/s_2
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_1
+      - 🇯🇵 日本 | JPN
+      - 01(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
+      - 04(TG:@tccjd)_2
+      - 02(TG:@tccjd)_2
+      - 03(TG:@tccjd)_2
       - 04(TG:@tccjd)_3
-      - 美国（2026.07.03更新）
+      - 美国(TG:@tccjd)_9
+      - 🇨🇭瑞士(TG:@tccjd)
+      - 🇨🇭瑞士(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_10
+      - 香港(TG:@tccjd)
+      - 🇭🇰香港(TG:@tccjd)
+      - 🇹🇼台湾(TG:@tccjd)
+      - 美国(TG:@tccjd)_11
+      - 香港(TG:@tccjd)_1
+      - 香港(TG:@tccjd)_2
       - 🇹🇼TW_1 | ⬇️ 1.6MB/s
       - 🇹🇼TW_1 | ⬇️ 1.6MB/s_1
+      - 🇸🇬新加坡(TG:@tccjd)
+      - 🇸🇬新加坡(TG:@tccjd)_1
+      - 🇯🇵日本 (TG:@tccjd)
+      - 🇺🇸美国(TG:@tccjd)_3
+      - 🇯🇵日本(TG:@tccjd)
+      - 🇫🇮芬兰 (TG:@tccjd)
+      - 🇺🇸美国 (TG:@tccjd)
+      - 🇬🇧英国(TG:@tccjd)
+      - 🇬🇧英国(TG:@tccjd)_1
+      - 🇬🇧英国(TG:@tccjd)_2
+      - 德国(TG:@tccjd)
+      - 美国（2026.07.03更新）
+      - 01(TG:@tccjd)_3
+      - 日本(TG:@tccjd)
+      - "  YouTube(TG:@tccjd)_3"
+      - 02(TG:@tccjd)_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵 日本 | JPN
-      - 01(TG:@tccjd)
-      - 02(TG:@tccjd)
+      - YouTube(TG:@tccjd)
       - 03(TG:@tccjd)
+      - 02(TG:@tccjd)
+      - 01(TG:@tccjd)
       - 04(TG:@tccjd)
       - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_1
-      - 04(TG:@tccjd)_1
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_2
-      - 04(TG:@tccjd)_2
-      - 05(TG:@tccjd)
-      - 06(TG:@tccjd)
-      - 07(TG:@tccjd)
-      - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 🇸🇬新加坡(TG:@tccjd)
       - 🇸🇬SG_1 | ⬇️ 553KB/s
-      - 🇸🇬新加坡(TG:@tccjd)_1
-      - 🇯🇵日本 (TG:@tccjd)
-      - 日本(TG:@tccjd)
       - "  YouTube(TG:@tccjd)"
-      - YouTube(TG:@tccjd)
-      - "  YouTube(TG:@tccjd)_1"
       - 美国(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - 🇨🇭瑞士(TG:@tccjd)
       - 🇭🇺匈牙利(TG:@tccjd)
-      - 🇨🇭瑞士(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_2
-      - 🇺🇸美国(TG:@tccjd)
-      - 🇫🇮芬兰(TG:@tccjd)
-      - 🇯🇵日本(TG:@tccjd)
       - 🇩🇪德国(TG:@tccjd)
+      - 🇺🇸美国(TG:@tccjd)
       - 🇺🇸美国(TG:@tccjd)_1
-      - 🇺🇸美国(TG:@tccjd)_2
-      - 🇫🇮芬兰 (TG:@tccjd)
       - 🇫🇷法国(TG:@tccjd)
-      - 🇺🇸美国 (TG:@tccjd)
       - 🇩🇪德国(TG:@tccjd)_1
-      - 🇬🇧英国(TG:@tccjd)
-      - 香港(TG:@tccjd)
-      - 🇺🇸美国(TG:@tccjd)_3
-      - 🇭🇰香港(TG:@tccjd)
-      - "  YouTube(TG:@tccjd)_2"
-      - 美国(TG:@tccjd)_3
-      - 🇬🇧英国(TG:@tccjd)_1
+      - 🇺🇸美国(TG:@tccjd)_2
+      - "  YouTube(TG:@tccjd)_1"
       - 🇪🇪爱沙尼亚 (TG:@tccjd)
-      - 美国(TG:@tccjd)_4
       - 🇳🇱荷兰(TG:@tccjd)
-      - 美国(TG:@tccjd)_5
-      - "  YouTube(TG:@tccjd)_3"
-      - 🇬🇧英国(TG:@tccjd)_2
-      - 🇹🇼台湾(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - "  YouTube(TG:@tccjd)_2"
       - 🇰🇿哈萨克斯坦 (TG:@tccjd)
       - 伊朗(TG:@tccjd)
-      - 美国(TG:@tccjd)_6
+      - 美国(TG:@tccjd)_2
       - 🇰🇷韩国(TG:@tccjd)
       - 🇩🇪德国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_7
+      - 美国(TG:@tccjd)_3
       - 加拿大(TG:@tccjd)
       - 加拿大(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_4
+      - 美国(TG:@tccjd)_5
+      - 美国(TG:@tccjd)_6
+      - 美国(TG:@tccjd)_7
       - 美国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_9
-      - 德国(TG:@tccjd)
-      - 美国(TG:@tccjd)_10
-      - 美国(TG:@tccjd)_11
-      - 美国(TG:@tccjd)_12
-      - 美国(TG:@tccjd)_13
-      - 美国(TG:@tccjd)_14
-      - 香港(TG:@tccjd)_1
-      - 香港(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_15
-      - 美国(TG:@tccjd)_16
       - 🇸🇬SG_1 | ⬇️ 553KB/s_1
       - 🇸🇬SG_1 | ⬇️ 553KB/s_2
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_1
+      - 🇯🇵 日本 | JPN
+      - 01(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
+      - 04(TG:@tccjd)_2
+      - 02(TG:@tccjd)_2
+      - 03(TG:@tccjd)_2
       - 04(TG:@tccjd)_3
-      - 美国（2026.07.03更新）
+      - 美国(TG:@tccjd)_9
+      - 🇨🇭瑞士(TG:@tccjd)
+      - 🇨🇭瑞士(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_10
+      - 香港(TG:@tccjd)
+      - 🇭🇰香港(TG:@tccjd)
+      - 🇹🇼台湾(TG:@tccjd)
+      - 美国(TG:@tccjd)_11
+      - 香港(TG:@tccjd)_1
+      - 香港(TG:@tccjd)_2
       - 🇹🇼TW_1 | ⬇️ 1.6MB/s
       - 🇹🇼TW_1 | ⬇️ 1.6MB/s_1
+      - 🇸🇬新加坡(TG:@tccjd)
+      - 🇸🇬新加坡(TG:@tccjd)_1
+      - 🇯🇵日本 (TG:@tccjd)
+      - 🇺🇸美国(TG:@tccjd)_3
+      - 🇯🇵日本(TG:@tccjd)
+      - 🇫🇮芬兰 (TG:@tccjd)
+      - 🇺🇸美国 (TG:@tccjd)
+      - 🇬🇧英国(TG:@tccjd)
+      - 🇬🇧英国(TG:@tccjd)_1
+      - 🇬🇧英国(TG:@tccjd)_2
+      - 德国(TG:@tccjd)
+      - 美国（2026.07.03更新）
+      - 01(TG:@tccjd)_3
+      - 日本(TG:@tccjd)
+      - "  YouTube(TG:@tccjd)_3"
+      - 02(TG:@tccjd)_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵 日本 | JPN
-      - 01(TG:@tccjd)
-      - 02(TG:@tccjd)
+      - YouTube(TG:@tccjd)
       - 03(TG:@tccjd)
+      - 02(TG:@tccjd)
+      - 01(TG:@tccjd)
       - 04(TG:@tccjd)
       - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_1
-      - 04(TG:@tccjd)_1
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_2
-      - 04(TG:@tccjd)_2
-      - 05(TG:@tccjd)
-      - 06(TG:@tccjd)
-      - 07(TG:@tccjd)
-      - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 🇸🇬新加坡(TG:@tccjd)
       - 🇸🇬SG_1 | ⬇️ 553KB/s
-      - 🇸🇬新加坡(TG:@tccjd)_1
-      - 🇯🇵日本 (TG:@tccjd)
-      - 日本(TG:@tccjd)
       - "  YouTube(TG:@tccjd)"
-      - YouTube(TG:@tccjd)
-      - "  YouTube(TG:@tccjd)_1"
       - 美国(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - 🇨🇭瑞士(TG:@tccjd)
       - 🇭🇺匈牙利(TG:@tccjd)
-      - 🇨🇭瑞士(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_2
-      - 🇺🇸美国(TG:@tccjd)
-      - 🇫🇮芬兰(TG:@tccjd)
-      - 🇯🇵日本(TG:@tccjd)
       - 🇩🇪德国(TG:@tccjd)
+      - 🇺🇸美国(TG:@tccjd)
       - 🇺🇸美国(TG:@tccjd)_1
-      - 🇺🇸美国(TG:@tccjd)_2
-      - 🇫🇮芬兰 (TG:@tccjd)
       - 🇫🇷法国(TG:@tccjd)
-      - 🇺🇸美国 (TG:@tccjd)
       - 🇩🇪德国(TG:@tccjd)_1
-      - 🇬🇧英国(TG:@tccjd)
-      - 香港(TG:@tccjd)
-      - 🇺🇸美国(TG:@tccjd)_3
-      - 🇭🇰香港(TG:@tccjd)
-      - "  YouTube(TG:@tccjd)_2"
-      - 美国(TG:@tccjd)_3
-      - 🇬🇧英国(TG:@tccjd)_1
+      - 🇺🇸美国(TG:@tccjd)_2
+      - "  YouTube(TG:@tccjd)_1"
       - 🇪🇪爱沙尼亚 (TG:@tccjd)
-      - 美国(TG:@tccjd)_4
       - 🇳🇱荷兰(TG:@tccjd)
-      - 美国(TG:@tccjd)_5
-      - "  YouTube(TG:@tccjd)_3"
-      - 🇬🇧英国(TG:@tccjd)_2
-      - 🇹🇼台湾(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - "  YouTube(TG:@tccjd)_2"
       - 🇰🇿哈萨克斯坦 (TG:@tccjd)
       - 伊朗(TG:@tccjd)
-      - 美国(TG:@tccjd)_6
+      - 美国(TG:@tccjd)_2
       - 🇰🇷韩国(TG:@tccjd)
       - 🇩🇪德国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_7
+      - 美国(TG:@tccjd)_3
       - 加拿大(TG:@tccjd)
       - 加拿大(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_4
+      - 美国(TG:@tccjd)_5
+      - 美国(TG:@tccjd)_6
+      - 美国(TG:@tccjd)_7
       - 美国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_9
-      - 德国(TG:@tccjd)
-      - 美国(TG:@tccjd)_10
-      - 美国(TG:@tccjd)_11
-      - 美国(TG:@tccjd)_12
-      - 美国(TG:@tccjd)_13
-      - 美国(TG:@tccjd)_14
-      - 香港(TG:@tccjd)_1
-      - 香港(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_15
-      - 美国(TG:@tccjd)_16
       - 🇸🇬SG_1 | ⬇️ 553KB/s_1
       - 🇸🇬SG_1 | ⬇️ 553KB/s_2
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_1
+      - 🇯🇵 日本 | JPN
+      - 01(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
+      - 04(TG:@tccjd)_2
+      - 02(TG:@tccjd)_2
+      - 03(TG:@tccjd)_2
       - 04(TG:@tccjd)_3
-      - 美国（2026.07.03更新）
+      - 美国(TG:@tccjd)_9
+      - 🇨🇭瑞士(TG:@tccjd)
+      - 🇨🇭瑞士(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_10
+      - 香港(TG:@tccjd)
+      - 🇭🇰香港(TG:@tccjd)
+      - 🇹🇼台湾(TG:@tccjd)
+      - 美国(TG:@tccjd)_11
+      - 香港(TG:@tccjd)_1
+      - 香港(TG:@tccjd)_2
       - 🇹🇼TW_1 | ⬇️ 1.6MB/s
       - 🇹🇼TW_1 | ⬇️ 1.6MB/s_1
+      - 🇸🇬新加坡(TG:@tccjd)
+      - 🇸🇬新加坡(TG:@tccjd)_1
+      - 🇯🇵日本 (TG:@tccjd)
+      - 🇺🇸美国(TG:@tccjd)_3
+      - 🇯🇵日本(TG:@tccjd)
+      - 🇫🇮芬兰 (TG:@tccjd)
+      - 🇺🇸美国 (TG:@tccjd)
+      - 🇬🇧英国(TG:@tccjd)
+      - 🇬🇧英国(TG:@tccjd)_1
+      - 🇬🇧英国(TG:@tccjd)_2
+      - 德国(TG:@tccjd)
+      - 美国（2026.07.03更新）
+      - 01(TG:@tccjd)_3
+      - 日本(TG:@tccjd)
+      - "  YouTube(TG:@tccjd)_3"
+      - 02(TG:@tccjd)_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵 日本 | JPN
-      - 01(TG:@tccjd)
-      - 02(TG:@tccjd)
+      - YouTube(TG:@tccjd)
       - 03(TG:@tccjd)
+      - 02(TG:@tccjd)
+      - 01(TG:@tccjd)
       - 04(TG:@tccjd)
       - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_1
-      - 04(TG:@tccjd)_1
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_2
-      - 04(TG:@tccjd)_2
-      - 05(TG:@tccjd)
-      - 06(TG:@tccjd)
-      - 07(TG:@tccjd)
-      - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 🇸🇬新加坡(TG:@tccjd)
       - 🇸🇬SG_1 | ⬇️ 553KB/s
-      - 🇸🇬新加坡(TG:@tccjd)_1
-      - 🇯🇵日本 (TG:@tccjd)
-      - 日本(TG:@tccjd)
       - "  YouTube(TG:@tccjd)"
-      - YouTube(TG:@tccjd)
-      - "  YouTube(TG:@tccjd)_1"
       - 美国(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - 🇨🇭瑞士(TG:@tccjd)
       - 🇭🇺匈牙利(TG:@tccjd)
-      - 🇨🇭瑞士(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_2
-      - 🇺🇸美国(TG:@tccjd)
-      - 🇫🇮芬兰(TG:@tccjd)
-      - 🇯🇵日本(TG:@tccjd)
       - 🇩🇪德国(TG:@tccjd)
+      - 🇺🇸美国(TG:@tccjd)
       - 🇺🇸美国(TG:@tccjd)_1
-      - 🇺🇸美国(TG:@tccjd)_2
-      - 🇫🇮芬兰 (TG:@tccjd)
       - 🇫🇷法国(TG:@tccjd)
-      - 🇺🇸美国 (TG:@tccjd)
       - 🇩🇪德国(TG:@tccjd)_1
-      - 🇬🇧英国(TG:@tccjd)
-      - 香港(TG:@tccjd)
-      - 🇺🇸美国(TG:@tccjd)_3
-      - 🇭🇰香港(TG:@tccjd)
-      - "  YouTube(TG:@tccjd)_2"
-      - 美国(TG:@tccjd)_3
-      - 🇬🇧英国(TG:@tccjd)_1
+      - 🇺🇸美国(TG:@tccjd)_2
+      - "  YouTube(TG:@tccjd)_1"
       - 🇪🇪爱沙尼亚 (TG:@tccjd)
-      - 美国(TG:@tccjd)_4
       - 🇳🇱荷兰(TG:@tccjd)
-      - 美国(TG:@tccjd)_5
-      - "  YouTube(TG:@tccjd)_3"
-      - 🇬🇧英国(TG:@tccjd)_2
-      - 🇹🇼台湾(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - "  YouTube(TG:@tccjd)_2"
       - 🇰🇿哈萨克斯坦 (TG:@tccjd)
       - 伊朗(TG:@tccjd)
-      - 美国(TG:@tccjd)_6
+      - 美国(TG:@tccjd)_2
       - 🇰🇷韩国(TG:@tccjd)
       - 🇩🇪德国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_7
+      - 美国(TG:@tccjd)_3
       - 加拿大(TG:@tccjd)
       - 加拿大(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_4
+      - 美国(TG:@tccjd)_5
+      - 美国(TG:@tccjd)_6
+      - 美国(TG:@tccjd)_7
       - 美国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_9
-      - 德国(TG:@tccjd)
-      - 美国(TG:@tccjd)_10
-      - 美国(TG:@tccjd)_11
-      - 美国(TG:@tccjd)_12
-      - 美国(TG:@tccjd)_13
-      - 美国(TG:@tccjd)_14
-      - 香港(TG:@tccjd)_1
-      - 香港(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_15
-      - 美国(TG:@tccjd)_16
       - 🇸🇬SG_1 | ⬇️ 553KB/s_1
       - 🇸🇬SG_1 | ⬇️ 553KB/s_2
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_1
+      - 🇯🇵 日本 | JPN
+      - 01(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
+      - 04(TG:@tccjd)_2
+      - 02(TG:@tccjd)_2
+      - 03(TG:@tccjd)_2
       - 04(TG:@tccjd)_3
-      - 美国（2026.07.03更新）
+      - 美国(TG:@tccjd)_9
+      - 🇨🇭瑞士(TG:@tccjd)
+      - 🇨🇭瑞士(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_10
+      - 香港(TG:@tccjd)
+      - 🇭🇰香港(TG:@tccjd)
+      - 🇹🇼台湾(TG:@tccjd)
+      - 美国(TG:@tccjd)_11
+      - 香港(TG:@tccjd)_1
+      - 香港(TG:@tccjd)_2
       - 🇹🇼TW_1 | ⬇️ 1.6MB/s
       - 🇹🇼TW_1 | ⬇️ 1.6MB/s_1
+      - 🇸🇬新加坡(TG:@tccjd)
+      - 🇸🇬新加坡(TG:@tccjd)_1
+      - 🇯🇵日本 (TG:@tccjd)
+      - 🇺🇸美国(TG:@tccjd)_3
+      - 🇯🇵日本(TG:@tccjd)
+      - 🇫🇮芬兰 (TG:@tccjd)
+      - 🇺🇸美国 (TG:@tccjd)
+      - 🇬🇧英国(TG:@tccjd)
+      - 🇬🇧英国(TG:@tccjd)_1
+      - 🇬🇧英国(TG:@tccjd)_2
+      - 德国(TG:@tccjd)
+      - 美国（2026.07.03更新）
+      - 01(TG:@tccjd)_3
+      - 日本(TG:@tccjd)
+      - "  YouTube(TG:@tccjd)_3"
+      - 02(TG:@tccjd)_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1624,91 +1359,79 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 日本 | JPN
-      - 01(TG:@tccjd)
-      - 02(TG:@tccjd)
+      - YouTube(TG:@tccjd)
       - 03(TG:@tccjd)
+      - 02(TG:@tccjd)
+      - 01(TG:@tccjd)
       - 04(TG:@tccjd)
       - 01(TG:@tccjd)_1
       - 02(TG:@tccjd)_1
-      - 03(TG:@tccjd)_1
-      - 04(TG:@tccjd)_1
-      - 01(TG:@tccjd)_2
-      - 02(TG:@tccjd)_2
-      - 03(TG:@tccjd)_2
-      - 04(TG:@tccjd)_2
-      - 05(TG:@tccjd)
-      - 06(TG:@tccjd)
-      - 07(TG:@tccjd)
-      - 01(TG:@tccjd)_3
-      - 02(TG:@tccjd)_3
-      - 🇸🇬新加坡(TG:@tccjd)
       - 🇸🇬SG_1 | ⬇️ 553KB/s
-      - 🇸🇬新加坡(TG:@tccjd)_1
-      - 🇯🇵日本 (TG:@tccjd)
-      - 日本(TG:@tccjd)
       - "  YouTube(TG:@tccjd)"
-      - YouTube(TG:@tccjd)
-      - "  YouTube(TG:@tccjd)_1"
       - 美国(TG:@tccjd)
-      - 美国(TG:@tccjd)_1
-      - 🇨🇭瑞士(TG:@tccjd)
       - 🇭🇺匈牙利(TG:@tccjd)
-      - 🇨🇭瑞士(TG:@tccjd)_1
-      - 美国(TG:@tccjd)_2
-      - 🇺🇸美国(TG:@tccjd)
-      - 🇫🇮芬兰(TG:@tccjd)
-      - 🇯🇵日本(TG:@tccjd)
       - 🇩🇪德国(TG:@tccjd)
+      - 🇺🇸美国(TG:@tccjd)
       - 🇺🇸美国(TG:@tccjd)_1
-      - 🇺🇸美国(TG:@tccjd)_2
-      - 🇫🇮芬兰 (TG:@tccjd)
       - 🇫🇷法国(TG:@tccjd)
-      - 🇺🇸美国 (TG:@tccjd)
       - 🇩🇪德国(TG:@tccjd)_1
-      - 🇬🇧英国(TG:@tccjd)
-      - 香港(TG:@tccjd)
-      - 🇺🇸美国(TG:@tccjd)_3
-      - 🇭🇰香港(TG:@tccjd)
-      - "  YouTube(TG:@tccjd)_2"
-      - 美国(TG:@tccjd)_3
-      - 🇬🇧英国(TG:@tccjd)_1
+      - 🇺🇸美国(TG:@tccjd)_2
+      - "  YouTube(TG:@tccjd)_1"
       - 🇪🇪爱沙尼亚 (TG:@tccjd)
-      - 美国(TG:@tccjd)_4
       - 🇳🇱荷兰(TG:@tccjd)
-      - 美国(TG:@tccjd)_5
-      - "  YouTube(TG:@tccjd)_3"
-      - 🇬🇧英国(TG:@tccjd)_2
-      - 🇹🇼台湾(TG:@tccjd)
+      - 美国(TG:@tccjd)_1
+      - "  YouTube(TG:@tccjd)_2"
       - 🇰🇿哈萨克斯坦 (TG:@tccjd)
       - 伊朗(TG:@tccjd)
-      - 美国(TG:@tccjd)_6
+      - 美国(TG:@tccjd)_2
       - 🇰🇷韩国(TG:@tccjd)
       - 🇩🇪德国(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_7
+      - 美国(TG:@tccjd)_3
       - 加拿大(TG:@tccjd)
       - 加拿大(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_4
+      - 美国(TG:@tccjd)_5
+      - 美国(TG:@tccjd)_6
+      - 美国(TG:@tccjd)_7
       - 美国(TG:@tccjd)_8
-      - 美国(TG:@tccjd)_9
-      - 德国(TG:@tccjd)
-      - 美国(TG:@tccjd)_10
-      - 美国(TG:@tccjd)_11
-      - 美国(TG:@tccjd)_12
-      - 美国(TG:@tccjd)_13
-      - 美国(TG:@tccjd)_14
-      - 香港(TG:@tccjd)_1
-      - 香港(TG:@tccjd)_2
-      - 美国(TG:@tccjd)_15
-      - 美国(TG:@tccjd)_16
       - 🇸🇬SG_1 | ⬇️ 553KB/s_1
       - 🇸🇬SG_1 | ⬇️ 553KB/s_2
-      - 01(TG:@tccjd)_4
-      - 02(TG:@tccjd)_4
-      - 03(TG:@tccjd)_3
+      - 04(TG:@tccjd)_1
+      - 🇯🇵 日本 | JPN
+      - 01(TG:@tccjd)_2
+      - 03(TG:@tccjd)_1
+      - 04(TG:@tccjd)_2
+      - 02(TG:@tccjd)_2
+      - 03(TG:@tccjd)_2
       - 04(TG:@tccjd)_3
-      - 美国（2026.07.03更新）
+      - 美国(TG:@tccjd)_9
+      - 🇨🇭瑞士(TG:@tccjd)
+      - 🇨🇭瑞士(TG:@tccjd)_1
+      - 美国(TG:@tccjd)_10
+      - 香港(TG:@tccjd)
+      - 🇭🇰香港(TG:@tccjd)
+      - 🇹🇼台湾(TG:@tccjd)
+      - 美国(TG:@tccjd)_11
+      - 香港(TG:@tccjd)_1
+      - 香港(TG:@tccjd)_2
       - 🇹🇼TW_1 | ⬇️ 1.6MB/s
       - 🇹🇼TW_1 | ⬇️ 1.6MB/s_1
+      - 🇸🇬新加坡(TG:@tccjd)
+      - 🇸🇬新加坡(TG:@tccjd)_1
+      - 🇯🇵日本 (TG:@tccjd)
+      - 🇺🇸美国(TG:@tccjd)_3
+      - 🇯🇵日本(TG:@tccjd)
+      - 🇫🇮芬兰 (TG:@tccjd)
+      - 🇺🇸美国 (TG:@tccjd)
+      - 🇬🇧英国(TG:@tccjd)
+      - 🇬🇧英国(TG:@tccjd)_1
+      - 🇬🇧英国(TG:@tccjd)_2
+      - 德国(TG:@tccjd)
+      - 美国（2026.07.03更新）
+      - 01(TG:@tccjd)_3
+      - 日本(TG:@tccjd)
+      - "  YouTube(TG:@tccjd)_3"
+      - 02(TG:@tccjd)_3
 rule-providers:
   LocalAreaNetwork:
     type: http
