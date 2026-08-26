@@ -1943,15 +1943,6 @@ proxies:
         Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
     skip-cert-verify: true
     udp: true
-  - name: 🇲🇴澳门MO001 5.17MB/s
-    type: trojan
-    server: kkvlvvq-a.catcat321.com
-    port: 20068
-    password: a126f35c-e832-4115-8593-b723ade3f7be
-    sni: hk.catxstar.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
   - name: default_name_67
     type: vless
     server: 43.169.19.179
@@ -3086,33 +3077,6 @@ proxies:
         Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
     skip-cert-verify: true
     udp: true
-  - name: 🇺🇦乌克兰UA001 1.67MB/s
-    type: trojan
-    server: hkdcrtc-e.catcat321.com
-    port: 20066
-    password: a126f35c-e832-4115-8593-b723ade3f7be
-    sni: hk.catxstar.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 🇺🇦乌克兰UA002 1.64MB/s
-    type: trojan
-    server: hkdcrtc-e.catcat321.com
-    port: 20066
-    password: a126f35c-e832-4115-8593-b723ade3f7be
-    sni: hk.catxstar.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 🇳🇴挪威NO001 1.72MB/s
-    type: trojan
-    server: kkvlvvq-a.catcat321.com
-    port: 20085
-    password: a126f35c-e832-4115-8593-b723ade3f7be
-    sni: hk.catxstar.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
   - name: default_name_84
     type: vless
     server: 104.238.29.173
@@ -3126,24 +3090,6 @@ proxies:
       headers:
         Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
     skip-cert-verify: true
-    udp: true
-  - name: 🇺🇦乌克兰UA003 1.64MB/s
-    type: trojan
-    server: hkdcrtc-e.catcat321.com
-    port: 20066
-    password: a126f35c-e832-4115-8593-b723ade3f7be
-    sni: hk.catxstar.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 🇳🇴挪威NO003 1.29MB/s
-    type: trojan
-    server: kkvlvvq-a.catcat321.com
-    port: 20085
-    password: a126f35c-e832-4115-8593-b723ade3f7be
-    sni: hk.catxstar.com
-    skip-cert-verify: true
-    tls: true
     udp: true
   - name: default_name_81
     type: vless
@@ -3173,7 +3119,7 @@ proxies:
         Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
     skip-cert-verify: true
     udp: true
-  - name: "🇱🇻LV003 "
+  - name: 🇱🇻LV003
     type: vless
     server: 195.123.210.168
     port: 13443
@@ -3201,7 +3147,7 @@ proxies:
       short-id: a7f3c91b2e6d84c0
     skip-cert-verify: true
     udp: true
-  - name: 🇱🇻LV003
+  - name: 🇱🇻LV003_1
     type: vless
     server: 195.123.210.168
     port: 13443
@@ -3242,15 +3188,6 @@ proxies:
       headers:
         Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
     skip-cert-verify: true
-    udp: true
-  - name: 🇲🇴澳门MO001 5.17MB/s_1
-    type: trojan
-    server: kkvlvvq-a.catcat321.com
-    port: 20068
-    password: a126f35c-e832-4115-8593-b723ade3f7be
-    sni: hk.catxstar.com
-    skip-cert-verify: true
-    tls: true
     udp: true
   - name: default_name_67_1
     type: vless
@@ -4386,33 +4323,6 @@ proxies:
         Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
     skip-cert-verify: true
     udp: true
-  - name: 🇺🇦乌克兰UA001 1.67MB/s_1
-    type: trojan
-    server: hkdcrtc-e.catcat321.com
-    port: 20066
-    password: a126f35c-e832-4115-8593-b723ade3f7be
-    sni: hk.catxstar.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 🇺🇦乌克兰UA002 1.64MB/s_1
-    type: trojan
-    server: hkdcrtc-e.catcat321.com
-    port: 20066
-    password: a126f35c-e832-4115-8593-b723ade3f7be
-    sni: hk.catxstar.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 🇳🇴挪威NO001 1.72MB/s_1
-    type: trojan
-    server: kkvlvvq-a.catcat321.com
-    port: 20085
-    password: a126f35c-e832-4115-8593-b723ade3f7be
-    sni: hk.catxstar.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
   - name: default_name_84_1
     type: vless
     server: 104.238.29.173
@@ -4426,24 +4336,6 @@ proxies:
       headers:
         Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
     skip-cert-verify: true
-    udp: true
-  - name: 🇺🇦乌克兰UA003 1.64MB/s_1
-    type: trojan
-    server: hkdcrtc-e.catcat321.com
-    port: 20066
-    password: a126f35c-e832-4115-8593-b723ade3f7be
-    sni: hk.catxstar.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 🇳🇴挪威NO003 1.29MB/s_1
-    type: trojan
-    server: kkvlvvq-a.catcat321.com
-    port: 20085
-    password: a126f35c-e832-4115-8593-b723ade3f7be
-    sni: hk.catxstar.com
-    skip-cert-verify: true
-    tls: true
     udp: true
   - name: default_name_81_1
     type: vless
@@ -4473,7 +4365,7 @@ proxies:
         Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
     skip-cert-verify: true
     udp: true
-  - name: 🇱🇻LV003 _1
+  - name: 🇱🇻LV003_2
     type: vless
     server: 195.123.210.168
     port: 13443
@@ -4501,7 +4393,7 @@ proxies:
       short-id: a7f3c91b2e6d84c0
     skip-cert-verify: true
     udp: true
-  - name: 🇱🇻LV003_1
+  - name: 🇱🇻LV003_3
     type: vless
     server: 195.123.210.168
     port: 13443
@@ -4542,6 +4434,114 @@ proxies:
       headers:
         Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
     skip-cert-verify: true
+    udp: true
+  - name: 🇲🇴澳门MO001 5.17MB/s
+    type: trojan
+    server: kkvlvvq-a.catcat321.com
+    port: 20068
+    password: a126f35c-e832-4115-8593-b723ade3f7be
+    sni: hk.catxstar.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 🇺🇦乌克兰UA001 1.67MB/s
+    type: trojan
+    server: hkdcrtc-e.catcat321.com
+    port: 20066
+    password: a126f35c-e832-4115-8593-b723ade3f7be
+    sni: hk.catxstar.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 🇺🇦乌克兰UA002 1.64MB/s
+    type: trojan
+    server: hkdcrtc-e.catcat321.com
+    port: 20066
+    password: a126f35c-e832-4115-8593-b723ade3f7be
+    sni: hk.catxstar.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 🇳🇴挪威NO001 1.72MB/s
+    type: trojan
+    server: kkvlvvq-a.catcat321.com
+    port: 20085
+    password: a126f35c-e832-4115-8593-b723ade3f7be
+    sni: hk.catxstar.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 🇺🇦乌克兰UA003 1.64MB/s
+    type: trojan
+    server: hkdcrtc-e.catcat321.com
+    port: 20066
+    password: a126f35c-e832-4115-8593-b723ade3f7be
+    sni: hk.catxstar.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 🇳🇴挪威NO003 1.29MB/s
+    type: trojan
+    server: kkvlvvq-a.catcat321.com
+    port: 20085
+    password: a126f35c-e832-4115-8593-b723ade3f7be
+    sni: hk.catxstar.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 🇲🇴澳门MO001 5.17MB/s_1
+    type: trojan
+    server: kkvlvvq-a.catcat321.com
+    port: 20068
+    password: a126f35c-e832-4115-8593-b723ade3f7be
+    sni: hk.catxstar.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 🇺🇦乌克兰UA001 1.67MB/s_1
+    type: trojan
+    server: hkdcrtc-e.catcat321.com
+    port: 20066
+    password: a126f35c-e832-4115-8593-b723ade3f7be
+    sni: hk.catxstar.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 🇺🇦乌克兰UA002 1.64MB/s_1
+    type: trojan
+    server: hkdcrtc-e.catcat321.com
+    port: 20066
+    password: a126f35c-e832-4115-8593-b723ade3f7be
+    sni: hk.catxstar.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 🇳🇴挪威NO001 1.72MB/s_1
+    type: trojan
+    server: kkvlvvq-a.catcat321.com
+    port: 20085
+    password: a126f35c-e832-4115-8593-b723ade3f7be
+    sni: hk.catxstar.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 🇺🇦乌克兰UA003 1.64MB/s_1
+    type: trojan
+    server: hkdcrtc-e.catcat321.com
+    port: 20066
+    password: a126f35c-e832-4115-8593-b723ade3f7be
+    sni: hk.catxstar.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 🇳🇴挪威NO003 1.29MB/s_1
+    type: trojan
+    server: kkvlvvq-a.catcat321.com
+    port: 20085
+    password: a126f35c-e832-4115-8593-b723ade3f7be
+    sni: hk.catxstar.com
+    skip-cert-verify: true
+    tls: true
     udp: true
 proxy-groups:
   - name: 🚀 节点选择
@@ -4686,7 +4686,6 @@ proxy-groups:
       - 美国(TG:@tccjd)_111
       - 美国(TG:@tccjd)_112
       - 美国(TG:@tccjd)_113
-      - 🇲🇴澳门MO001 5.17MB/s
       - default_name_67
       - default_name_7
       - default_name_141
@@ -4768,20 +4767,14 @@ proxy-groups:
       - default_name_55
       - default_name_115
       - default_name_57
-      - 🇺🇦乌克兰UA001 1.67MB/s
-      - 🇺🇦乌克兰UA002 1.64MB/s
-      - 🇳🇴挪威NO001 1.72MB/s
       - default_name_84
-      - 🇺🇦乌克兰UA003 1.64MB/s
-      - 🇳🇴挪威NO003 1.29MB/s
       - default_name_81
       - default_name_30
-      - "🇱🇻LV003 "
-      - 01(TG:@tccjd)
       - 🇱🇻LV003
+      - 01(TG:@tccjd)
+      - 🇱🇻LV003_1
       - default_name_1
       - default_name_136
-      - 🇲🇴澳门MO001 5.17MB/s_1
       - default_name_67_1
       - default_name_7_1
       - default_name_141_1
@@ -4863,19 +4856,26 @@ proxy-groups:
       - default_name_55_1
       - default_name_115_1
       - default_name_57_1
+      - default_name_84_1
+      - default_name_81_1
+      - default_name_30_1
+      - 🇱🇻LV003_2
+      - 01(TG:@tccjd)_1
+      - 🇱🇻LV003_3
+      - default_name_1_1
+      - default_name_136_1
+      - 🇲🇴澳门MO001 5.17MB/s
+      - 🇺🇦乌克兰UA001 1.67MB/s
+      - 🇺🇦乌克兰UA002 1.64MB/s
+      - 🇳🇴挪威NO001 1.72MB/s
+      - 🇺🇦乌克兰UA003 1.64MB/s
+      - 🇳🇴挪威NO003 1.29MB/s
+      - 🇲🇴澳门MO001 5.17MB/s_1
       - 🇺🇦乌克兰UA001 1.67MB/s_1
       - 🇺🇦乌克兰UA002 1.64MB/s_1
       - 🇳🇴挪威NO001 1.72MB/s_1
-      - default_name_84_1
       - 🇺🇦乌克兰UA003 1.64MB/s_1
       - 🇳🇴挪威NO003 1.29MB/s_1
-      - default_name_81_1
-      - default_name_30_1
-      - 🇱🇻LV003 _1
-      - 01(TG:@tccjd)_1
-      - 🇱🇻LV003_1
-      - default_name_1_1
-      - default_name_136_1
   - name: ♻️ 自动选择
     type: url-test
     proxies:
@@ -5016,7 +5016,6 @@ proxy-groups:
       - 美国(TG:@tccjd)_111
       - 美国(TG:@tccjd)_112
       - 美国(TG:@tccjd)_113
-      - 🇲🇴澳门MO001 5.17MB/s
       - default_name_67
       - default_name_7
       - default_name_141
@@ -5098,20 +5097,14 @@ proxy-groups:
       - default_name_55
       - default_name_115
       - default_name_57
-      - 🇺🇦乌克兰UA001 1.67MB/s
-      - 🇺🇦乌克兰UA002 1.64MB/s
-      - 🇳🇴挪威NO001 1.72MB/s
       - default_name_84
-      - 🇺🇦乌克兰UA003 1.64MB/s
-      - 🇳🇴挪威NO003 1.29MB/s
       - default_name_81
       - default_name_30
-      - "🇱🇻LV003 "
-      - 01(TG:@tccjd)
       - 🇱🇻LV003
+      - 01(TG:@tccjd)
+      - 🇱🇻LV003_1
       - default_name_1
       - default_name_136
-      - 🇲🇴澳门MO001 5.17MB/s_1
       - default_name_67_1
       - default_name_7_1
       - default_name_141_1
@@ -5193,19 +5186,26 @@ proxy-groups:
       - default_name_55_1
       - default_name_115_1
       - default_name_57_1
+      - default_name_84_1
+      - default_name_81_1
+      - default_name_30_1
+      - 🇱🇻LV003_2
+      - 01(TG:@tccjd)_1
+      - 🇱🇻LV003_3
+      - default_name_1_1
+      - default_name_136_1
+      - 🇲🇴澳门MO001 5.17MB/s
+      - 🇺🇦乌克兰UA001 1.67MB/s
+      - 🇺🇦乌克兰UA002 1.64MB/s
+      - 🇳🇴挪威NO001 1.72MB/s
+      - 🇺🇦乌克兰UA003 1.64MB/s
+      - 🇳🇴挪威NO003 1.29MB/s
+      - 🇲🇴澳门MO001 5.17MB/s_1
       - 🇺🇦乌克兰UA001 1.67MB/s_1
       - 🇺🇦乌克兰UA002 1.64MB/s_1
       - 🇳🇴挪威NO001 1.72MB/s_1
-      - default_name_84_1
       - 🇺🇦乌克兰UA003 1.64MB/s_1
       - 🇳🇴挪威NO003 1.29MB/s_1
-      - default_name_81_1
-      - default_name_30_1
-      - 🇱🇻LV003 _1
-      - 01(TG:@tccjd)_1
-      - 🇱🇻LV003_1
-      - default_name_1_1
-      - default_name_136_1
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -5352,7 +5352,6 @@ proxy-groups:
       - 美国(TG:@tccjd)_111
       - 美国(TG:@tccjd)_112
       - 美国(TG:@tccjd)_113
-      - 🇲🇴澳门MO001 5.17MB/s
       - default_name_67
       - default_name_7
       - default_name_141
@@ -5434,20 +5433,14 @@ proxy-groups:
       - default_name_55
       - default_name_115
       - default_name_57
-      - 🇺🇦乌克兰UA001 1.67MB/s
-      - 🇺🇦乌克兰UA002 1.64MB/s
-      - 🇳🇴挪威NO001 1.72MB/s
       - default_name_84
-      - 🇺🇦乌克兰UA003 1.64MB/s
-      - 🇳🇴挪威NO003 1.29MB/s
       - default_name_81
       - default_name_30
-      - "🇱🇻LV003 "
-      - 01(TG:@tccjd)
       - 🇱🇻LV003
+      - 01(TG:@tccjd)
+      - 🇱🇻LV003_1
       - default_name_1
       - default_name_136
-      - 🇲🇴澳门MO001 5.17MB/s_1
       - default_name_67_1
       - default_name_7_1
       - default_name_141_1
@@ -5529,19 +5522,26 @@ proxy-groups:
       - default_name_55_1
       - default_name_115_1
       - default_name_57_1
+      - default_name_84_1
+      - default_name_81_1
+      - default_name_30_1
+      - 🇱🇻LV003_2
+      - 01(TG:@tccjd)_1
+      - 🇱🇻LV003_3
+      - default_name_1_1
+      - default_name_136_1
+      - 🇲🇴澳门MO001 5.17MB/s
+      - 🇺🇦乌克兰UA001 1.67MB/s
+      - 🇺🇦乌克兰UA002 1.64MB/s
+      - 🇳🇴挪威NO001 1.72MB/s
+      - 🇺🇦乌克兰UA003 1.64MB/s
+      - 🇳🇴挪威NO003 1.29MB/s
+      - 🇲🇴澳门MO001 5.17MB/s_1
       - 🇺🇦乌克兰UA001 1.67MB/s_1
       - 🇺🇦乌克兰UA002 1.64MB/s_1
       - 🇳🇴挪威NO001 1.72MB/s_1
-      - default_name_84_1
       - 🇺🇦乌克兰UA003 1.64MB/s_1
       - 🇳🇴挪威NO003 1.29MB/s_1
-      - default_name_81_1
-      - default_name_30_1
-      - 🇱🇻LV003 _1
-      - 01(TG:@tccjd)_1
-      - 🇱🇻LV003_1
-      - default_name_1_1
-      - default_name_136_1
   - name: 📲 电报信息
     type: select
     proxies:
@@ -5684,7 +5684,6 @@ proxy-groups:
       - 美国(TG:@tccjd)_111
       - 美国(TG:@tccjd)_112
       - 美国(TG:@tccjd)_113
-      - 🇲🇴澳门MO001 5.17MB/s
       - default_name_67
       - default_name_7
       - default_name_141
@@ -5766,20 +5765,14 @@ proxy-groups:
       - default_name_55
       - default_name_115
       - default_name_57
-      - 🇺🇦乌克兰UA001 1.67MB/s
-      - 🇺🇦乌克兰UA002 1.64MB/s
-      - 🇳🇴挪威NO001 1.72MB/s
       - default_name_84
-      - 🇺🇦乌克兰UA003 1.64MB/s
-      - 🇳🇴挪威NO003 1.29MB/s
       - default_name_81
       - default_name_30
-      - "🇱🇻LV003 "
-      - 01(TG:@tccjd)
       - 🇱🇻LV003
+      - 01(TG:@tccjd)
+      - 🇱🇻LV003_1
       - default_name_1
       - default_name_136
-      - 🇲🇴澳门MO001 5.17MB/s_1
       - default_name_67_1
       - default_name_7_1
       - default_name_141_1
@@ -5861,19 +5854,26 @@ proxy-groups:
       - default_name_55_1
       - default_name_115_1
       - default_name_57_1
+      - default_name_84_1
+      - default_name_81_1
+      - default_name_30_1
+      - 🇱🇻LV003_2
+      - 01(TG:@tccjd)_1
+      - 🇱🇻LV003_3
+      - default_name_1_1
+      - default_name_136_1
+      - 🇲🇴澳门MO001 5.17MB/s
+      - 🇺🇦乌克兰UA001 1.67MB/s
+      - 🇺🇦乌克兰UA002 1.64MB/s
+      - 🇳🇴挪威NO001 1.72MB/s
+      - 🇺🇦乌克兰UA003 1.64MB/s
+      - 🇳🇴挪威NO003 1.29MB/s
+      - 🇲🇴澳门MO001 5.17MB/s_1
       - 🇺🇦乌克兰UA001 1.67MB/s_1
       - 🇺🇦乌克兰UA002 1.64MB/s_1
       - 🇳🇴挪威NO001 1.72MB/s_1
-      - default_name_84_1
       - 🇺🇦乌克兰UA003 1.64MB/s_1
       - 🇳🇴挪威NO003 1.29MB/s_1
-      - default_name_81_1
-      - default_name_30_1
-      - 🇱🇻LV003 _1
-      - 01(TG:@tccjd)_1
-      - 🇱🇻LV003_1
-      - default_name_1_1
-      - default_name_136_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -6016,7 +6016,6 @@ proxy-groups:
       - 美国(TG:@tccjd)_111
       - 美国(TG:@tccjd)_112
       - 美国(TG:@tccjd)_113
-      - 🇲🇴澳门MO001 5.17MB/s
       - default_name_67
       - default_name_7
       - default_name_141
@@ -6098,20 +6097,14 @@ proxy-groups:
       - default_name_55
       - default_name_115
       - default_name_57
-      - 🇺🇦乌克兰UA001 1.67MB/s
-      - 🇺🇦乌克兰UA002 1.64MB/s
-      - 🇳🇴挪威NO001 1.72MB/s
       - default_name_84
-      - 🇺🇦乌克兰UA003 1.64MB/s
-      - 🇳🇴挪威NO003 1.29MB/s
       - default_name_81
       - default_name_30
-      - "🇱🇻LV003 "
-      - 01(TG:@tccjd)
       - 🇱🇻LV003
+      - 01(TG:@tccjd)
+      - 🇱🇻LV003_1
       - default_name_1
       - default_name_136
-      - 🇲🇴澳门MO001 5.17MB/s_1
       - default_name_67_1
       - default_name_7_1
       - default_name_141_1
@@ -6193,19 +6186,26 @@ proxy-groups:
       - default_name_55_1
       - default_name_115_1
       - default_name_57_1
+      - default_name_84_1
+      - default_name_81_1
+      - default_name_30_1
+      - 🇱🇻LV003_2
+      - 01(TG:@tccjd)_1
+      - 🇱🇻LV003_3
+      - default_name_1_1
+      - default_name_136_1
+      - 🇲🇴澳门MO001 5.17MB/s
+      - 🇺🇦乌克兰UA001 1.67MB/s
+      - 🇺🇦乌克兰UA002 1.64MB/s
+      - 🇳🇴挪威NO001 1.72MB/s
+      - 🇺🇦乌克兰UA003 1.64MB/s
+      - 🇳🇴挪威NO003 1.29MB/s
+      - 🇲🇴澳门MO001 5.17MB/s_1
       - 🇺🇦乌克兰UA001 1.67MB/s_1
       - 🇺🇦乌克兰UA002 1.64MB/s_1
       - 🇳🇴挪威NO001 1.72MB/s_1
-      - default_name_84_1
       - 🇺🇦乌克兰UA003 1.64MB/s_1
       - 🇳🇴挪威NO003 1.29MB/s_1
-      - default_name_81_1
-      - default_name_30_1
-      - 🇱🇻LV003 _1
-      - 01(TG:@tccjd)_1
-      - 🇱🇻LV003_1
-      - default_name_1_1
-      - default_name_136_1
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -6348,7 +6348,6 @@ proxy-groups:
       - 美国(TG:@tccjd)_111
       - 美国(TG:@tccjd)_112
       - 美国(TG:@tccjd)_113
-      - 🇲🇴澳门MO001 5.17MB/s
       - default_name_67
       - default_name_7
       - default_name_141
@@ -6430,20 +6429,14 @@ proxy-groups:
       - default_name_55
       - default_name_115
       - default_name_57
-      - 🇺🇦乌克兰UA001 1.67MB/s
-      - 🇺🇦乌克兰UA002 1.64MB/s
-      - 🇳🇴挪威NO001 1.72MB/s
       - default_name_84
-      - 🇺🇦乌克兰UA003 1.64MB/s
-      - 🇳🇴挪威NO003 1.29MB/s
       - default_name_81
       - default_name_30
-      - "🇱🇻LV003 "
-      - 01(TG:@tccjd)
       - 🇱🇻LV003
+      - 01(TG:@tccjd)
+      - 🇱🇻LV003_1
       - default_name_1
       - default_name_136
-      - 🇲🇴澳门MO001 5.17MB/s_1
       - default_name_67_1
       - default_name_7_1
       - default_name_141_1
@@ -6525,19 +6518,26 @@ proxy-groups:
       - default_name_55_1
       - default_name_115_1
       - default_name_57_1
+      - default_name_84_1
+      - default_name_81_1
+      - default_name_30_1
+      - 🇱🇻LV003_2
+      - 01(TG:@tccjd)_1
+      - 🇱🇻LV003_3
+      - default_name_1_1
+      - default_name_136_1
+      - 🇲🇴澳门MO001 5.17MB/s
+      - 🇺🇦乌克兰UA001 1.67MB/s
+      - 🇺🇦乌克兰UA002 1.64MB/s
+      - 🇳🇴挪威NO001 1.72MB/s
+      - 🇺🇦乌克兰UA003 1.64MB/s
+      - 🇳🇴挪威NO003 1.29MB/s
+      - 🇲🇴澳门MO001 5.17MB/s_1
       - 🇺🇦乌克兰UA001 1.67MB/s_1
       - 🇺🇦乌克兰UA002 1.64MB/s_1
       - 🇳🇴挪威NO001 1.72MB/s_1
-      - default_name_84_1
       - 🇺🇦乌克兰UA003 1.64MB/s_1
       - 🇳🇴挪威NO003 1.29MB/s_1
-      - default_name_81_1
-      - default_name_30_1
-      - 🇱🇻LV003 _1
-      - 01(TG:@tccjd)_1
-      - 🇱🇻LV003_1
-      - default_name_1_1
-      - default_name_136_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -6697,7 +6697,6 @@ proxy-groups:
       - 美国(TG:@tccjd)_111
       - 美国(TG:@tccjd)_112
       - 美国(TG:@tccjd)_113
-      - 🇲🇴澳门MO001 5.17MB/s
       - default_name_67
       - default_name_7
       - default_name_141
@@ -6779,20 +6778,14 @@ proxy-groups:
       - default_name_55
       - default_name_115
       - default_name_57
-      - 🇺🇦乌克兰UA001 1.67MB/s
-      - 🇺🇦乌克兰UA002 1.64MB/s
-      - 🇳🇴挪威NO001 1.72MB/s
       - default_name_84
-      - 🇺🇦乌克兰UA003 1.64MB/s
-      - 🇳🇴挪威NO003 1.29MB/s
       - default_name_81
       - default_name_30
-      - "🇱🇻LV003 "
-      - 01(TG:@tccjd)
       - 🇱🇻LV003
+      - 01(TG:@tccjd)
+      - 🇱🇻LV003_1
       - default_name_1
       - default_name_136
-      - 🇲🇴澳门MO001 5.17MB/s_1
       - default_name_67_1
       - default_name_7_1
       - default_name_141_1
@@ -6874,19 +6867,26 @@ proxy-groups:
       - default_name_55_1
       - default_name_115_1
       - default_name_57_1
+      - default_name_84_1
+      - default_name_81_1
+      - default_name_30_1
+      - 🇱🇻LV003_2
+      - 01(TG:@tccjd)_1
+      - 🇱🇻LV003_3
+      - default_name_1_1
+      - default_name_136_1
+      - 🇲🇴澳门MO001 5.17MB/s
+      - 🇺🇦乌克兰UA001 1.67MB/s
+      - 🇺🇦乌克兰UA002 1.64MB/s
+      - 🇳🇴挪威NO001 1.72MB/s
+      - 🇺🇦乌克兰UA003 1.64MB/s
+      - 🇳🇴挪威NO003 1.29MB/s
+      - 🇲🇴澳门MO001 5.17MB/s_1
       - 🇺🇦乌克兰UA001 1.67MB/s_1
       - 🇺🇦乌克兰UA002 1.64MB/s_1
       - 🇳🇴挪威NO001 1.72MB/s_1
-      - default_name_84_1
       - 🇺🇦乌克兰UA003 1.64MB/s_1
       - 🇳🇴挪威NO003 1.29MB/s_1
-      - default_name_81_1
-      - default_name_30_1
-      - 🇱🇻LV003 _1
-      - 01(TG:@tccjd)_1
-      - 🇱🇻LV003_1
-      - default_name_1_1
-      - default_name_136_1
 rule-providers:
   LocalAreaNetwork:
     type: http
